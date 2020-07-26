@@ -1,0 +1,294 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+	<title>Giess dei Bohm</title>
+	<link rel="stylesheet" href="https://unpkg.com/leaflet@1.3.4/dist/leaflet.css"
+		integrity="sha512-puBpdR0798OZvTTbP4A8Ix/l+A4dHDD0DGqYW6RQ+9jxkRFclaxxQb/SJAWZfWAkuyeQUytO7+7N4QKrDh+drA=="
+		crossorigin="" />
+	<script src="https://unpkg.com/leaflet@1.3.4/dist/leaflet.js"
+		integrity="sha512-nMMmRyTVoLYqjP9hrbed9S+FzjZHW5gY1TWCHA5ckwXZBadntCNs8kEqAWdrb9O7rxbCaA4lKTIWjDXZxflOcA=="
+		crossorigin=""></script>
+	<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+	<style>
+		#TreeMap {
+			height: 800px;
+		}
+		.info { padding: 6px 8px; font: 14px/16px Arial, Helvetica, sans-serif; background: white; background: rgba(255,255,255,0.8); box-shadow: 0 0 15px rgba(0,0,0,0.2); border-radius: 5px; } .info h4 { margin: 0 0 5px; color: #777; }
+	</style>
+</head>
+
+<body>
+	<p>
+		<div id="TreeMap" />
+	</p>
+	<script>
+		var treeMap = L.map('TreeMap');
+		var baseMap = L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+			attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
+		})
+		baseMap.addTo(treeMap);
+		
+		$.ajaxSetup({
+			scriptCharset: "utf-8",
+			contentType: "application/json; charset=utf-8"
+		});
+
+		var gemerkterZuletztGewaehlterOrtsteil;
+		var oldLayer = undefined;
+		var lastCoordinates = undefined;
+	  
+	  var alleOrtsteilNamen = [ "altlindenau", "lindenau", "neulindenau", "plagwitz", "schleussig" ];
+	  
+	  var lastTreeLayer = undefined;
+	  var lastDistrictLayer = undefined;
+
+		var districtCenter = function (arr) {
+			var arrToUse;
+			if (arr.length == 1) {
+				arrToUse = arr[0];
+			} else {
+				arrToUse = arr;
+			}
+			var center = arrToUse.reduce(function (x, y) {
+				return [x[0] + y[0] / arrToUse.length, x[1] + y[1] / arrToUse.length]
+			}, [0, 0])
+			return [center[1], center[0]];
+		};
+
+		var showDistrictBorderLayer = function(data) {
+			var style = {
+				weight: 2,
+				color: 'blue',
+				fillOpacity: 0.0
+			}
+			var geoJsonLayer = L.geoJson(data, style);
+			lastDistrictLayer = geoJsonLayer;
+			treeMap.addLayer(geoJsonLayer);
+			geoJsonLayer.eachLayer(function (layer) {
+				var coords = layer.feature.geometry.coordinates[0];
+				var centroid = districtCenter(coords);
+				var zoomLevel = 15;
+				treeMap.setView(centroid, zoomLevel);
+			});
+		}
+	var selectedTree = undefined;
+
+	  var createCircleMarker = function ( feature, latlng ){
+		var options = {
+			radius: 8,
+			fillColor: selectedTree && selectedTree === feature.properties["Standortnu"] ? "red" : "lightgreen",
+			color: "black",
+			weight: 1,
+			opacity: 1,
+			fillOpacity: 0.8
+		  }
+		return L.circleMarker( latlng, options );
+	  }
+	  
+	  var lastHoveredCoords = undefined;
+	  
+	  var resetIcon = function() {
+		var keys = Object.keys(lastTreeLayer._layers)
+		keys.forEach(function(key){
+		  var layerCoord = lastTreeLayer._layers[key]._latlng;
+		  var currentCoord = lastHoveredCoords;
+		  if (currentCoord && layerCoord.lat === currentCoord[1] &&
+			layerCoord.lng === currentCoord[0]) {
+			  lastTreeLayer._layers[key].setStyle({ 
+				fillColor: "lightgreen"
+			  });
+		  }
+		})
+	  }
+	  
+	  var changeIcon = function(e) {
+		var keys = Object.keys(lastTreeLayer._layers)
+		keys.forEach(function(key){
+		  var layerCoord = lastTreeLayer._layers[key]._latlng;
+		  var currentCoord = e.layer.feature.geometry.coordinates;
+		  lastHoveredCoords = currentCoord;
+		  if (layerCoord.lat === currentCoord[1] &&
+			layerCoord.lng === currentCoord[0]) {
+			  lastTreeLayer._layers[key].setStyle({ 
+				fillColor: "#FEFF01"
+			  });
+		  }
+		})	  
+	  }
+	  
+		var showTreeLayer = function (data) {
+			var geoJsonLayer = L.geoJson(data, { pointToLayer: createCircleMarker });
+			lastTreeLayer = geoJsonLayer;
+			treeMap.addLayer(geoJsonLayer);
+			
+			        var layerPopup;
+			        var registerLayerMouseOver = function() {
+			            geoJsonLayer.on('mouseover', function(e) {
+			                if (!lastCoordinates) {
+								selectedTree = e.layer.feature.properties["Standortnu"];
+								changeIcon(e);
+			                    highlightFeature(e);
+			                }
+			            });
+			        };
+			        registerLayerMouseOver();
+			        var registerLayerMouseOut = function() {
+			            geoJsonLayer.on('mouseout', function(e) {
+			                if (!lastCoordinates) {
+			                    resetHighlight(e);
+								resetIcon();
+			                }
+			            });
+			        };
+			        registerLayerMouseOut();
+			        var registerLayerMouseClick = geoJsonLayer.on('click', function(e) {
+			            var coordinates = e.layer.feature.geometry.coordinates;
+			            var layer = e.layer;
+			            if (lastCoordinates != coordinates) {
+							if (lastCoordinates) {
+								resetIcon();
+								changeIcon(e);
+							}
+			                highlightFeature(e);
+			                lastCoordinates = coordinates;
+			            } else {
+							resetIcon();
+			                lastCoordinates = undefined;
+							selectedTree = undefined;
+			            }
+			            oldLayer = layer;
+			        });
+			
+		};
+
+		var reagiereAufOrtsteilAuswahl = function () {
+			var auswahlBox = document.getElementById("ortsteilAuswahl");
+			if (auswahlBox && auswahlBox.selectedIndex != -1) {
+				var gewaehlterOrtsteilIndex = auswahlBox.options[auswahlBox.selectedIndex].value;
+				var gewaehlterOrtsteilName = auswahlBox.options[auswahlBox.selectedIndex].text;
+				gemerkterZuletztGewaehlterOrtsteil = gewaehlterOrtsteilName;
+				if (gemerkterZuletztGewaehlterOrtsteil != "") {
+					lastCoordinates = undefined;
+					selectedTree = undefined;
+					oldLayer = undefined;
+					treeMap.removeLayer(lastTreeLayer);
+					treeMap.removeLayer(lastDistrictLayer);
+					$.getJSON("geojsons/districts/" + gemerkterZuletztGewaehlterOrtsteil + ".geojson", data => showDistrictBorderLayer(data));
+					$.getJSON("geojsons/trees/" + gemerkterZuletztGewaehlterOrtsteil + ".geojson", data => showTreeLayer(data));
+				}
+			}
+		};
+
+		var setzeOrtsteilInAuswahlBox = function () {
+			var auswahlBox = document.getElementById('ortsteilAuswahl');
+			if (auswahlBox) {
+				for (var option, index = 0; option = auswahlBox.options[index]; index++) {
+					if (option.value == gemerkterZuletztGewaehlterOrtsteil) {
+						auswahlBox.selectedIndex = index;
+						break;
+					}
+				}
+			}
+		};
+		var alterHtmlCode = '';
+		var ortsteilAuswahlBox = function () {
+			var htmlCode = '<select id="ortsteilAuswahl" onchange="reagiereAufOrtsteilAuswahl()">';
+			for (var index in alleOrtsteilNamen) {
+				var bezeichner = alleOrtsteilNamen[index];
+				if (bezeichner) {
+					htmlCode += '<option>' + bezeichner + '</option>';
+				}
+			}
+			htmlCode += '</select>';
+			alterHtmlCode = htmlCode;
+			return htmlCode;
+		};
+		var gewaehlterOrtsteil = function () {
+			var auswahlBox = document.getElementById("ortsteilAuswahl");
+			if (auswahlBox && auswahlBox.selectedIndex != -1) {
+				var option = auswahlBox.options[auswahlBox.selectedIndex];
+				if (option) {
+					return option.text;
+				} else {
+					''
+				}
+			} else {
+				''
+			}
+		};
+
+		$.getJSON("geojsons/districts/altlindenau.geojson", data => showDistrictBorderLayer(data));
+		$.getJSON("geojsons/trees/altlindenau.geojson", data => showTreeLayer(data));
+		
+			// control that shows state info on hover
+			var info = L.control();
+
+			info.onAdd = function(map) {
+			    this._div = L.DomUtil.create('div', 'info');
+			    this.update();
+			    return this._div;
+			};
+
+			info.update = function(id, props) {
+			    var htmlInner = '<div style="width: 300px;">';
+			    if (!props) {
+			        htmlInner += '<h4>Hovere &uuml;ber einen Baum</h4>'
+			    } else {
+			        htmlInner += '<h4>Infos</h4>'
+				}
+				htmlInner += ortsteilAuswahlBox();
+				htmlInner += "<ul>"
+				htmlInner += "<li><b>Standortnummer:</b> "
+			    if (props) {
+					htmlInner += props["Standortnu"] + "</li>"
+			    }
+				htmlInner += "<li><b>Ortsteil:</b> "
+			    if (props) {
+					htmlInner += props["Ortsteil"] + "</li>"
+			    }
+				htmlInner += "<li><b>Straßenname:</b> "
+			    if (props) {
+					htmlInner += props["Strasse_Na"] + "</li>"
+			    }
+				htmlInner += "<li><b>Baumart:</b> "
+			    if (props) {
+					htmlInner += props["Baumart_de"] + "</li>"
+			    }
+				htmlInner += "<li><b>Baumart (wissenschaftlich):</b> "
+			    if (props) {
+					htmlInner += props["Baumart_wi"] + "</li>"
+			    }
+				htmlInner += "<li><b>Pflanzjahr:</b> "				
+			    if (props) {
+					htmlInner += props["Pflanzjahr"] + "</li>"				
+			    }
+				if (props) {
+					htmlInner += "<li><a href=\"https://docs.google.com/spreadsheets/d/1Y3eo3r1Ie03VkmS1PpvNZsEW1zMKwDzfNg7lYSXG3Z8/edit#gid=1991371235&range=G7\">Google Doc</a></li>"
+				}
+				htmlInner += "</ul>"
+			    htmlInner += '</div>';
+			    this._div.innerHTML = htmlInner;
+				setzeOrtsteilInAuswahlBox();
+			};
+
+			info.addTo(treeMap);
+
+			function highlightFeature(e) {
+			    var layer = e.target;
+			    if (!L.Browser.ie && !L.Browser.opera && !L.Browser.edge) {
+			        layer.bringToFront();
+			    }
+
+			    info.update(e.layer.feature.id, e.layer.feature.properties);
+			}
+
+			function resetHighlight(e) {
+			    info.update();
+			}	
+
+	</script>
+</body>
+
+</html>

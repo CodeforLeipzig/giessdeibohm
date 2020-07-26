@@ -1,0 +1,5486 @@
+{
+	"type": "FeatureCollection",
+	"crs": {
+		"type": "name",
+		"properties": {
+			"name": "urn:ogc:def:crs:OGC:1.3:CRS84"
+		}
+	},
+	"features": [{
+    "type" : "Feature",
+    "properties" : {
+        "Standortnu" : 39773,
+        "Strasse_Na" : "Karl-Heine-Straße",
+        "Ortsteil" : "Lindenau",
+        "Baumart_wi" : "Platanus x acerifolia",
+        "Baumart_de" : "Platane",
+        "Pflanzjahr" : 1995
+    },
+    "geometry" : {
+        "type" : "Point",
+        "coordinates" : [ 
+            12.3311016952655, 
+            51.3307629235554
+        ]
+    }
+}, {
+    "type" : "Feature",
+    "properties" : {
+        "Standortnu" : 39759,
+        "Strasse_Na" : "Karl-Heine-Straße",
+        "Ortsteil" : "Lindenau",
+        "Baumart_wi" : "Platanus x acerifolia",
+        "Baumart_de" : "Platane",
+        "Pflanzjahr" : 2000
+    },
+    "geometry" : {
+        "type" : "Point",
+        "coordinates" : [ 
+            12.3305753673973, 
+            51.3306238465553
+        ]
+    }
+}, {
+    "type" : "Feature",
+    "properties" : {
+        "Standortnu" : 39758,
+        "Strasse_Na" : "Karl-Heine-Straße",
+        "Ortsteil" : "Lindenau",
+        "Baumart_wi" : "Platanus x acerifolia",
+        "Baumart_de" : "Platane",
+        "Pflanzjahr" : 2000
+    },
+    "geometry" : {
+        "type" : "Point",
+        "coordinates" : [ 
+            12.3307329699908, 
+            51.3306667601905
+        ]
+    }
+}, {
+    "type" : "Feature",
+    "properties" : {
+        "Standortnu" : 39762,
+        "Strasse_Na" : "Schadowstraße",
+        "Ortsteil" : "Lindenau",
+        "Baumart_wi" : "Carpinus betulus 'Frans Fontaine'",
+        "Baumart_de" : "Säulen-Hainbuche 'Frans Fontaine'",
+        "Pflanzjahr" : 2013
+    },
+    "geometry" : {
+        "type" : "Point",
+        "coordinates" : [ 
+            12.3331657373751, 
+            51.3351034775017
+        ]
+    }
+}, {
+    "type" : "Feature",
+    "properties" : {
+        "Standortnu" : 39764,
+        "Strasse_Na" : "Schadowstraße",
+        "Ortsteil" : "Lindenau",
+        "Baumart_wi" : "Carpinus betulus 'Frans Fontaine'",
+        "Baumart_de" : "Säulen-Hainbuche 'Frans Fontaine'",
+        "Pflanzjahr" : 2013
+    },
+    "geometry" : {
+        "type" : "Point",
+        "coordinates" : [ 
+            12.3331891176657, 
+            51.3350458182275
+        ]
+    }
+}, {
+    "type" : "Feature",
+    "properties" : {
+        "Standortnu" : 39766,
+        "Strasse_Na" : "Karl-Heine-Straße",
+        "Ortsteil" : "Lindenau",
+        "Baumart_wi" : "Tilia species",
+        "Baumart_de" : "Linde",
+        "Pflanzjahr" : 1920
+    },
+    "geometry" : {
+        "type" : "Point",
+        "coordinates" : [ 
+            12.3315506051266, 
+            51.3309435481089
+        ]
+    }
+}, {
+    "type" : "Feature",
+    "properties" : {
+        "Standortnu" : 39767,
+        "Strasse_Na" : "Karl-Heine-Straße",
+        "Ortsteil" : "Lindenau",
+        "Baumart_wi" : "Tilia species",
+        "Baumart_de" : "Linde",
+        "Pflanzjahr" : 1920
+    },
+    "geometry" : {
+        "type" : "Point",
+        "coordinates" : [ 
+            12.3314533519571, 
+            51.3309175343761
+        ]
+    }
+}, {
+    "type" : "Feature",
+    "properties" : {
+        "Standortnu" : 39760,
+        "Strasse_Na" : "Karl-Heine-Straße",
+        "Ortsteil" : "Lindenau",
+        "Baumart_wi" : "Platanus x acerifolia",
+        "Baumart_de" : "Platane",
+        "Pflanzjahr" : 2011
+    },
+    "geometry" : {
+        "type" : "Point",
+        "coordinates" : [ 
+            12.3303815488061, 
+            51.3305664509644
+        ]
+    }
+}, {
+    "type" : "Feature",
+    "properties" : {
+        "Standortnu" : 39706,
+        "Strasse_Na" : "Karl-Heine-Straße",
+        "Ortsteil" : "Lindenau",
+        "Baumart_wi" : "Platanus x acerifolia",
+        "Baumart_de" : "Platane",
+        "Pflanzjahr" : 2010
+    },
+    "geometry" : {
+        "type" : "Point",
+        "coordinates" : [ 
+            12.3293815840695, 
+            51.330302324795
+        ]
+    }
+}, {
+    "type" : "Feature",
+    "properties" : {
+        "Standortnu" : 39707,
+        "Strasse_Na" : "Karl-Heine-Straße",
+        "Ortsteil" : "Lindenau",
+        "Baumart_wi" : "Platanus x acerifolia",
+        "Baumart_de" : "Platane",
+        "Pflanzjahr" : 2010
+    },
+    "geometry" : {
+        "type" : "Point",
+        "coordinates" : [ 
+            12.3292252813723, 
+            51.3302608753372
+        ]
+    }
+}, {
+    "type" : "Feature",
+    "properties" : {
+        "Standortnu" : 39709,
+        "Strasse_Na" : "Karl-Heine-Straße",
+        "Ortsteil" : "Lindenau",
+        "Baumart_wi" : "Platanus x acerifolia",
+        "Baumart_de" : "Platane",
+        "Pflanzjahr" : 2010
+    },
+    "geometry" : {
+        "type" : "Point",
+        "coordinates" : [ 
+            12.3290609451237, 
+            51.3302168544174
+        ]
+    }
+}, {
+    "type" : "Feature",
+    "properties" : {
+        "Standortnu" : 39711,
+        "Strasse_Na" : "Karl-Heine-Straße",
+        "Ortsteil" : "Lindenau",
+        "Baumart_wi" : "Platanus x acerifolia",
+        "Baumart_de" : "Platane",
+        "Pflanzjahr" : 2010
+    },
+    "geometry" : {
+        "type" : "Point",
+        "coordinates" : [ 
+            12.3289041526289, 
+            51.3301750236903
+        ]
+    }
+}, {
+    "type" : "Feature",
+    "properties" : {
+        "Standortnu" : 39713,
+        "Strasse_Na" : "Karl-Heine-Straße",
+        "Ortsteil" : "Lindenau",
+        "Baumart_wi" : "Platanus x acerifolia",
+        "Baumart_de" : "Platane",
+        "Pflanzjahr" : 2010
+    },
+    "geometry" : {
+        "type" : "Point",
+        "coordinates" : [ 
+            12.3287419531362, 
+            51.3301328813812
+        ]
+    }
+}, {
+    "type" : "Feature",
+    "properties" : {
+        "Standortnu" : 39715,
+        "Strasse_Na" : "Karl-Heine-Straße",
+        "Ortsteil" : "Lindenau",
+        "Baumart_wi" : "Platanus x acerifolia",
+        "Baumart_de" : "Platane",
+        "Pflanzjahr" : 2010
+    },
+    "geometry" : {
+        "type" : "Point",
+        "coordinates" : [ 
+            12.3285880074825, 
+            51.3300929383019
+        ]
+    }
+}, {
+    "type" : "Feature",
+    "properties" : {
+        "Standortnu" : 39716,
+        "Strasse_Na" : "Karl-Heine-Straße",
+        "Ortsteil" : "Lindenau",
+        "Baumart_wi" : "Platanus x acerifolia",
+        "Baumart_de" : "Platane",
+        "Pflanzjahr" : 2010
+    },
+    "geometry" : {
+        "type" : "Point",
+        "coordinates" : [ 
+            12.3284276473803, 
+            51.3300493193215
+        ]
+    }
+}, {
+    "type" : "Feature",
+    "properties" : {
+        "Standortnu" : 39718,
+        "Strasse_Na" : "Karl-Heine-Straße",
+        "Ortsteil" : "Lindenau",
+        "Baumart_wi" : "Platanus x acerifolia",
+        "Baumart_de" : "Platane",
+        "Pflanzjahr" : 2010
+    },
+    "geometry" : {
+        "type" : "Point",
+        "coordinates" : [ 
+            12.3282817445641, 
+            51.3300106404937
+        ]
+    }
+}, {
+    "type" : "Feature",
+    "properties" : {
+        "Standortnu" : 39719,
+        "Strasse_Na" : "Karl-Heine-Straße",
+        "Ortsteil" : "Lindenau",
+        "Baumart_wi" : "Platanus x acerifolia",
+        "Baumart_de" : "Platane",
+        "Pflanzjahr" : 2010
+    },
+    "geometry" : {
+        "type" : "Point",
+        "coordinates" : [ 
+            12.3281156658405, 
+            51.3299656799442
+        ]
+    }
+}, {
+    "type" : "Feature",
+    "properties" : {
+        "Standortnu" : 39723,
+        "Strasse_Na" : "Karl-Heine-Straße",
+        "Ortsteil" : "Lindenau",
+        "Baumart_wi" : "Platanus x acerifolia",
+        "Baumart_de" : "Platane",
+        "Pflanzjahr" : 2010
+    },
+    "geometry" : {
+        "type" : "Point",
+        "coordinates" : [ 
+            12.3278041096456, 
+            51.3298820530322
+        ]
+    }
+}, {
+    "type" : "Feature",
+    "properties" : {
+        "Standortnu" : 39724,
+        "Strasse_Na" : "Karl-Heine-Straße",
+        "Ortsteil" : "Lindenau",
+        "Baumart_wi" : "Platanus x acerifolia",
+        "Baumart_de" : "Platane",
+        "Pflanzjahr" : 2010
+    },
+    "geometry" : {
+        "type" : "Point",
+        "coordinates" : [ 
+            12.3276505440178, 
+            51.3298398004914
+        ]
+    }
+}, {
+    "type" : "Feature",
+    "properties" : {
+        "Standortnu" : 39726,
+        "Strasse_Na" : "Karl-Heine-Straße",
+        "Ortsteil" : "Lindenau",
+        "Baumart_wi" : "Platanus x acerifolia",
+        "Baumart_de" : "Platane",
+        "Pflanzjahr" : 2010
+    },
+    "geometry" : {
+        "type" : "Point",
+        "coordinates" : [ 
+            12.3274919721736, 
+            51.329796936971
+        ]
+    }
+}, {
+    "type" : "Feature",
+    "properties" : {
+        "Standortnu" : 39721,
+        "Strasse_Na" : "Karl-Heine-Straße",
+        "Ortsteil" : "Lindenau",
+        "Baumart_wi" : "Platanus x acerifolia",
+        "Baumart_de" : "Platane",
+        "Pflanzjahr" : 2010
+    },
+    "geometry" : {
+        "type" : "Point",
+        "coordinates" : [ 
+            12.3279818261205, 
+            51.3299301829939
+        ]
+    }
+}, {
+    "type" : "Feature",
+    "properties" : {
+        "Standortnu" : 39727,
+        "Strasse_Na" : "Karl-Heine-Straße",
+        "Ortsteil" : "Lindenau",
+        "Baumart_wi" : "Platanus x acerifolia",
+        "Baumart_de" : "Platane",
+        "Pflanzjahr" : 2010
+    },
+    "geometry" : {
+        "type" : "Point",
+        "coordinates" : [ 
+            12.3273755080443, 
+            51.3297622245747
+        ]
+    }
+}, {
+    "type" : "Feature",
+    "properties" : {
+        "Standortnu" : 39642,
+        "Strasse_Na" : "Karl-Heine-Straße",
+        "Ortsteil" : "Lindenau",
+        "Baumart_wi" : "Platanus x acerifolia",
+        "Baumart_de" : "Platane",
+        "Pflanzjahr" : 2010
+    },
+    "geometry" : {
+        "type" : "Point",
+        "coordinates" : [ 
+            12.3268495063107, 
+            51.3296259693989
+        ]
+    }
+}, {
+    "type" : "Feature",
+    "properties" : {
+        "Standortnu" : 39643,
+        "Strasse_Na" : "Karl-Heine-Straße",
+        "Ortsteil" : "Lindenau",
+        "Baumart_wi" : "Platanus x acerifolia",
+        "Baumart_de" : "Platane",
+        "Pflanzjahr" : 2010
+    },
+    "geometry" : {
+        "type" : "Point",
+        "coordinates" : [ 
+            12.3267055246599, 
+            51.3295891321799
+        ]
+    }
+}, {
+    "type" : "Feature",
+    "properties" : {
+        "Standortnu" : 39704,
+        "Strasse_Na" : "Karl-Heine-Straße",
+        "Ortsteil" : "Lindenau",
+        "Baumart_wi" : "Platanus x acerifolia",
+        "Baumart_de" : "Platane",
+        "Pflanzjahr" : 2011
+    },
+    "geometry" : {
+        "type" : "Point",
+        "coordinates" : [ 
+            12.3295340594403, 
+            51.3303459739313
+        ]
+    }
+}, {
+    "type" : "Feature",
+    "properties" : {
+        "Standortnu" : 39666,
+        "Strasse_Na" : "Karl-Heine-Straße",
+        "Ortsteil" : "Lindenau",
+        "Baumart_wi" : "Platanus x acerifolia",
+        "Baumart_de" : "Platane",
+        "Pflanzjahr" : 2004
+    },
+    "geometry" : {
+        "type" : "Point",
+        "coordinates" : [ 
+            12.3245291161589, 
+            51.3290068942207
+        ]
+    }
+}, {
+    "type" : "Feature",
+    "properties" : {
+        "Standortnu" : 39667,
+        "Strasse_Na" : "Karl-Heine-Straße",
+        "Ortsteil" : "Lindenau",
+        "Baumart_wi" : "Platanus x acerifolia",
+        "Baumart_de" : "Platane",
+        "Pflanzjahr" : 2004
+    },
+    "geometry" : {
+        "type" : "Point",
+        "coordinates" : [ 
+            12.3244440275056, 
+            51.3289831052567
+        ]
+    }
+}, {
+    "type" : "Feature",
+    "properties" : {
+        "Standortnu" : 39646,
+        "Strasse_Na" : "Karl-Heine-Straße",
+        "Ortsteil" : "Lindenau",
+        "Baumart_wi" : "Platanus x acerifolia",
+        "Baumart_de" : "Platane",
+        "Pflanzjahr" : 2010
+    },
+    "geometry" : {
+        "type" : "Point",
+        "coordinates" : [ 
+            12.3263898238143, 
+            51.3295069717757
+        ]
+    }
+}, {
+    "type" : "Feature",
+    "properties" : {
+        "Standortnu" : 39648,
+        "Strasse_Na" : "Karl-Heine-Straße",
+        "Ortsteil" : "Lindenau",
+        "Baumart_wi" : "Platanus x acerifolia",
+        "Baumart_de" : "Platane",
+        "Pflanzjahr" : 2010
+    },
+    "geometry" : {
+        "type" : "Point",
+        "coordinates" : [ 
+            12.3262429281158, 
+            51.329464566609
+        ]
+    }
+}, {
+    "type" : "Feature",
+    "properties" : {
+        "Standortnu" : 39649,
+        "Strasse_Na" : "Karl-Heine-Straße",
+        "Ortsteil" : "Lindenau",
+        "Baumart_wi" : "Platanus x acerifolia",
+        "Baumart_de" : "Platane",
+        "Pflanzjahr" : 2010
+    },
+    "geometry" : {
+        "type" : "Point",
+        "coordinates" : [ 
+            12.3260949776498, 
+            51.3294237372169
+        ]
+    }
+}, {
+    "type" : "Feature",
+    "properties" : {
+        "Standortnu" : 39651,
+        "Strasse_Na" : "Karl-Heine-Straße",
+        "Ortsteil" : "Lindenau",
+        "Baumart_wi" : "Platanus x acerifolia",
+        "Baumart_de" : "Platane",
+        "Pflanzjahr" : 2010
+    },
+    "geometry" : {
+        "type" : "Point",
+        "coordinates" : [ 
+            12.3259366800459, 
+            51.3293831416493
+        ]
+    }
+}, {
+    "type" : "Feature",
+    "properties" : {
+        "Standortnu" : 39653,
+        "Strasse_Na" : "Karl-Heine-Straße",
+        "Ortsteil" : "Lindenau",
+        "Baumart_wi" : "Tilia species",
+        "Baumart_de" : "Linde",
+        "Pflanzjahr" : 1980
+    },
+    "geometry" : {
+        "type" : "Point",
+        "coordinates" : [ 
+            12.3257445451483, 
+            51.3293272445793
+        ]
+    }
+}, {
+    "type" : "Feature",
+    "properties" : {
+        "Standortnu" : 39654,
+        "Strasse_Na" : "Karl-Heine-Straße",
+        "Ortsteil" : "Lindenau",
+        "Baumart_wi" : "Tilia species",
+        "Baumart_de" : "Linde",
+        "Pflanzjahr" : 1980
+    },
+    "geometry" : {
+        "type" : "Point",
+        "coordinates" : [ 
+            12.3256517766895, 
+            51.3293030004307
+        ]
+    }
+}, {
+    "type" : "Feature",
+    "properties" : {
+        "Standortnu" : 39655,
+        "Strasse_Na" : "Karl-Heine-Straße",
+        "Ortsteil" : "Lindenau",
+        "Baumart_wi" : "Tilia species",
+        "Baumart_de" : "Linde",
+        "Pflanzjahr" : 1980
+    },
+    "geometry" : {
+        "type" : "Point",
+        "coordinates" : [ 
+            12.325559334462, 
+            51.3292783328424
+        ]
+    }
+}, {
+    "type" : "Feature",
+    "properties" : {
+        "Standortnu" : 39656,
+        "Strasse_Na" : "Karl-Heine-Straße",
+        "Ortsteil" : "Lindenau",
+        "Baumart_wi" : "Tilia species",
+        "Baumart_de" : "Linde",
+        "Pflanzjahr" : 1980
+    },
+    "geometry" : {
+        "type" : "Point",
+        "coordinates" : [ 
+            12.3254703605515, 
+            51.3292547553682
+        ]
+    }
+}, {
+    "type" : "Feature",
+    "properties" : {
+        "Standortnu" : 39657,
+        "Strasse_Na" : "Karl-Heine-Straße",
+        "Ortsteil" : "Lindenau",
+        "Baumart_wi" : "Platanus x acerifolia",
+        "Baumart_de" : "Platane",
+        "Pflanzjahr" : 2010
+    },
+    "geometry" : {
+        "type" : "Point",
+        "coordinates" : [ 
+            12.3253429016957, 
+            51.3292234062443
+        ]
+    }
+}, {
+    "type" : "Feature",
+    "properties" : {
+        "Standortnu" : 39658,
+        "Strasse_Na" : "Karl-Heine-Straße",
+        "Ortsteil" : "Lindenau",
+        "Baumart_wi" : "Tilia species",
+        "Baumart_de" : "Linde",
+        "Pflanzjahr" : 1980
+    },
+    "geometry" : {
+        "type" : "Point",
+        "coordinates" : [ 
+            12.3252406659211, 
+            51.3291939042243
+        ]
+    }
+}, {
+    "type" : "Feature",
+    "properties" : {
+        "Standortnu" : 39659,
+        "Strasse_Na" : "Karl-Heine-Straße",
+        "Ortsteil" : "Lindenau",
+        "Baumart_wi" : "Tilia species",
+        "Baumart_de" : "Linde",
+        "Pflanzjahr" : 1980
+    },
+    "geometry" : {
+        "type" : "Point",
+        "coordinates" : [ 
+            12.3251434848669, 
+            51.3291680073474
+        ]
+    }
+}, {
+    "type" : "Feature",
+    "properties" : {
+        "Standortnu" : 39660,
+        "Strasse_Na" : "Karl-Heine-Straße",
+        "Ortsteil" : "Lindenau",
+        "Baumart_wi" : "Tilia species",
+        "Baumart_de" : "Linde",
+        "Pflanzjahr" : 1980
+    },
+    "geometry" : {
+        "type" : "Point",
+        "coordinates" : [ 
+            12.3250463481514, 
+            51.3291414494337
+        ]
+    }
+}, {
+    "type" : "Feature",
+    "properties" : {
+        "Standortnu" : 39661,
+        "Strasse_Na" : "Karl-Heine-Straße",
+        "Ortsteil" : "Lindenau",
+        "Baumart_wi" : "Platanus x acerifolia",
+        "Baumart_de" : "Platane",
+        "Pflanzjahr" : 1999
+    },
+    "geometry" : {
+        "type" : "Point",
+        "coordinates" : [ 
+            12.3249571091374, 
+            51.329120214774
+        ]
+    }
+}, {
+    "type" : "Feature",
+    "properties" : {
+        "Standortnu" : 39662,
+        "Strasse_Na" : "Karl-Heine-Straße",
+        "Ortsteil" : "Lindenau",
+        "Baumart_wi" : "Platanus x acerifolia",
+        "Baumart_de" : "Platane",
+        "Pflanzjahr" : 1999
+    },
+    "geometry" : {
+        "type" : "Point",
+        "coordinates" : [ 
+            12.3248725039242, 
+            51.3290965235177
+        ]
+    }
+}, {
+    "type" : "Feature",
+    "properties" : {
+        "Standortnu" : 39664,
+        "Strasse_Na" : "Karl-Heine-Straße",
+        "Ortsteil" : "Lindenau",
+        "Baumart_wi" : "Platanus x acerifolia",
+        "Baumart_de" : "Platane",
+        "Pflanzjahr" : 1999
+    },
+    "geometry" : {
+        "type" : "Point",
+        "coordinates" : [ 
+            12.3247021729359, 
+            51.3290514267008
+        ]
+    }
+}, {
+    "type" : "Feature",
+    "properties" : {
+        "Standortnu" : 39665,
+        "Strasse_Na" : "Karl-Heine-Straße",
+        "Ortsteil" : "Lindenau",
+        "Baumart_wi" : "Platanus x acerifolia",
+        "Baumart_de" : "Platane",
+        "Pflanzjahr" : 1999
+    },
+    "geometry" : {
+        "type" : "Point",
+        "coordinates" : [ 
+            12.3246150231165, 
+            51.3290285153509
+        ]
+    }
+}, {
+    "type" : "Feature",
+    "properties" : {
+        "Standortnu" : 39663,
+        "Strasse_Na" : "Karl-Heine-Straße",
+        "Ortsteil" : "Lindenau",
+        "Baumart_wi" : "Tilia species",
+        "Baumart_de" : "Linde",
+        "Pflanzjahr" : 1960
+    },
+    "geometry" : {
+        "type" : "Point",
+        "coordinates" : [ 
+            12.3247871910608, 
+            51.3290711305251
+        ]
+    }
+}, {
+    "type" : "Feature",
+    "properties" : {
+        "Standortnu" : 39866,
+        "Strasse_Na" : "Karl-Heine-Straße",
+        "Ortsteil" : "Lindenau",
+        "Baumart_wi" : "Platanus x acerifolia",
+        "Baumart_de" : "Platane",
+        "Pflanzjahr" : 2000
+    },
+    "geometry" : {
+        "type" : "Point",
+        "coordinates" : [ 
+            12.3434224535271, 
+            51.3323316702892
+        ]
+    }
+}, {
+    "type" : "Feature",
+    "properties" : {
+        "Standortnu" : 39867,
+        "Strasse_Na" : "Karl-Heine-Straße",
+        "Ortsteil" : "Lindenau",
+        "Baumart_wi" : "Platanus x acerifolia",
+        "Baumart_de" : "Platane",
+        "Pflanzjahr" : 2000
+    },
+    "geometry" : {
+        "type" : "Point",
+        "coordinates" : [ 
+            12.3432284135786, 
+            51.3323323229156
+        ]
+    }
+}, {
+    "type" : "Feature",
+    "properties" : {
+        "Standortnu" : 39868,
+        "Strasse_Na" : "Karl-Heine-Straße",
+        "Ortsteil" : "Lindenau",
+        "Baumart_wi" : "Platanus x acerifolia",
+        "Baumart_de" : "Platane",
+        "Pflanzjahr" : 2000
+    },
+    "geometry" : {
+        "type" : "Point",
+        "coordinates" : [ 
+            12.3430666475074, 
+            51.3323374187384
+        ]
+    }
+}, {
+    "type" : "Feature",
+    "properties" : {
+        "Standortnu" : 39859,
+        "Strasse_Na" : "Karl-Heine-Straße",
+        "Ortsteil" : "Lindenau",
+        "Baumart_wi" : "Platanus x acerifolia",
+        "Baumart_de" : "Platane",
+        "Pflanzjahr" : 2000
+    },
+    "geometry" : {
+        "type" : "Point",
+        "coordinates" : [ 
+            12.3443927428392, 
+            51.3323025157422
+        ]
+    }
+}, {
+    "type" : "Feature",
+    "properties" : {
+        "Standortnu" : 39860,
+        "Strasse_Na" : "Karl-Heine-Straße",
+        "Ortsteil" : "Lindenau",
+        "Baumart_wi" : "Platanus x acerifolia",
+        "Baumart_de" : "Platane",
+        "Pflanzjahr" : 2000
+    },
+    "geometry" : {
+        "type" : "Point",
+        "coordinates" : [ 
+            12.3442170512543, 
+            51.3323083918145
+        ]
+    }
+}, {
+    "type" : "Feature",
+    "properties" : {
+        "Standortnu" : 39869,
+        "Strasse_Na" : "Karl-Heine-Straße",
+        "Ortsteil" : "Lindenau",
+        "Baumart_wi" : "Platanus x acerifolia",
+        "Baumart_de" : "Platane",
+        "Pflanzjahr" : 2000
+    },
+    "geometry" : {
+        "type" : "Point",
+        "coordinates" : [ 
+            12.3429034248205, 
+            51.3323406905479
+        ]
+    }
+}, {
+    "type" : "Feature",
+    "properties" : {
+        "Standortnu" : 39875,
+        "Strasse_Na" : "Karl-Heine-Straße",
+        "Ortsteil" : "Lindenau",
+        "Baumart_wi" : "Platanus x acerifolia",
+        "Baumart_de" : "Platane",
+        "Pflanzjahr" : 2000
+    },
+    "geometry" : {
+        "type" : "Point",
+        "coordinates" : [ 
+            12.3419656398274, 
+            51.332360419195
+        ]
+    }
+}, {
+    "type" : "Feature",
+    "properties" : {
+        "Standortnu" : 40273,
+        "Strasse_Na" : "Erich-Zeigner-Allee",
+        "Ortsteil" : "Lindenau",
+        "Baumart_wi" : "Platanus x acerifolia",
+        "Baumart_de" : "Platane",
+        "Pflanzjahr" : 2016
+    },
+    "geometry" : {
+        "type" : "Point",
+        "coordinates" : [ 
+            12.3402016139784, 
+            51.3338677271641
+        ]
+    }
+}, {
+    "type" : "Feature",
+    "properties" : {
+        "Standortnu" : 40276,
+        "Strasse_Na" : "Erich-Zeigner-Allee",
+        "Ortsteil" : "Lindenau",
+        "Baumart_wi" : "Aesculus hippocastanum 'Baumannii'",
+        "Baumart_de" : "Gefülltblühende Rosskastanie",
+        "Pflanzjahr" : 2005
+    },
+    "geometry" : {
+        "type" : "Point",
+        "coordinates" : [ 
+            12.3403116815876, 
+            51.3337010345721
+        ]
+    }
+}, {
+    "type" : "Feature",
+    "properties" : {
+        "Standortnu" : 40277,
+        "Strasse_Na" : "Erich-Zeigner-Allee",
+        "Ortsteil" : "Lindenau",
+        "Baumart_wi" : "Platanus x acerifolia",
+        "Baumart_de" : "Platane",
+        "Pflanzjahr" : 2017
+    },
+    "geometry" : {
+        "type" : "Point",
+        "coordinates" : [ 
+            12.3403541771485, 
+            51.3336376877649
+        ]
+    }
+}, {
+    "type" : "Feature",
+    "properties" : {
+        "Standortnu" : 40278,
+        "Strasse_Na" : "Erich-Zeigner-Allee",
+        "Ortsteil" : "Lindenau",
+        "Baumart_wi" : "Platanus x acerifolia",
+        "Baumart_de" : "Platane",
+        "Pflanzjahr" : 2016
+    },
+    "geometry" : {
+        "type" : "Point",
+        "coordinates" : [ 
+            12.3404397416116, 
+            51.333506268138
+        ]
+    }
+}, {
+    "type" : "Feature",
+    "properties" : {
+        "Standortnu" : 40281,
+        "Strasse_Na" : "Erich-Zeigner-Allee",
+        "Ortsteil" : "Lindenau",
+        "Baumart_wi" : "Platanus x acerifolia",
+        "Baumart_de" : "Platane",
+        "Pflanzjahr" : 2016
+    },
+    "geometry" : {
+        "type" : "Point",
+        "coordinates" : [ 
+            12.3405541171693, 
+            51.3333399798998
+        ]
+    }
+}, {
+    "type" : "Feature",
+    "properties" : {
+        "Standortnu" : 40250,
+        "Strasse_Na" : "Erich-Zeigner-Allee",
+        "Ortsteil" : "Lindenau",
+        "Baumart_wi" : "Platanus x acerifolia",
+        "Baumart_de" : "Platane",
+        "Pflanzjahr" : 2016
+    },
+    "geometry" : {
+        "type" : "Point",
+        "coordinates" : [ 
+            12.3399692410377, 
+            51.3340002492235
+        ]
+    }
+}, {
+    "type" : "Feature",
+    "properties" : {
+        "Standortnu" : 40251,
+        "Strasse_Na" : "Erich-Zeigner-Allee",
+        "Ortsteil" : "Lindenau",
+        "Baumart_wi" : "Platanus x acerifolia",
+        "Baumart_de" : "Platane",
+        "Pflanzjahr" : 2016
+    },
+    "geometry" : {
+        "type" : "Point",
+        "coordinates" : [ 
+            12.3400175830036, 
+            51.3339333720899
+        ]
+    }
+}, {
+    "type" : "Feature",
+    "properties" : {
+        "Standortnu" : 39870,
+        "Strasse_Na" : "Karl-Heine-Straße",
+        "Ortsteil" : "Lindenau",
+        "Baumart_wi" : "Platanus x acerifolia",
+        "Baumart_de" : "Platane",
+        "Pflanzjahr" : 2000
+    },
+    "geometry" : {
+        "type" : "Point",
+        "coordinates" : [ 
+            12.3426733922597, 
+            51.3323426604436
+        ]
+    }
+}, {
+    "type" : "Feature",
+    "properties" : {
+        "Standortnu" : 40252,
+        "Strasse_Na" : "Erich-Zeigner-Allee",
+        "Ortsteil" : "Lindenau",
+        "Baumart_wi" : "Aesculus hippocastanum 'Baumannii'",
+        "Baumart_de" : "Gefülltblühende Rosskastanie",
+        "Pflanzjahr" : 2007
+    },
+    "geometry" : {
+        "type" : "Point",
+        "coordinates" : [ 
+            12.3400604730256, 
+            51.3338671418458
+        ]
+    }
+}, {
+    "type" : "Feature",
+    "properties" : {
+        "Standortnu" : 39873,
+        "Strasse_Na" : "Karl-Heine-Straße",
+        "Ortsteil" : "Lindenau",
+        "Baumart_wi" : "Platanus x acerifolia",
+        "Baumart_de" : "Platane",
+        "Pflanzjahr" : 2000
+    },
+    "geometry" : {
+        "type" : "Point",
+        "coordinates" : [ 
+            12.3421502228901, 
+            51.3323534118648
+        ]
+    }
+}, {
+    "type" : "Feature",
+    "properties" : {
+        "Standortnu" : 40253,
+        "Strasse_Na" : "Erich-Zeigner-Allee",
+        "Ortsteil" : "Lindenau",
+        "Baumart_wi" : "Aesculus hippocastanum 'Baumannii'",
+        "Baumart_de" : "Gefülltblühende Rosskastanie",
+        "Pflanzjahr" : 2012
+    },
+    "geometry" : {
+        "type" : "Point",
+        "coordinates" : [ 
+            12.3401028329694, 
+            51.3338015588094
+        ]
+    }
+}, {
+    "type" : "Feature",
+    "properties" : {
+        "Standortnu" : 40254,
+        "Strasse_Na" : "Erich-Zeigner-Allee",
+        "Ortsteil" : "Lindenau",
+        "Baumart_wi" : "Aesculus hippocastanum",
+        "Baumart_de" : "Rosskastanie",
+        "Pflanzjahr" : 1940
+    },
+    "geometry" : {
+        "type" : "Point",
+        "coordinates" : [ 
+            12.3401314934596, 
+            51.3337574580868
+        ]
+    }
+}, {
+    "type" : "Feature",
+    "properties" : {
+        "Standortnu" : 40256,
+        "Strasse_Na" : "Erich-Zeigner-Allee",
+        "Ortsteil" : "Lindenau",
+        "Baumart_wi" : "Aesculus hippocastanum 'Baumannii'",
+        "Baumart_de" : "Gefülltblühende Rosskastanie",
+        "Pflanzjahr" : 2005
+    },
+    "geometry" : {
+        "type" : "Point",
+        "coordinates" : [ 
+            12.3401895031796, 
+            51.3336688396543
+        ]
+    }
+}, {
+    "type" : "Feature",
+    "properties" : {
+        "Standortnu" : 40258,
+        "Strasse_Na" : "Erich-Zeigner-Allee",
+        "Ortsteil" : "Lindenau",
+        "Baumart_wi" : "Platanus x acerifolia",
+        "Baumart_de" : "Platane",
+        "Pflanzjahr" : 2017
+    },
+    "geometry" : {
+        "type" : "Point",
+        "coordinates" : [ 
+            12.3403227864529, 
+            51.3334643120032
+        ]
+    }
+}, {
+    "type" : "Feature",
+    "properties" : {
+        "Standortnu" : 40262,
+        "Strasse_Na" : "Erich-Zeigner-Allee",
+        "Ortsteil" : "Lindenau",
+        "Baumart_wi" : "Aesculus hippocastanum 'Baumannii'",
+        "Baumart_de" : "Gefülltblühende Rosskastanie",
+        "Pflanzjahr" : 2005
+    },
+    "geometry" : {
+        "type" : "Point",
+        "coordinates" : [ 
+            12.3404881884155, 
+            51.3332109977892
+        ]
+    }
+}, {
+    "type" : "Feature",
+    "properties" : {
+        "Standortnu" : 40263,
+        "Strasse_Na" : "Erich-Zeigner-Allee",
+        "Ortsteil" : "Lindenau",
+        "Baumart_wi" : "Platanus x acerifolia",
+        "Baumart_de" : "Platane",
+        "Pflanzjahr" : 2016
+    },
+    "geometry" : {
+        "type" : "Point",
+        "coordinates" : [ 
+            12.3405355053303, 
+            51.3331333033326
+        ]
+    }
+}, {
+    "type" : "Feature",
+    "properties" : {
+        "Standortnu" : 40264,
+        "Strasse_Na" : "Erich-Zeigner-Allee",
+        "Ortsteil" : "Lindenau",
+        "Baumart_wi" : "Platanus x acerifolia",
+        "Baumart_de" : "Platane",
+        "Pflanzjahr" : 2014
+    },
+    "geometry" : {
+        "type" : "Point",
+        "coordinates" : [ 
+            12.3405783334715, 
+            51.3330704712695
+        ]
+    }
+}, {
+    "type" : "Feature",
+    "properties" : {
+        "Standortnu" : 40265,
+        "Strasse_Na" : "Erich-Zeigner-Allee",
+        "Ortsteil" : "Lindenau",
+        "Baumart_wi" : "Platanus x acerifolia",
+        "Baumart_de" : "Platane",
+        "Pflanzjahr" : 2014
+    },
+    "geometry" : {
+        "type" : "Point",
+        "coordinates" : [ 
+            12.3406273156615, 
+            51.3329887573692
+        ]
+    }
+}, {
+    "type" : "Feature",
+    "properties" : {
+        "Standortnu" : 40267,
+        "Strasse_Na" : "Erich-Zeigner-Allee",
+        "Ortsteil" : "Lindenau",
+        "Baumart_wi" : "Aesculus hippocastanum 'Baumannii'",
+        "Baumart_de" : "Gefülltblühende Rosskastanie",
+        "Pflanzjahr" : 2005
+    },
+    "geometry" : {
+        "type" : "Point",
+        "coordinates" : [ 
+            12.3407030855992, 
+            51.3328692282971
+        ]
+    }
+}, {
+    "type" : "Feature",
+    "properties" : {
+        "Standortnu" : 40269,
+        "Strasse_Na" : "Erich-Zeigner-Allee",
+        "Ortsteil" : "Lindenau",
+        "Baumart_wi" : "Aesculus hippocastanum 'Baumannii'",
+        "Baumart_de" : "Gefülltblühende Rosskastanie",
+        "Pflanzjahr" : 2005
+    },
+    "geometry" : {
+        "type" : "Point",
+        "coordinates" : [ 
+            12.3408147740458, 
+            51.332705041847
+        ]
+    }
+}, {
+    "type" : "Feature",
+    "properties" : {
+        "Standortnu" : 44319,
+        "Strasse_Na" : "Lützner Straße",
+        "Ortsteil" : "Lindenau",
+        "Baumart_wi" : "Tilia cordata 'Greenspire'",
+        "Baumart_de" : "Stadt-Linde",
+        "Pflanzjahr" : 2014
+    },
+    "geometry" : {
+        "type" : "Point",
+        "coordinates" : [ 
+            12.3227497425608, 
+            51.3328606975828
+        ]
+    }
+}, {
+    "type" : "Feature",
+    "properties" : {
+        "Standortnu" : 44320,
+        "Strasse_Na" : "Lützner Straße",
+        "Ortsteil" : "Lindenau",
+        "Baumart_wi" : "Tilia cordata 'Greenspire'",
+        "Baumart_de" : "Stadt-Linde",
+        "Pflanzjahr" : 2014
+    },
+    "geometry" : {
+        "type" : "Point",
+        "coordinates" : [ 
+            12.3225605469385, 
+            51.3327927403265
+        ]
+    }
+}, {
+    "type" : "Feature",
+    "properties" : {
+        "Standortnu" : 44321,
+        "Strasse_Na" : "Lützner Straße",
+        "Ortsteil" : "Lindenau",
+        "Baumart_wi" : "Tilia cordata 'Greenspire'",
+        "Baumart_de" : "Stadt-Linde",
+        "Pflanzjahr" : 2014
+    },
+    "geometry" : {
+        "type" : "Point",
+        "coordinates" : [ 
+            12.3223928484277, 
+            51.3327273611386
+        ]
+    }
+}, {
+    "type" : "Feature",
+    "properties" : {
+        "Standortnu" : 44372,
+        "Strasse_Na" : "Aurelienstraße",
+        "Ortsteil" : "Lindenau",
+        "Baumart_wi" : "Crataegus x lavallei",
+        "Baumart_de" : "Apfel-Dorn",
+        "Pflanzjahr" : 2004
+    },
+    "geometry" : {
+        "type" : "Point",
+        "coordinates" : [ 
+            12.3302519055299, 
+            51.3320347178953
+        ]
+    }
+}, {
+    "type" : "Feature",
+    "properties" : {
+        "Standortnu" : 44374,
+        "Strasse_Na" : "Aurelienstraße",
+        "Ortsteil" : "Lindenau",
+        "Baumart_wi" : "Crataegus x lavallei",
+        "Baumart_de" : "Apfel-Dorn",
+        "Pflanzjahr" : 2004
+    },
+    "geometry" : {
+        "type" : "Point",
+        "coordinates" : [ 
+            12.3302937896706, 
+            51.3319732350591
+        ]
+    }
+}, {
+    "type" : "Feature",
+    "properties" : {
+        "Standortnu" : 44371,
+        "Strasse_Na" : "Aurelienstraße",
+        "Ortsteil" : "Lindenau",
+        "Baumart_wi" : "Crataegus x lavallei",
+        "Baumart_de" : "Apfel-Dorn",
+        "Pflanzjahr" : 2004
+    },
+    "geometry" : {
+        "type" : "Point",
+        "coordinates" : [ 
+            12.3311143736864, 
+            51.3322652526573
+        ]
+    }
+}, {
+    "type" : "Feature",
+    "properties" : {
+        "Standortnu" : 44373,
+        "Strasse_Na" : "Aurelienstraße",
+        "Ortsteil" : "Lindenau",
+        "Baumart_wi" : "Crataegus x lavallei",
+        "Baumart_de" : "Apfel-Dorn",
+        "Pflanzjahr" : 2004
+    },
+    "geometry" : {
+        "type" : "Point",
+        "coordinates" : [ 
+            12.331158511557, 
+            51.33220410602
+        ]
+    }
+}, {
+    "type" : "Feature",
+    "properties" : {
+        "Standortnu" : 44376,
+        "Strasse_Na" : "Aurelienstraße",
+        "Ortsteil" : "Lindenau",
+        "Baumart_wi" : "Crataegus x lavallei",
+        "Baumart_de" : "Apfel-Dorn",
+        "Pflanzjahr" : 2004
+    },
+    "geometry" : {
+        "type" : "Point",
+        "coordinates" : [ 
+            12.3314107041102, 
+            51.33233995923
+        ]
+    }
+}, {
+    "type" : "Feature",
+    "properties" : {
+        "Standortnu" : 44375,
+        "Strasse_Na" : "Aurelienstraße",
+        "Ortsteil" : "Lindenau",
+        "Baumart_wi" : "Crataegus x lavallei",
+        "Baumart_de" : "Apfel-Dorn",
+        "Pflanzjahr" : 2004
+    },
+    "geometry" : {
+        "type" : "Point",
+        "coordinates" : [ 
+            12.3322720675852, 
+            51.3325691910955
+        ]
+    }
+}, {
+    "type" : "Feature",
+    "properties" : {
+        "Standortnu" : 44367,
+        "Strasse_Na" : "Aurelienstraße",
+        "Ortsteil" : "Lindenau",
+        "Baumart_wi" : "Crataegus x lavallei",
+        "Baumart_de" : "Apfel-Dorn",
+        "Pflanzjahr" : 2017
+    },
+    "geometry" : {
+        "type" : "Point",
+        "coordinates" : [ 
+            12.3294274065134, 
+            51.3318144292205
+        ]
+    }
+}, {
+    "type" : "Feature",
+    "properties" : {
+        "Standortnu" : 44370,
+        "Strasse_Na" : "Aurelienstraße",
+        "Ortsteil" : "Lindenau",
+        "Baumart_wi" : "Crataegus x lavallei",
+        "Baumart_de" : "Apfel-Dorn",
+        "Pflanzjahr" : 2004
+    },
+    "geometry" : {
+        "type" : "Point",
+        "coordinates" : [ 
+            12.3294697649844, 
+            51.3317529278114
+        ]
+    }
+}, {
+    "type" : "Feature",
+    "properties" : {
+        "Standortnu" : 44369,
+        "Strasse_Na" : "Aurelienstraße",
+        "Ortsteil" : "Lindenau",
+        "Baumart_wi" : "Crataegus x lavallei",
+        "Baumart_de" : "Apfel-Dorn",
+        "Pflanzjahr" : 2004
+    },
+    "geometry" : {
+        "type" : "Point",
+        "coordinates" : [ 
+            12.3299768899081, 
+            51.3318882195622
+        ]
+    }
+}, {
+    "type" : "Feature",
+    "properties" : {
+        "Standortnu" : 44381,
+        "Strasse_Na" : "Aurelienstraße",
+        "Ortsteil" : "Lindenau",
+        "Baumart_wi" : "Crataegus x lavallei",
+        "Baumart_de" : "Apfel-Dorn",
+        "Pflanzjahr" : 2003
+    },
+    "geometry" : {
+        "type" : "Point",
+        "coordinates" : [ 
+            12.3358379617573, 
+            51.3333099934981
+        ]
+    }
+}, {
+    "type" : "Feature",
+    "properties" : {
+        "Standortnu" : 44382,
+        "Strasse_Na" : "Aurelienstraße",
+        "Ortsteil" : "Lindenau",
+        "Baumart_wi" : "Crataegus x lavallei",
+        "Baumart_de" : "Apfel-Dorn",
+        "Pflanzjahr" : 2003
+    },
+    "geometry" : {
+        "type" : "Point",
+        "coordinates" : [ 
+            12.3347409377589, 
+            51.3330838249816
+        ]
+    }
+}, {
+    "type" : "Feature",
+    "properties" : {
+        "Standortnu" : 44379,
+        "Strasse_Na" : "Aurelienstraße",
+        "Ortsteil" : "Lindenau",
+        "Baumart_wi" : "Crataegus x lavallei",
+        "Baumart_de" : "Apfel-Dorn",
+        "Pflanzjahr" : 2003
+    },
+    "geometry" : {
+        "type" : "Point",
+        "coordinates" : [ 
+            12.3344969902198, 
+            51.3330332070875
+        ]
+    }
+}, {
+    "type" : "Feature",
+    "properties" : {
+        "Standortnu" : 44380,
+        "Strasse_Na" : "Aurelienstraße",
+        "Ortsteil" : "Lindenau",
+        "Baumart_wi" : "Crataegus x lavallei",
+        "Baumart_de" : "Apfel-Dorn",
+        "Pflanzjahr" : 2003
+    },
+    "geometry" : {
+        "type" : "Point",
+        "coordinates" : [ 
+            12.3336851188186, 
+            51.3328683693545
+        ]
+    }
+}, {
+    "type" : "Feature",
+    "properties" : {
+        "Standortnu" : 44377,
+        "Strasse_Na" : "Aurelienstraße",
+        "Ortsteil" : "Lindenau",
+        "Baumart_wi" : "Crataegus x lavallei",
+        "Baumart_de" : "Apfel-Dorn",
+        "Pflanzjahr" : 2003
+    },
+    "geometry" : {
+        "type" : "Point",
+        "coordinates" : [ 
+            12.3334330126736, 
+            51.3328164166335
+        ]
+    }
+}, {
+    "type" : "Feature",
+    "properties" : {
+        "Standortnu" : 44378,
+        "Strasse_Na" : "Aurelienstraße",
+        "Ortsteil" : "Lindenau",
+        "Baumart_wi" : "Crataegus x lavallei",
+        "Baumart_de" : "Apfel-Dorn",
+        "Pflanzjahr" : 2003
+    },
+    "geometry" : {
+        "type" : "Point",
+        "coordinates" : [ 
+            12.3325538569194, 
+            51.3326333280356
+        ]
+    }
+}, {
+    "type" : "Feature",
+    "properties" : {
+        "Standortnu" : 44366,
+        "Strasse_Na" : "Aurelienstraße",
+        "Ortsteil" : "Lindenau",
+        "Baumart_wi" : "Crataegus x lavallei",
+        "Baumart_de" : "Apfel-Dorn",
+        "Pflanzjahr" : 2004
+    },
+    "geometry" : {
+        "type" : "Point",
+        "coordinates" : [ 
+            12.3299345326323, 
+            51.3319496852001
+        ]
+    }
+}, {
+    "type" : "Feature",
+    "properties" : {
+        "Standortnu" : 39817,
+        "Strasse_Na" : "Karl-Heine-Straße",
+        "Ortsteil" : "Lindenau",
+        "Baumart_wi" : "Platanus x acerifolia",
+        "Baumart_de" : "Platane",
+        "Pflanzjahr" : 1995
+    },
+    "geometry" : {
+        "type" : "Point",
+        "coordinates" : [ 
+            12.3373059548374, 
+            51.3324170574165
+        ]
+    }
+}, {
+    "type" : "Feature",
+    "properties" : {
+        "Standortnu" : 39818,
+        "Strasse_Na" : "Karl-Heine-Straße",
+        "Ortsteil" : "Lindenau",
+        "Baumart_wi" : "Platanus x acerifolia",
+        "Baumart_de" : "Platane",
+        "Pflanzjahr" : 1993
+    },
+    "geometry" : {
+        "type" : "Point",
+        "coordinates" : [ 
+            12.3371350018105, 
+            51.3323710815585
+        ]
+    }
+}, {
+    "type" : "Feature",
+    "properties" : {
+        "Standortnu" : 39819,
+        "Strasse_Na" : "Karl-Heine-Straße",
+        "Ortsteil" : "Lindenau",
+        "Baumart_wi" : "Platanus x acerifolia",
+        "Baumart_de" : "Platane",
+        "Pflanzjahr" : 1993
+    },
+    "geometry" : {
+        "type" : "Point",
+        "coordinates" : [ 
+            12.3369086020308, 
+            51.332310847526
+        ]
+    }
+}, {
+    "type" : "Feature",
+    "properties" : {
+        "Standortnu" : 39820,
+        "Strasse_Na" : "Karl-Heine-Straße",
+        "Ortsteil" : "Lindenau",
+        "Baumart_wi" : "Platanus x acerifolia",
+        "Baumart_de" : "Platane",
+        "Pflanzjahr" : 1993
+    },
+    "geometry" : {
+        "type" : "Point",
+        "coordinates" : [ 
+            12.3366559210405, 
+            51.3322412152447
+        ]
+    }
+}, {
+    "type" : "Feature",
+    "properties" : {
+        "Standortnu" : 39821,
+        "Strasse_Na" : "Karl-Heine-Straße",
+        "Ortsteil" : "Lindenau",
+        "Baumart_wi" : "Platanus x acerifolia",
+        "Baumart_de" : "Platane",
+        "Pflanzjahr" : 1993
+    },
+    "geometry" : {
+        "type" : "Point",
+        "coordinates" : [ 
+            12.3364354433382, 
+            51.3321821223686
+        ]
+    }
+}, {
+    "type" : "Feature",
+    "properties" : {
+        "Standortnu" : 39822,
+        "Strasse_Na" : "Karl-Heine-Straße",
+        "Ortsteil" : "Lindenau",
+        "Baumart_wi" : "Platanus x acerifolia",
+        "Baumart_de" : "Platane",
+        "Pflanzjahr" : 2004
+    },
+    "geometry" : {
+        "type" : "Point",
+        "coordinates" : [ 
+            12.3362473166211, 
+            51.3321302248344
+        ]
+    }
+}, {
+    "type" : "Feature",
+    "properties" : {
+        "Standortnu" : 39810,
+        "Strasse_Na" : "Schillingstraße",
+        "Ortsteil" : "Lindenau",
+        "Baumart_wi" : "Carpinus betulus 'Frans Fontaine'",
+        "Baumart_de" : "Säulen-Hainbuche 'Frans Fontaine'",
+        "Pflanzjahr" : 2013
+    },
+    "geometry" : {
+        "type" : "Point",
+        "coordinates" : [ 
+            12.3335396800005, 
+            51.3345453245927
+        ]
+    }
+}, {
+    "type" : "Feature",
+    "properties" : {
+        "Standortnu" : 39808,
+        "Strasse_Na" : "Schillingstraße",
+        "Ortsteil" : "Lindenau",
+        "Baumart_wi" : "Carpinus betulus 'Frans Fontaine'",
+        "Baumart_de" : "Säulen-Hainbuche 'Frans Fontaine'",
+        "Pflanzjahr" : 2013
+    },
+    "geometry" : {
+        "type" : "Point",
+        "coordinates" : [ 
+            12.3335138732412, 
+            51.3345923353939
+        ]
+    }
+}, {
+    "type" : "Feature",
+    "properties" : {
+        "Standortnu" : 39809,
+        "Strasse_Na" : "Karl-Heine-Straße",
+        "Ortsteil" : "Lindenau",
+        "Baumart_wi" : "Platanus x acerifolia",
+        "Baumart_de" : "Platane",
+        "Pflanzjahr" : 2004
+    },
+    "geometry" : {
+        "type" : "Point",
+        "coordinates" : [ 
+            12.3360755138794, 
+            51.3320836371589
+        ]
+    }
+}, {
+    "type" : "Feature",
+    "properties" : {
+        "Standortnu" : 39811,
+        "Strasse_Na" : "Karl-Heine-Straße",
+        "Ortsteil" : "Lindenau",
+        "Baumart_wi" : "Platanus x acerifolia",
+        "Baumart_de" : "Platane",
+        "Pflanzjahr" : 2004
+    },
+    "geometry" : {
+        "type" : "Point",
+        "coordinates" : [ 
+            12.3359093827166, 
+            51.3320394241384
+        ]
+    }
+}, {
+    "type" : "Feature",
+    "properties" : {
+        "Standortnu" : 39812,
+        "Strasse_Na" : "Karl-Heine-Straße",
+        "Ortsteil" : "Lindenau",
+        "Baumart_wi" : "Platanus x acerifolia",
+        "Baumart_de" : "Platane",
+        "Pflanzjahr" : 1993
+    },
+    "geometry" : {
+        "type" : "Point",
+        "coordinates" : [ 
+            12.3356949984978, 
+            51.3319851121924
+        ]
+    }
+}, {
+    "type" : "Feature",
+    "properties" : {
+        "Standortnu" : 39813,
+        "Strasse_Na" : "Karl-Heine-Straße",
+        "Ortsteil" : "Lindenau",
+        "Baumart_wi" : "Platanus x acerifolia",
+        "Baumart_de" : "Platane",
+        "Pflanzjahr" : 1993
+    },
+    "geometry" : {
+        "type" : "Point",
+        "coordinates" : [ 
+            12.3354001392947, 
+            51.3319079838146
+        ]
+    }
+}, {
+    "type" : "Feature",
+    "properties" : {
+        "Standortnu" : 39823,
+        "Strasse_Na" : "Karl-Heine-Straße",
+        "Ortsteil" : "Lindenau",
+        "Baumart_wi" : "Acer pseudoplatanus",
+        "Baumart_de" : "Berg-Ahorn",
+        "Pflanzjahr" : 1920
+    },
+    "geometry" : {
+        "type" : "Point",
+        "coordinates" : [ 
+            12.3365495100411, 
+            51.3322717502868
+        ]
+    }
+}, {
+    "type" : "Feature",
+    "properties" : {
+        "Standortnu" : 39797,
+        "Strasse_Na" : "Karl-Heine-Straße",
+        "Ortsteil" : "Lindenau",
+        "Baumart_wi" : "Platanus x acerifolia",
+        "Baumart_de" : "Platane",
+        "Pflanzjahr" : 1993
+    },
+    "geometry" : {
+        "type" : "Point",
+        "coordinates" : [ 
+            12.3351527042506, 
+            51.3318427371673
+        ]
+    }
+}, {
+    "type" : "Feature",
+    "properties" : {
+        "Standortnu" : 39798,
+        "Strasse_Na" : "Karl-Heine-Straße",
+        "Ortsteil" : "Lindenau",
+        "Baumart_wi" : "Platanus x acerifolia",
+        "Baumart_de" : "Platane",
+        "Pflanzjahr" : 1993
+    },
+    "geometry" : {
+        "type" : "Point",
+        "coordinates" : [ 
+            12.3348947385744, 
+            51.3317736849631
+        ]
+    }
+}, {
+    "type" : "Feature",
+    "properties" : {
+        "Standortnu" : 39799,
+        "Strasse_Na" : "Karl-Heine-Straße",
+        "Ortsteil" : "Lindenau",
+        "Baumart_wi" : "Platanus x acerifolia",
+        "Baumart_de" : "Platane",
+        "Pflanzjahr" : 1993
+    },
+    "geometry" : {
+        "type" : "Point",
+        "coordinates" : [ 
+            12.3347458783774, 
+            51.3317306360856
+        ]
+    }
+}, {
+    "type" : "Feature",
+    "properties" : {
+        "Standortnu" : 39800,
+        "Strasse_Na" : "Karl-Heine-Straße",
+        "Ortsteil" : "Lindenau",
+        "Baumart_wi" : "Platanus x acerifolia",
+        "Baumart_de" : "Platane",
+        "Pflanzjahr" : 1993
+    },
+    "geometry" : {
+        "type" : "Point",
+        "coordinates" : [ 
+            12.3346532587608, 
+            51.3317066337022
+        ]
+    }
+}, {
+    "type" : "Feature",
+    "properties" : {
+        "Standortnu" : 39801,
+        "Strasse_Na" : "Karl-Heine-Straße",
+        "Ortsteil" : "Lindenau",
+        "Baumart_wi" : "Platanus x acerifolia",
+        "Baumart_de" : "Platane",
+        "Pflanzjahr" : 1993
+    },
+    "geometry" : {
+        "type" : "Point",
+        "coordinates" : [ 
+            12.3345633824892, 
+            51.3316829104707
+        ]
+    }
+}, {
+    "type" : "Feature",
+    "properties" : {
+        "Standortnu" : 39802,
+        "Strasse_Na" : "Karl-Heine-Straße",
+        "Ortsteil" : "Lindenau",
+        "Baumart_wi" : "Platanus x acerifolia",
+        "Baumart_de" : "Platane",
+        "Pflanzjahr" : 1993
+    },
+    "geometry" : {
+        "type" : "Point",
+        "coordinates" : [ 
+            12.3344302311496, 
+            51.3316453527287
+        ]
+    }
+}, {
+    "type" : "Feature",
+    "properties" : {
+        "Standortnu" : 39788,
+        "Strasse_Na" : "Karl-Heine-Straße",
+        "Ortsteil" : "Lindenau",
+        "Baumart_wi" : "Platanus x acerifolia",
+        "Baumart_de" : "Platane",
+        "Pflanzjahr" : 1993
+    },
+    "geometry" : {
+        "type" : "Point",
+        "coordinates" : [ 
+            12.3340859482172, 
+            51.3315563853224
+        ]
+    }
+}, {
+    "type" : "Feature",
+    "properties" : {
+        "Standortnu" : 39789,
+        "Strasse_Na" : "Karl-Heine-Straße",
+        "Ortsteil" : "Lindenau",
+        "Baumart_wi" : "Tilia species",
+        "Baumart_de" : "Linde",
+        "Pflanzjahr" : 1950
+    },
+    "geometry" : {
+        "type" : "Point",
+        "coordinates" : [ 
+            12.333918245998, 
+            51.3315087059999
+        ]
+    }
+}, {
+    "type" : "Feature",
+    "properties" : {
+        "Standortnu" : 39790,
+        "Strasse_Na" : "Karl-Heine-Straße",
+        "Ortsteil" : "Lindenau",
+        "Baumart_wi" : "Platanus x acerifolia",
+        "Baumart_de" : "Platane",
+        "Pflanzjahr" : 1995
+    },
+    "geometry" : {
+        "type" : "Point",
+        "coordinates" : [ 
+            12.3336197090734, 
+            51.3314339950751
+        ]
+    }
+}, {
+    "type" : "Feature",
+    "properties" : {
+        "Standortnu" : 39791,
+        "Strasse_Na" : "Karl-Heine-Straße",
+        "Ortsteil" : "Lindenau",
+        "Baumart_wi" : "Platanus x acerifolia",
+        "Baumart_de" : "Platane",
+        "Pflanzjahr" : 1995
+    },
+    "geometry" : {
+        "type" : "Point",
+        "coordinates" : [ 
+            12.3334442661348, 
+            51.3313871370869
+        ]
+    }
+}, {
+    "type" : "Feature",
+    "properties" : {
+        "Standortnu" : 39779,
+        "Strasse_Na" : "Karl-Heine-Straße",
+        "Ortsteil" : "Lindenau",
+        "Baumart_wi" : "Platanus x acerifolia",
+        "Baumart_de" : "Platane",
+        "Pflanzjahr" : 2013
+    },
+    "geometry" : {
+        "type" : "Point",
+        "coordinates" : [ 
+            12.3330457873352, 
+            51.3312749044722
+        ]
+    }
+}, {
+    "type" : "Feature",
+    "properties" : {
+        "Standortnu" : 39780,
+        "Strasse_Na" : "Karl-Heine-Straße",
+        "Ortsteil" : "Lindenau",
+        "Baumart_wi" : "Platanus x acerifolia",
+        "Baumart_de" : "Platane",
+        "Pflanzjahr" : 1995
+    },
+    "geometry" : {
+        "type" : "Point",
+        "coordinates" : [ 
+            12.3327031973473, 
+            51.3311887201206
+        ]
+    }
+}, {
+    "type" : "Feature",
+    "properties" : {
+        "Standortnu" : 39781,
+        "Strasse_Na" : "Karl-Heine-Straße",
+        "Ortsteil" : "Lindenau",
+        "Baumart_wi" : "Platanus x acerifolia",
+        "Baumart_de" : "Platane",
+        "Pflanzjahr" : 1995
+    },
+    "geometry" : {
+        "type" : "Point",
+        "coordinates" : [ 
+            12.3324739575076, 
+            51.331124557802
+        ]
+    }
+}, {
+    "type" : "Feature",
+    "properties" : {
+        "Standortnu" : 39782,
+        "Strasse_Na" : "Karl-Heine-Straße",
+        "Ortsteil" : "Lindenau",
+        "Baumart_wi" : "Platanus x acerifolia",
+        "Baumart_de" : "Platane",
+        "Pflanzjahr" : 1995
+    },
+    "geometry" : {
+        "type" : "Point",
+        "coordinates" : [ 
+            12.3322797066757, 
+            51.3310774718045
+        ]
+    }
+}, {
+    "type" : "Feature",
+    "properties" : {
+        "Standortnu" : 44322,
+        "Strasse_Na" : "Lützner Straße",
+        "Ortsteil" : "Lindenau",
+        "Baumart_wi" : "Tilia cordata 'Roelvo'",
+        "Baumart_de" : "Winter-Linde 'Roelvo'",
+        "Pflanzjahr" : 2012
+    },
+    "geometry" : {
+        "type" : "Point",
+        "coordinates" : [ 
+            12.3251679227298, 
+            51.3339604638833
+        ]
+    }
+}, {
+    "type" : "Feature",
+    "properties" : {
+        "Standortnu" : 39770,
+        "Strasse_Na" : "Karl-Heine-Straße",
+        "Ortsteil" : "Lindenau",
+        "Baumart_wi" : "Platanus x acerifolia",
+        "Baumart_de" : "Platane",
+        "Pflanzjahr" : 1995
+    },
+    "geometry" : {
+        "type" : "Point",
+        "coordinates" : [ 
+            12.331843306502, 
+            51.3309606670145
+        ]
+    }
+}, {
+    "type" : "Feature",
+    "properties" : {
+        "Standortnu" : 39771,
+        "Strasse_Na" : "Karl-Heine-Straße",
+        "Ortsteil" : "Lindenau",
+        "Baumart_wi" : "Platanus x acerifolia",
+        "Baumart_de" : "Platane",
+        "Pflanzjahr" : 1995
+    },
+    "geometry" : {
+        "type" : "Point",
+        "coordinates" : [ 
+            12.3316183302625, 
+            51.3309005800815
+        ]
+    }
+}, {
+    "type" : "Feature",
+    "properties" : {
+        "Standortnu" : 39772,
+        "Strasse_Na" : "Karl-Heine-Straße",
+        "Ortsteil" : "Lindenau",
+        "Baumart_wi" : "Platanus x acerifolia",
+        "Baumart_de" : "Platane",
+        "Pflanzjahr" : 2007
+    },
+    "geometry" : {
+        "type" : "Point",
+        "coordinates" : [ 
+            12.331369036587, 
+            51.3308325892218
+        ]
+    }
+}, {
+    "type" : "Feature",
+    "properties" : {
+        "Standortnu" : 44402,
+        "Strasse_Na" : "Henriettenstraße",
+        "Ortsteil" : "Lindenau",
+        "Baumart_wi" : "Platanus x acerifolia",
+        "Baumart_de" : "Platane",
+        "Pflanzjahr" : 2003
+    },
+    "geometry" : {
+        "type" : "Point",
+        "coordinates" : [ 
+            12.3255623277911, 
+            51.3325040198876
+        ]
+    }
+}, {
+    "type" : "Feature",
+    "properties" : {
+        "Standortnu" : 44401,
+        "Strasse_Na" : "Henriettenstraße",
+        "Ortsteil" : "Lindenau",
+        "Baumart_wi" : "Platanus x acerifolia",
+        "Baumart_de" : "Platane",
+        "Pflanzjahr" : 2003
+    },
+    "geometry" : {
+        "type" : "Point",
+        "coordinates" : [ 
+            12.3256577951638, 
+            51.3325719301467
+        ]
+    }
+}, {
+    "type" : "Feature",
+    "properties" : {
+        "Standortnu" : 46288,
+        "Strasse_Na" : "Endersstraße",
+        "Ortsteil" : "Lindenau",
+        "Baumart_wi" : "Pyrus calleryana 'Chanticleer'",
+        "Baumart_de" : "Chinesische Wildbirne 'Chanticleer'",
+        "Pflanzjahr" : 2001
+    },
+    "geometry" : {
+        "type" : "Point",
+        "coordinates" : [ 
+            12.3303546617214, 
+            51.3348930034651
+        ]
+    }
+}, {
+    "type" : "Feature",
+    "properties" : {
+        "Standortnu" : 46289,
+        "Strasse_Na" : "Endersstraße",
+        "Ortsteil" : "Lindenau",
+        "Baumart_wi" : "Pyrus calleryana 'Chanticleer'",
+        "Baumart_de" : "Chinesische Wildbirne 'Chanticleer'",
+        "Pflanzjahr" : 2001
+    },
+    "geometry" : {
+        "type" : "Point",
+        "coordinates" : [ 
+            12.3301925716861, 
+            51.3347951661536
+        ]
+    }
+}, {
+    "type" : "Feature",
+    "properties" : {
+        "Standortnu" : 46290,
+        "Strasse_Na" : "Endersstraße",
+        "Ortsteil" : "Lindenau",
+        "Baumart_wi" : "Pyrus calleryana 'Chanticleer'",
+        "Baumart_de" : "Chinesische Wildbirne 'Chanticleer'",
+        "Pflanzjahr" : 2001
+    },
+    "geometry" : {
+        "type" : "Point",
+        "coordinates" : [ 
+            12.3300720263685, 
+            51.3347235820505
+        ]
+    }
+}, {
+    "type" : "Feature",
+    "properties" : {
+        "Standortnu" : 46292,
+        "Strasse_Na" : "Endersstraße",
+        "Ortsteil" : "Lindenau",
+        "Baumart_wi" : "Pyrus calleryana 'Chanticleer'",
+        "Baumart_de" : "Chinesische Wildbirne 'Chanticleer'",
+        "Pflanzjahr" : 2001
+    },
+    "geometry" : {
+        "type" : "Point",
+        "coordinates" : [ 
+            12.3305121557536, 
+            51.3348631739399
+        ]
+    }
+}, {
+    "type" : "Feature",
+    "properties" : {
+        "Standortnu" : 46293,
+        "Strasse_Na" : "Endersstraße",
+        "Ortsteil" : "Lindenau",
+        "Baumart_wi" : "Pyrus calleryana 'Chanticleer'",
+        "Baumart_de" : "Chinesische Wildbirne 'Chanticleer'",
+        "Pflanzjahr" : 2001
+    },
+    "geometry" : {
+        "type" : "Point",
+        "coordinates" : [ 
+            12.3303622784282, 
+            51.3347734906241
+        ]
+    }
+}, {
+    "type" : "Feature",
+    "properties" : {
+        "Standortnu" : 46294,
+        "Strasse_Na" : "Endersstraße",
+        "Ortsteil" : "Lindenau",
+        "Baumart_wi" : "Pyrus calleryana 'Chanticleer'",
+        "Baumart_de" : "Chinesische Wildbirne 'Chanticleer'",
+        "Pflanzjahr" : 2001
+    },
+    "geometry" : {
+        "type" : "Point",
+        "coordinates" : [ 
+            12.3302124421768, 
+            51.334683456377
+        ]
+    }
+}, {
+    "type" : "Feature",
+    "properties" : {
+        "Standortnu" : 46295,
+        "Strasse_Na" : "Endersstraße",
+        "Ortsteil" : "Lindenau",
+        "Baumart_wi" : "Pyrus calleryana 'Chanticleer'",
+        "Baumart_de" : "Chinesische Wildbirne 'Chanticleer'",
+        "Pflanzjahr" : 2001
+    },
+    "geometry" : {
+        "type" : "Point",
+        "coordinates" : [ 
+            12.330064756102, 
+            51.3345951231946
+        ]
+    }
+}, {
+    "type" : "Feature",
+    "properties" : {
+        "Standortnu" : 46296,
+        "Strasse_Na" : "Endersstraße",
+        "Ortsteil" : "Lindenau",
+        "Baumart_wi" : "Pyrus calleryana 'Chanticleer'",
+        "Baumart_de" : "Chinesische Wildbirne 'Chanticleer'",
+        "Pflanzjahr" : 2001
+    },
+    "geometry" : {
+        "type" : "Point",
+        "coordinates" : [ 
+            12.3299120888608, 
+            51.3345041875266
+        ]
+    }
+}, {
+    "type" : "Feature",
+    "properties" : {
+        "Standortnu" : 46297,
+        "Strasse_Na" : "Endersstraße",
+        "Ortsteil" : "Lindenau",
+        "Baumart_wi" : "Pyrus calleryana 'Chanticleer'",
+        "Baumart_de" : "Chinesische Wildbirne 'Chanticleer'",
+        "Pflanzjahr" : 2000
+    },
+    "geometry" : {
+        "type" : "Point",
+        "coordinates" : [ 
+            12.3313496726621, 
+            51.335362022863
+        ]
+    }
+}, {
+    "type" : "Feature",
+    "properties" : {
+        "Standortnu" : 46298,
+        "Strasse_Na" : "Endersstraße",
+        "Ortsteil" : "Lindenau",
+        "Baumart_wi" : "Pyrus calleryana 'Chanticleer'",
+        "Baumart_de" : "Chinesische Wildbirne 'Chanticleer'",
+        "Pflanzjahr" : 2001
+    },
+    "geometry" : {
+        "type" : "Point",
+        "coordinates" : [ 
+            12.3311851852566, 
+            51.3352683640426
+        ]
+    }
+}, {
+    "type" : "Feature",
+    "properties" : {
+        "Standortnu" : 46299,
+        "Strasse_Na" : "Endersstraße",
+        "Ortsteil" : "Lindenau",
+        "Baumart_wi" : "Pyrus calleryana 'Chanticleer'",
+        "Baumart_de" : "Chinesische Wildbirne 'Chanticleer'",
+        "Pflanzjahr" : 2001
+    },
+    "geometry" : {
+        "type" : "Point",
+        "coordinates" : [ 
+            12.3310365397851, 
+            51.3351784893466
+        ]
+    }
+}, {
+    "type" : "Feature",
+    "properties" : {
+        "Standortnu" : 46303,
+        "Strasse_Na" : "Endersstraße",
+        "Ortsteil" : "Lindenau",
+        "Baumart_wi" : "Pyrus calleryana 'Chanticleer'",
+        "Baumart_de" : "Chinesische Wildbirne 'Chanticleer'",
+        "Pflanzjahr" : 2000
+    },
+    "geometry" : {
+        "type" : "Point",
+        "coordinates" : [ 
+            12.3320996050859, 
+            51.3358614130341
+        ]
+    }
+}, {
+    "type" : "Feature",
+    "properties" : {
+        "Standortnu" : 46304,
+        "Strasse_Na" : "Endersstraße",
+        "Ortsteil" : "Lindenau",
+        "Baumart_wi" : "Pyrus calleryana 'Chanticleer'",
+        "Baumart_de" : "Chinesische Wildbirne 'Chanticleer'",
+        "Pflanzjahr" : 2001
+    },
+    "geometry" : {
+        "type" : "Point",
+        "coordinates" : [ 
+            12.3320548307905, 
+            51.3358350417592
+        ]
+    }
+}, {
+    "type" : "Feature",
+    "properties" : {
+        "Standortnu" : 46305,
+        "Strasse_Na" : "Endersstraße",
+        "Ortsteil" : "Lindenau",
+        "Baumart_wi" : "Pyrus calleryana 'Chanticleer'",
+        "Baumart_de" : "Chinesische Wildbirne 'Chanticleer'",
+        "Pflanzjahr" : 2000
+    },
+    "geometry" : {
+        "type" : "Point",
+        "coordinates" : [ 
+            12.3315989127335, 
+            51.3355159061152
+        ]
+    }
+}, {
+    "type" : "Feature",
+    "properties" : {
+        "Standortnu" : 46306,
+        "Strasse_Na" : "Endersstraße",
+        "Ortsteil" : "Lindenau",
+        "Baumart_wi" : "Pyrus calleryana 'Chanticleer'",
+        "Baumart_de" : "Chinesische Wildbirne 'Chanticleer'",
+        "Pflanzjahr" : 2001
+    },
+    "geometry" : {
+        "type" : "Point",
+        "coordinates" : [ 
+            12.3315084766997, 
+            51.3354594553333
+        ]
+    }
+}, {
+    "type" : "Feature",
+    "properties" : {
+        "Standortnu" : 46300,
+        "Strasse_Na" : "Endersstraße",
+        "Ortsteil" : "Lindenau",
+        "Baumart_wi" : "Pyrus calleryana 'Chanticleer'",
+        "Baumart_de" : "Chinesische Wildbirne 'Chanticleer'",
+        "Pflanzjahr" : 2000
+    },
+    "geometry" : {
+        "type" : "Point",
+        "coordinates" : [ 
+            12.3317627532021, 
+            51.3357397664063
+        ]
+    }
+}, {
+    "type" : "Feature",
+    "properties" : {
+        "Standortnu" : 46301,
+        "Strasse_Na" : "Endersstraße",
+        "Ortsteil" : "Lindenau",
+        "Baumart_wi" : "Pyrus calleryana 'Chanticleer'",
+        "Baumart_de" : "Chinesische Wildbirne 'Chanticleer'",
+        "Pflanzjahr" : 2000
+    },
+    "geometry" : {
+        "type" : "Point",
+        "coordinates" : [ 
+            12.3315529816861, 
+            51.3356130856394
+        ]
+    }
+}, {
+    "type" : "Feature",
+    "properties" : {
+        "Standortnu" : 46302,
+        "Strasse_Na" : "Endersstraße",
+        "Ortsteil" : "Lindenau",
+        "Baumart_wi" : "Pyrus calleryana 'Chanticleer'",
+        "Baumart_de" : "Chinesische Wildbirne 'Chanticleer'",
+        "Pflanzjahr" : 2001
+    },
+    "geometry" : {
+        "type" : "Point",
+        "coordinates" : [ 
+            12.3313916670528, 
+            51.3355159027017
+        ]
+    }
+}, {
+    "type" : "Feature",
+    "properties" : {
+        "Standortnu" : 43841,
+        "Strasse_Na" : "Merseburger Straße",
+        "Ortsteil" : "Lindenau",
+        "Baumart_wi" : "Acer platanoides 'Columnare'",
+        "Baumart_de" : "Säulen-Ahorn",
+        "Pflanzjahr" : 1999
+    },
+    "geometry" : {
+        "type" : "Point",
+        "coordinates" : [ 
+            12.3324083349513, 
+            51.3326940814371
+        ]
+    }
+}, {
+    "type" : "Feature",
+    "properties" : {
+        "Standortnu" : 43852,
+        "Strasse_Na" : "Merseburger Straße",
+        "Ortsteil" : "Lindenau",
+        "Baumart_wi" : "Acer platanoides 'Columnare'",
+        "Baumart_de" : "Säulen-Ahorn",
+        "Pflanzjahr" : 1999
+    },
+    "geometry" : {
+        "type" : "Point",
+        "coordinates" : [ 
+            12.3322335690685, 
+            51.3327939725555
+        ]
+    }
+}, {
+    "type" : "Feature",
+    "properties" : {
+        "Standortnu" : 43853,
+        "Strasse_Na" : "Merseburger Straße",
+        "Ortsteil" : "Lindenau",
+        "Baumart_wi" : "Acer platanoides 'Columnare'",
+        "Baumart_de" : "Säulen-Ahorn",
+        "Pflanzjahr" : 1999
+    },
+    "geometry" : {
+        "type" : "Point",
+        "coordinates" : [ 
+            12.3321123588124, 
+            51.3329683501345
+        ]
+    }
+}, {
+    "type" : "Feature",
+    "properties" : {
+        "Standortnu" : 43854,
+        "Strasse_Na" : "Merseburger Straße",
+        "Ortsteil" : "Lindenau",
+        "Baumart_wi" : "Acer platanoides 'Columnare'",
+        "Baumart_de" : "Säulen-Ahorn",
+        "Pflanzjahr" : 1999
+    },
+    "geometry" : {
+        "type" : "Point",
+        "coordinates" : [ 
+            12.3319985209449, 
+            51.3331363874814
+        ]
+    }
+}, {
+    "type" : "Feature",
+    "properties" : {
+        "Standortnu" : 43855,
+        "Strasse_Na" : "Merseburger Straße",
+        "Ortsteil" : "Lindenau",
+        "Baumart_wi" : "Acer platanoides 'Columnare'",
+        "Baumart_de" : "Säulen-Ahorn",
+        "Pflanzjahr" : 1999
+    },
+    "geometry" : {
+        "type" : "Point",
+        "coordinates" : [ 
+            12.3318755316902, 
+            51.3333172603003
+        ]
+    }
+}, {
+    "type" : "Feature",
+    "properties" : {
+        "Standortnu" : 43851,
+        "Strasse_Na" : "Merseburger Straße",
+        "Ortsteil" : "Lindenau",
+        "Baumart_wi" : "Acer platanoides 'Columnare'",
+        "Baumart_de" : "Säulen-Ahorn",
+        "Pflanzjahr" : 1999
+    },
+    "geometry" : {
+        "type" : "Point",
+        "coordinates" : [ 
+            12.3323163890852, 
+            51.3326698866006
+        ]
+    }
+}, {
+    "type" : "Feature",
+    "properties" : {
+        "Standortnu" : 43842,
+        "Strasse_Na" : "Merseburger Straße",
+        "Ortsteil" : "Lindenau",
+        "Baumart_wi" : "Acer platanoides 'Columnare'",
+        "Baumart_de" : "Säulen-Ahorn",
+        "Pflanzjahr" : 1999
+    },
+    "geometry" : {
+        "type" : "Point",
+        "coordinates" : [ 
+            12.3323573411475, 
+            51.3327690725355
+        ]
+    }
+}, {
+    "type" : "Feature",
+    "properties" : {
+        "Standortnu" : 43843,
+        "Strasse_Na" : "Merseburger Straße",
+        "Ortsteil" : "Lindenau",
+        "Baumart_wi" : "Acer platanoides 'Columnare'",
+        "Baumart_de" : "Säulen-Ahorn",
+        "Pflanzjahr" : 1999
+    },
+    "geometry" : {
+        "type" : "Point",
+        "coordinates" : [ 
+            12.3322557519199, 
+            51.33291841617
+        ]
+    }
+}, {
+    "type" : "Feature",
+    "properties" : {
+        "Standortnu" : 43844,
+        "Strasse_Na" : "Merseburger Straße",
+        "Ortsteil" : "Lindenau",
+        "Baumart_wi" : "Acer platanoides 'Columnare'",
+        "Baumart_de" : "Säulen-Ahorn",
+        "Pflanzjahr" : 1999
+    },
+    "geometry" : {
+        "type" : "Point",
+        "coordinates" : [ 
+            12.3321712868165, 
+            51.3330413736031
+        ]
+    }
+}, {
+    "type" : "Feature",
+    "properties" : {
+        "Standortnu" : 43846,
+        "Strasse_Na" : "Merseburger Straße",
+        "Ortsteil" : "Lindenau",
+        "Baumart_wi" : "Acer platanoides 'Columnare'",
+        "Baumart_de" : "Säulen-Ahorn",
+        "Pflanzjahr" : 1999
+    },
+    "geometry" : {
+        "type" : "Point",
+        "coordinates" : [ 
+            12.3319681217786, 
+            51.3333429640792
+        ]
+    }
+}, {
+    "type" : "Feature",
+    "properties" : {
+        "Standortnu" : 43845,
+        "Strasse_Na" : "Merseburger Straße",
+        "Ortsteil" : "Lindenau",
+        "Baumart_wi" : "Acer platanoides 'Columnare'",
+        "Baumart_de" : "Säulen-Ahorn",
+        "Pflanzjahr" : 1999
+    },
+    "geometry" : {
+        "type" : "Point",
+        "coordinates" : [ 
+            12.3320315459629, 
+            51.3332466705756
+        ]
+    }
+}, {
+    "type" : "Feature",
+    "properties" : {
+        "Standortnu" : 43856,
+        "Strasse_Na" : "Merseburger Straße",
+        "Ortsteil" : "Lindenau",
+        "Baumart_wi" : "Acer platanoides 'Columnare'",
+        "Baumart_de" : "Säulen-Ahorn",
+        "Pflanzjahr" : 2004
+    },
+    "geometry" : {
+        "type" : "Point",
+        "coordinates" : [ 
+            12.3317717982898, 
+            51.3334705192609
+        ]
+    }
+}, {
+    "type" : "Feature",
+    "properties" : {
+        "Standortnu" : 43857,
+        "Strasse_Na" : "Merseburger Straße",
+        "Ortsteil" : "Lindenau",
+        "Baumart_wi" : "Acer platanoides 'Columnare'",
+        "Baumart_de" : "Säulen-Ahorn",
+        "Pflanzjahr" : 1999
+    },
+    "geometry" : {
+        "type" : "Point",
+        "coordinates" : [ 
+            12.3316183995995, 
+            51.3336968070033
+        ]
+    }
+}, {
+    "type" : "Feature",
+    "properties" : {
+        "Standortnu" : 43858,
+        "Strasse_Na" : "Merseburger Straße",
+        "Ortsteil" : "Lindenau",
+        "Baumart_wi" : "Acer platanoides 'Columnare'",
+        "Baumart_de" : "Säulen-Ahorn",
+        "Pflanzjahr" : 1999
+    },
+    "geometry" : {
+        "type" : "Point",
+        "coordinates" : [ 
+            12.3315046577076, 
+            51.3338654019068
+        ]
+    }
+}, {
+    "type" : "Feature",
+    "properties" : {
+        "Standortnu" : 43847,
+        "Strasse_Na" : "Merseburger Straße",
+        "Ortsteil" : "Lindenau",
+        "Baumart_wi" : "Acer platanoides 'Columnare'",
+        "Baumart_de" : "Säulen-Ahorn",
+        "Pflanzjahr" : 1999
+    },
+    "geometry" : {
+        "type" : "Point",
+        "coordinates" : [ 
+            12.3318842308118, 
+            51.3334642408042
+        ]
+    }
+}, {
+    "type" : "Feature",
+    "properties" : {
+        "Standortnu" : 43850,
+        "Strasse_Na" : "Merseburger Straße",
+        "Ortsteil" : "Lindenau",
+        "Baumart_wi" : "Acer platanoides 'Columnare'",
+        "Baumart_de" : "Säulen-Ahorn",
+        "Pflanzjahr" : 1999
+    },
+    "geometry" : {
+        "type" : "Point",
+        "coordinates" : [ 
+            12.3316210064255, 
+            51.3338526760453
+        ]
+    }
+}, {
+    "type" : "Feature",
+    "properties" : {
+        "Standortnu" : 43859,
+        "Strasse_Na" : "Merseburger Straße",
+        "Ortsteil" : "Lindenau",
+        "Baumart_wi" : "Acer platanoides 'Columnare'",
+        "Baumart_de" : "Säulen-Ahorn",
+        "Pflanzjahr" : 1999
+    },
+    "geometry" : {
+        "type" : "Point",
+        "coordinates" : [ 
+            12.3313774519607, 
+            51.3340532168925
+        ]
+    }
+}, {
+    "type" : "Feature",
+    "properties" : {
+        "Standortnu" : 43849,
+        "Strasse_Na" : "Merseburger Straße",
+        "Ortsteil" : "Lindenau",
+        "Baumart_wi" : "Acer platanoides 'Columnare'",
+        "Baumart_de" : "Säulen-Ahorn",
+        "Pflanzjahr" : 1999
+    },
+    "geometry" : {
+        "type" : "Point",
+        "coordinates" : [ 
+            12.3317363676833, 
+            51.3336839776365
+        ]
+    }
+}, {
+    "type" : "Feature",
+    "properties" : {
+        "Standortnu" : 43848,
+        "Strasse_Na" : "Merseburger Straße",
+        "Ortsteil" : "Lindenau",
+        "Baumart_wi" : "Acer platanoides 'Columnare'",
+        "Baumart_de" : "Säulen-Ahorn",
+        "Pflanzjahr" : 1999
+    },
+    "geometry" : {
+        "type" : "Point",
+        "coordinates" : [ 
+            12.3317704803623, 
+            51.333633257588
+        ]
+    }
+}, {
+    "type" : "Feature",
+    "properties" : {
+        "Standortnu" : 43829,
+        "Strasse_Na" : "Merseburger Straße",
+        "Ortsteil" : "Lindenau",
+        "Baumart_wi" : "Acer platanoides 'Columnare'",
+        "Baumart_de" : "Säulen-Ahorn",
+        "Pflanzjahr" : 1999
+    },
+    "geometry" : {
+        "type" : "Point",
+        "coordinates" : [ 
+            12.3313541000283, 
+            51.3342487536161
+        ]
+    }
+}, {
+    "type" : "Feature",
+    "properties" : {
+        "Standortnu" : 43830,
+        "Strasse_Na" : "Merseburger Straße",
+        "Ortsteil" : "Lindenau",
+        "Baumart_wi" : "Acer platanoides 'Columnare'",
+        "Baumart_de" : "Säulen-Ahorn",
+        "Pflanzjahr" : 1999
+    },
+    "geometry" : {
+        "type" : "Point",
+        "coordinates" : [ 
+            12.3312446964139, 
+            51.3344103256328
+        ]
+    }
+}, {
+    "type" : "Feature",
+    "properties" : {
+        "Standortnu" : 43831,
+        "Strasse_Na" : "Merseburger Straße",
+        "Ortsteil" : "Lindenau",
+        "Baumart_wi" : "Acer platanoides 'Columnare'",
+        "Baumart_de" : "Säulen-Ahorn",
+        "Pflanzjahr" : 1999
+    },
+    "geometry" : {
+        "type" : "Point",
+        "coordinates" : [ 
+            12.3311311169873, 
+            51.3345758460991
+        ]
+    }
+}, {
+    "type" : "Feature",
+    "properties" : {
+        "Standortnu" : 43832,
+        "Strasse_Na" : "Merseburger Straße",
+        "Ortsteil" : "Lindenau",
+        "Baumart_wi" : "Acer platanoides 'Columnare'",
+        "Baumart_de" : "Säulen-Ahorn",
+        "Pflanzjahr" : 1999
+    },
+    "geometry" : {
+        "type" : "Point",
+        "coordinates" : [ 
+            12.331047837932, 
+            51.334697236926
+        ]
+    }
+}, {
+    "type" : "Feature",
+    "properties" : {
+        "Standortnu" : 43833,
+        "Strasse_Na" : "Merseburger Straße",
+        "Ortsteil" : "Lindenau",
+        "Baumart_wi" : "Acer platanoides 'Columnare'",
+        "Baumart_de" : "Säulen-Ahorn",
+        "Pflanzjahr" : 1999
+    },
+    "geometry" : {
+        "type" : "Point",
+        "coordinates" : [ 
+            12.3308834229725, 
+            51.3349407948981
+        ]
+    }
+}, {
+    "type" : "Feature",
+    "properties" : {
+        "Standortnu" : 43834,
+        "Strasse_Na" : "Merseburger Straße",
+        "Ortsteil" : "Lindenau",
+        "Baumart_wi" : "Acer platanoides 'Columnare'",
+        "Baumart_de" : "Säulen-Ahorn",
+        "Pflanzjahr" : 1999
+    },
+    "geometry" : {
+        "type" : "Point",
+        "coordinates" : [ 
+            12.3312996913299, 
+            51.3341697563549
+        ]
+    }
+}, {
+    "type" : "Feature",
+    "properties" : {
+        "Standortnu" : 43835,
+        "Strasse_Na" : "Merseburger Straße",
+        "Ortsteil" : "Lindenau",
+        "Baumart_wi" : "Acer platanoides 'Columnare'",
+        "Baumart_de" : "Säulen-Ahorn",
+        "Pflanzjahr" : 2004
+    },
+    "geometry" : {
+        "type" : "Point",
+        "coordinates" : [ 
+            12.3312019995276, 
+            51.3343119791672
+        ]
+    }
+}, {
+    "type" : "Feature",
+    "properties" : {
+        "Standortnu" : 43836,
+        "Strasse_Na" : "Merseburger Straße",
+        "Ortsteil" : "Lindenau",
+        "Baumart_wi" : "Acer platanoides 'Columnare'",
+        "Baumart_de" : "Säulen-Ahorn",
+        "Pflanzjahr" : 1999
+    },
+    "geometry" : {
+        "type" : "Point",
+        "coordinates" : [ 
+            12.3310973809645, 
+            51.3344646021672
+        ]
+    }
+}, {
+    "type" : "Feature",
+    "properties" : {
+        "Standortnu" : 43837,
+        "Strasse_Na" : "Merseburger Straße",
+        "Ortsteil" : "Lindenau",
+        "Baumart_wi" : "Acer platanoides 'Columnare'",
+        "Baumart_de" : "Säulen-Ahorn",
+        "Pflanzjahr" : 1999
+    },
+    "geometry" : {
+        "type" : "Point",
+        "coordinates" : [ 
+            12.3310405145488, 
+            51.3345477271059
+        ]
+    }
+}, {
+    "type" : "Feature",
+    "properties" : {
+        "Standortnu" : 43838,
+        "Strasse_Na" : "Merseburger Straße",
+        "Ortsteil" : "Lindenau",
+        "Baumart_wi" : "Acer platanoides 'Columnare'",
+        "Baumart_de" : "Säulen-Ahorn",
+        "Pflanzjahr" : 1999
+    },
+    "geometry" : {
+        "type" : "Point",
+        "coordinates" : [ 
+            12.3309572337066, 
+            51.3346707268773
+        ]
+    }
+}, {
+    "type" : "Feature",
+    "properties" : {
+        "Standortnu" : 43839,
+        "Strasse_Na" : "Merseburger Straße",
+        "Ortsteil" : "Lindenau",
+        "Baumart_wi" : "Acer platanoides 'Columnare'",
+        "Baumart_de" : "Säulen-Ahorn",
+        "Pflanzjahr" : 1999
+    },
+    "geometry" : {
+        "type" : "Point",
+        "coordinates" : [ 
+            12.3308747807486, 
+            51.3347931851347
+        ]
+    }
+}, {
+    "type" : "Feature",
+    "properties" : {
+        "Standortnu" : 43840,
+        "Strasse_Na" : "Merseburger Straße",
+        "Ortsteil" : "Lindenau",
+        "Baumart_wi" : "Acer platanoides 'Columnare'",
+        "Baumart_de" : "Säulen-Ahorn",
+        "Pflanzjahr" : 1999
+    },
+    "geometry" : {
+        "type" : "Point",
+        "coordinates" : [ 
+            12.330791856313, 
+            51.3349160400182
+        ]
+    }
+}, {
+    "type" : "Feature",
+    "properties" : {
+        "Standortnu" : 43819,
+        "Strasse_Na" : "Merseburger Straße",
+        "Ortsteil" : "Lindenau",
+        "Baumart_wi" : "Tilia cordata 'Rancho'",
+        "Baumart_de" : "Winter-Linde 'Rancho'",
+        "Pflanzjahr" : 1996
+    },
+    "geometry" : {
+        "type" : "Point",
+        "coordinates" : [ 
+            12.3307116009216, 
+            51.3351660821784
+        ]
+    }
+}, {
+    "type" : "Feature",
+    "properties" : {
+        "Standortnu" : 43820,
+        "Strasse_Na" : "Merseburger Straße",
+        "Ortsteil" : "Lindenau",
+        "Baumart_wi" : "Tilia cordata 'Rancho'",
+        "Baumart_de" : "Winter-Linde 'Rancho'",
+        "Pflanzjahr" : 1996
+    },
+    "geometry" : {
+        "type" : "Point",
+        "coordinates" : [ 
+            12.3306549396685, 
+            51.3352398676231
+        ]
+    }
+}, {
+    "type" : "Feature",
+    "properties" : {
+        "Standortnu" : 43821,
+        "Strasse_Na" : "Merseburger Straße",
+        "Ortsteil" : "Lindenau",
+        "Baumart_wi" : "Tilia cordata 'Rancho'",
+        "Baumart_de" : "Winter-Linde 'Rancho'",
+        "Pflanzjahr" : 1996
+    },
+    "geometry" : {
+        "type" : "Point",
+        "coordinates" : [ 
+            12.33062934259, 
+            51.3352917852862
+        ]
+    }
+}, {
+    "type" : "Feature",
+    "properties" : {
+        "Standortnu" : 43822,
+        "Strasse_Na" : "Merseburger Straße",
+        "Ortsteil" : "Lindenau",
+        "Baumart_wi" : "Tilia cordata 'Rancho'",
+        "Baumart_de" : "Winter-Linde 'Rancho'",
+        "Pflanzjahr" : 1996
+    },
+    "geometry" : {
+        "type" : "Point",
+        "coordinates" : [ 
+            12.3306047196557, 
+            51.3353294353025
+        ]
+    }
+}, {
+    "type" : "Feature",
+    "properties" : {
+        "Standortnu" : 43823,
+        "Strasse_Na" : "Merseburger Straße",
+        "Ortsteil" : "Lindenau",
+        "Baumart_wi" : "Tilia cordata 'Rancho'",
+        "Baumart_de" : "Winter-Linde 'Rancho'",
+        "Pflanzjahr" : 1996
+    },
+    "geometry" : {
+        "type" : "Point",
+        "coordinates" : [ 
+            12.3305783690171, 
+            51.3353683761451
+        ]
+    }
+}, {
+    "type" : "Feature",
+    "properties" : {
+        "Standortnu" : 43824,
+        "Strasse_Na" : "Merseburger Straße",
+        "Ortsteil" : "Lindenau",
+        "Baumart_wi" : "Tilia cordata 'Rancho'",
+        "Baumart_de" : "Winter-Linde 'Rancho'",
+        "Pflanzjahr" : 1996
+    },
+    "geometry" : {
+        "type" : "Point",
+        "coordinates" : [ 
+            12.3304549780409, 
+            51.3355409349793
+        ]
+    }
+}, {
+    "type" : "Feature",
+    "properties" : {
+        "Standortnu" : 43825,
+        "Strasse_Na" : "Merseburger Straße",
+        "Ortsteil" : "Lindenau",
+        "Baumart_wi" : "Tilia cordata 'Rancho'",
+        "Baumart_de" : "Winter-Linde 'Rancho'",
+        "Pflanzjahr" : 1996
+    },
+    "geometry" : {
+        "type" : "Point",
+        "coordinates" : [ 
+            12.3303918797889, 
+            51.3356397075675
+        ]
+    }
+}, {
+    "type" : "Feature",
+    "properties" : {
+        "Standortnu" : 43826,
+        "Strasse_Na" : "Merseburger Straße",
+        "Ortsteil" : "Lindenau",
+        "Baumart_wi" : "Tilia cordata 'Rancho'",
+        "Baumart_de" : "Winter-Linde 'Rancho'",
+        "Pflanzjahr" : 1996
+    },
+    "geometry" : {
+        "type" : "Point",
+        "coordinates" : [ 
+            12.3306867214459, 
+            51.3351484817865
+        ]
+    }
+}, {
+    "type" : "Feature",
+    "properties" : {
+        "Standortnu" : 43827,
+        "Strasse_Na" : "Merseburger Straße",
+        "Ortsteil" : "Lindenau",
+        "Baumart_wi" : "Tilia cordata 'Rancho'",
+        "Baumart_de" : "Winter-Linde 'Rancho'",
+        "Pflanzjahr" : 1996
+    },
+    "geometry" : {
+        "type" : "Point",
+        "coordinates" : [ 
+            12.3304977196879, 
+            51.3354170704357
+        ]
+    }
+}, {
+    "type" : "Feature",
+    "properties" : {
+        "Standortnu" : 43828,
+        "Strasse_Na" : "Merseburger Straße",
+        "Ortsteil" : "Lindenau",
+        "Baumart_wi" : "Tilia cordata 'Rancho'",
+        "Baumart_de" : "Winter-Linde 'Rancho'",
+        "Pflanzjahr" : 1996
+    },
+    "geometry" : {
+        "type" : "Point",
+        "coordinates" : [ 
+            12.3303569863924, 
+            51.3356343149009
+        ]
+    }
+}, {
+    "type" : "Feature",
+    "properties" : {
+        "Standortnu" : 44390,
+        "Strasse_Na" : "Schadowstraße",
+        "Ortsteil" : "Lindenau",
+        "Baumart_wi" : "Pyrus calleryana 'Chanticleer'",
+        "Baumart_de" : "Chinesische Wildbirne 'Chanticleer'",
+        "Pflanzjahr" : 2000
+    },
+    "geometry" : {
+        "type" : "Point",
+        "coordinates" : [ 
+            12.3319169527551, 
+            51.3352300777405
+        ]
+    }
+}, {
+    "type" : "Feature",
+    "properties" : {
+        "Standortnu" : 44389,
+        "Strasse_Na" : "Schadowstraße",
+        "Ortsteil" : "Lindenau",
+        "Baumart_wi" : "Pyrus calleryana 'Chanticleer'",
+        "Baumart_de" : "Chinesische Wildbirne 'Chanticleer'",
+        "Pflanzjahr" : 2000
+    },
+    "geometry" : {
+        "type" : "Point",
+        "coordinates" : [ 
+            12.3320314624166, 
+            51.3352960871953
+        ]
+    }
+}, {
+    "type" : "Feature",
+    "properties" : {
+        "Standortnu" : 44388,
+        "Strasse_Na" : "Schadowstraße",
+        "Ortsteil" : "Lindenau",
+        "Baumart_wi" : "Pyrus calleryana 'Chanticleer'",
+        "Baumart_de" : "Chinesische Wildbirne 'Chanticleer'",
+        "Pflanzjahr" : 2000
+    },
+    "geometry" : {
+        "type" : "Point",
+        "coordinates" : [ 
+            12.3319505844004, 
+            51.3353762593681
+        ]
+    }
+}, {
+    "type" : "Feature",
+    "properties" : {
+        "Standortnu" : 44386,
+        "Strasse_Na" : "Schadowstraße",
+        "Ortsteil" : "Lindenau",
+        "Baumart_wi" : "Pyrus calleryana 'Chanticleer'",
+        "Baumart_de" : "Chinesische Wildbirne 'Chanticleer'",
+        "Pflanzjahr" : 2000
+    },
+    "geometry" : {
+        "type" : "Point",
+        "coordinates" : [ 
+            12.33169705445, 
+            51.3352358080308
+        ]
+    }
+}, {
+    "type" : "Feature",
+    "properties" : {
+        "Standortnu" : 44385,
+        "Strasse_Na" : "Schadowstraße",
+        "Ortsteil" : "Lindenau",
+        "Baumart_wi" : "Pyrus calleryana 'Chanticleer'",
+        "Baumart_de" : "Chinesische Wildbirne 'Chanticleer'",
+        "Pflanzjahr" : 2005
+    },
+    "geometry" : {
+        "type" : "Point",
+        "coordinates" : [ 
+            12.3314690373846, 
+            51.3353777962856
+        ]
+    }
+}, {
+    "type" : "Feature",
+    "properties" : {
+        "Standortnu" : 46291,
+        "Strasse_Na" : "Endersstraße",
+        "Ortsteil" : "Lindenau",
+        "Baumart_wi" : "Pyrus calleryana 'Chanticleer'",
+        "Baumart_de" : "Chinesische Wildbirne 'Chanticleer'",
+        "Pflanzjahr" : 2002
+    },
+    "geometry" : {
+        "type" : "Point",
+        "coordinates" : [ 
+            12.3299012721036, 
+            51.3346197724785
+        ]
+    }
+}, {
+    "type" : "Feature",
+    "properties" : {
+        "Standortnu" : 46287,
+        "Strasse_Na" : "Endersstraße",
+        "Ortsteil" : "Lindenau",
+        "Baumart_wi" : "Platanus x acerifolia",
+        "Baumart_de" : "Platane",
+        "Pflanzjahr" : 2004
+    },
+    "geometry" : {
+        "type" : "Point",
+        "coordinates" : [ 
+            12.3248920668207, 
+            51.3315964053184
+        ]
+    }
+}, {
+    "type" : "Feature",
+    "properties" : {
+        "Standortnu" : 46286,
+        "Strasse_Na" : "Endersstraße",
+        "Ortsteil" : "Lindenau",
+        "Baumart_wi" : "Platanus x acerifolia",
+        "Baumart_de" : "Platane",
+        "Pflanzjahr" : 2004
+    },
+    "geometry" : {
+        "type" : "Point",
+        "coordinates" : [ 
+            12.3246738618821, 
+            51.331357849742
+        ]
+    }
+}, {
+    "type" : "Feature",
+    "properties" : {
+        "Standortnu" : 44332,
+        "Strasse_Na" : "Lützner Straße",
+        "Ortsteil" : "Lindenau",
+        "Baumart_wi" : "Tilia cordata 'Greenspire'",
+        "Baumart_de" : "Stadt-Linde",
+        "Pflanzjahr" : 2006
+    },
+    "geometry" : {
+        "type" : "Point",
+        "coordinates" : [ 
+            12.3388681560668, 
+            51.3352560754087
+        ]
+    }
+}, {
+    "type" : "Feature",
+    "properties" : {
+        "Standortnu" : 44383,
+        "Strasse_Na" : "Aurelienstraße",
+        "Ortsteil" : "Lindenau",
+        "Baumart_wi" : "Crataegus x lavallei",
+        "Baumart_de" : "Apfel-Dorn",
+        "Pflanzjahr" : 2003
+    },
+    "geometry" : {
+        "type" : "Point",
+        "coordinates" : [ 
+            12.3368770256406, 
+            51.3335222169777
+        ]
+    }
+}, {
+    "type" : "Feature",
+    "properties" : {
+        "Standortnu" : 44384,
+        "Strasse_Na" : "Aurelienstraße",
+        "Ortsteil" : "Lindenau",
+        "Baumart_wi" : "Crataegus x lavallei",
+        "Baumart_de" : "Apfel-Dorn",
+        "Pflanzjahr" : 2003
+    },
+    "geometry" : {
+        "type" : "Point",
+        "coordinates" : [ 
+            12.3361361231738, 
+            51.3333762715775
+        ]
+    }
+}, {
+    "type" : "Feature",
+    "properties" : {
+        "Standortnu" : 44333,
+        "Strasse_Na" : "Lützner Straße",
+        "Ortsteil" : "Lindenau",
+        "Baumart_wi" : "Tilia cordata 'Greenspire'",
+        "Baumart_de" : "Stadt-Linde",
+        "Pflanzjahr" : 2006
+    },
+    "geometry" : {
+        "type" : "Point",
+        "coordinates" : [ 
+            12.3380774083077, 
+            51.3353299613904
+        ]
+    }
+}, {
+    "type" : "Feature",
+    "properties" : {
+        "Standortnu" : 44387,
+        "Strasse_Na" : "Schadowstraße",
+        "Ortsteil" : "Lindenau",
+        "Baumart_wi" : "Pyrus calleryana 'Chanticleer'",
+        "Baumart_de" : "Chinesische Wildbirne 'Chanticleer'",
+        "Pflanzjahr" : 2000
+    },
+    "geometry" : {
+        "type" : "Point",
+        "coordinates" : [ 
+            12.3317410835034, 
+            51.3355320228411
+        ]
+    }
+}, {
+    "type" : "Feature",
+    "properties" : {
+        "Standortnu" : 44391,
+        "Strasse_Na" : "Schadowstraße",
+        "Ortsteil" : "Lindenau",
+        "Baumart_wi" : "Tilia species",
+        "Baumart_de" : "Linde",
+        "Pflanzjahr" : 1940
+    },
+    "geometry" : {
+        "type" : "Point",
+        "coordinates" : [ 
+            12.3317040604993, 
+            51.3353844902806
+        ]
+    }
+}, {
+    "type" : "Feature",
+    "properties" : {
+        "Standortnu" : 44327,
+        "Strasse_Na" : "Lützner Straße",
+        "Ortsteil" : "Lindenau",
+        "Baumart_wi" : "Tilia cordata 'Greenspire'",
+        "Baumart_de" : "Stadt-Linde",
+        "Pflanzjahr" : 2006
+    },
+    "geometry" : {
+        "type" : "Point",
+        "coordinates" : [ 
+            12.3343112857368, 
+            51.3358512690903
+        ]
+    }
+}, {
+    "type" : "Feature",
+    "properties" : {
+        "Standortnu" : 44365,
+        "Strasse_Na" : "Siemeringstraße",
+        "Ortsteil" : "Lindenau",
+        "Baumart_wi" : "Tilia cordata 'Greenspire'",
+        "Baumart_de" : "Stadt-Linde",
+        "Pflanzjahr" : 2006
+    },
+    "geometry" : {
+        "type" : "Point",
+        "coordinates" : [ 
+            12.3350008731442, 
+            51.3356202268679
+        ]
+    }
+}, {
+    "type" : "Feature",
+    "properties" : {
+        "Standortnu" : 44324,
+        "Strasse_Na" : "Lützner Straße",
+        "Ortsteil" : "Lindenau",
+        "Baumart_wi" : "Tilia cordata 'Greenspire'",
+        "Baumart_de" : "Stadt-Linde",
+        "Pflanzjahr" : 2006
+    },
+    "geometry" : {
+        "type" : "Point",
+        "coordinates" : [ 
+            12.3337705106847, 
+            51.3359626124112
+        ]
+    }
+}, {
+    "type" : "Feature",
+    "properties" : {
+        "Standortnu" : 44364,
+        "Strasse_Na" : "Bowmanstraße",
+        "Ortsteil" : "Lindenau",
+        "Baumart_wi" : "Platanus x acerifolia",
+        "Baumart_de" : "Platane",
+        "Pflanzjahr" : 2005
+    },
+    "geometry" : {
+        "type" : "Point",
+        "coordinates" : [ 
+            12.3413878423145, 
+            51.3356439313104
+        ]
+    }
+}, {
+    "type" : "Feature",
+    "properties" : {
+        "Standortnu" : 39842,
+        "Strasse_Na" : "Karl-Heine-Straße",
+        "Ortsteil" : "Lindenau",
+        "Baumart_wi" : "Acer pseudoplatanus",
+        "Baumart_de" : "Berg-Ahorn",
+        "Pflanzjahr" : 1950
+    },
+    "geometry" : {
+        "type" : "Point",
+        "coordinates" : [ 
+            12.3394659289984, 
+            51.3324109791672
+        ]
+    }
+}, {
+    "type" : "Feature",
+    "properties" : {
+        "Standortnu" : 39988,
+        "Strasse_Na" : "Lionstraße",
+        "Ortsteil" : "Lindenau",
+        "Baumart_wi" : "Tilia species",
+        "Baumart_de" : "Linde",
+        "Pflanzjahr" : 1930
+    },
+    "geometry" : {
+        "type" : "Point",
+        "coordinates" : [ 
+            12.3404773713903, 
+            51.3345625362602
+        ]
+    }
+}, {
+    "type" : "Feature",
+    "properties" : {
+        "Standortnu" : 39907,
+        "Strasse_Na" : "Karl-Heine-Straße",
+        "Ortsteil" : "Lindenau",
+        "Baumart_wi" : "Platanus x acerifolia",
+        "Baumart_de" : "Platane",
+        "Pflanzjahr" : 2000
+    },
+    "geometry" : {
+        "type" : "Point",
+        "coordinates" : [ 
+            12.3481476453943, 
+            51.3322178055105
+        ]
+    }
+}, {
+    "type" : "Feature",
+    "properties" : {
+        "Standortnu" : 39909,
+        "Strasse_Na" : "Karl-Heine-Straße",
+        "Ortsteil" : "Lindenau",
+        "Baumart_wi" : "Platanus x acerifolia",
+        "Baumart_de" : "Platane",
+        "Pflanzjahr" : 2000
+    },
+    "geometry" : {
+        "type" : "Point",
+        "coordinates" : [ 
+            12.3479345119871, 
+            51.3322233641888
+        ]
+    }
+}, {
+    "type" : "Feature",
+    "properties" : {
+        "Standortnu" : 39911,
+        "Strasse_Na" : "Karl-Heine-Straße",
+        "Ortsteil" : "Lindenau",
+        "Baumart_wi" : "Acer pseudoplatanus",
+        "Baumart_de" : "Berg-Ahorn",
+        "Pflanzjahr" : 1960
+    },
+    "geometry" : {
+        "type" : "Point",
+        "coordinates" : [ 
+            12.3477261001807, 
+            51.3322279609627
+        ]
+    }
+}, {
+    "type" : "Feature",
+    "properties" : {
+        "Standortnu" : 39912,
+        "Strasse_Na" : "Karl-Heine-Straße",
+        "Ortsteil" : "Lindenau",
+        "Baumart_wi" : "Platanus x acerifolia",
+        "Baumart_de" : "Platane",
+        "Pflanzjahr" : 2000
+    },
+    "geometry" : {
+        "type" : "Point",
+        "coordinates" : [ 
+            12.3476237792963, 
+            51.3322293903714
+        ]
+    }
+}, {
+    "type" : "Feature",
+    "properties" : {
+        "Standortnu" : 39916,
+        "Strasse_Na" : "Karl-Heine-Straße",
+        "Ortsteil" : "Lindenau",
+        "Baumart_wi" : "Acer pseudoplatanus",
+        "Baumart_de" : "Berg-Ahorn",
+        "Pflanzjahr" : 1960
+    },
+    "geometry" : {
+        "type" : "Point",
+        "coordinates" : [ 
+            12.3472125495485, 
+            51.3322393468933
+        ]
+    }
+}, {
+    "type" : "Feature",
+    "properties" : {
+        "Standortnu" : 39919,
+        "Strasse_Na" : "Karl-Heine-Straße",
+        "Ortsteil" : "Lindenau",
+        "Baumart_wi" : "Acer platanoides",
+        "Baumart_de" : "Spitz-Ahorn",
+        "Pflanzjahr" : 1960
+    },
+    "geometry" : {
+        "type" : "Point",
+        "coordinates" : [ 
+            12.3468950560679, 
+            51.3322470581174
+        ]
+    }
+}, {
+    "type" : "Feature",
+    "properties" : {
+        "Standortnu" : 39921,
+        "Strasse_Na" : "Karl-Heine-Straße",
+        "Ortsteil" : "Lindenau",
+        "Baumart_wi" : "Platanus x acerifolia",
+        "Baumart_de" : "Platane",
+        "Pflanzjahr" : 2000
+    },
+    "geometry" : {
+        "type" : "Point",
+        "coordinates" : [ 
+            12.3467187309178, 
+            51.3322521563876
+        ]
+    }
+}, {
+    "type" : "Feature",
+    "properties" : {
+        "Standortnu" : 39923,
+        "Strasse_Na" : "Karl-Heine-Straße",
+        "Ortsteil" : "Lindenau",
+        "Baumart_wi" : "Platanus x acerifolia",
+        "Baumart_de" : "Platane",
+        "Pflanzjahr" : 2000
+    },
+    "geometry" : {
+        "type" : "Point",
+        "coordinates" : [ 
+            12.346471188108, 
+            51.3322588383013
+        ]
+    }
+}, {
+    "type" : "Feature",
+    "properties" : {
+        "Standortnu" : 39925,
+        "Strasse_Na" : "Karl-Heine-Straße",
+        "Ortsteil" : "Lindenau",
+        "Baumart_wi" : "Platanus x acerifolia",
+        "Baumart_de" : "Platane",
+        "Pflanzjahr" : 2000
+    },
+    "geometry" : {
+        "type" : "Point",
+        "coordinates" : [ 
+            12.3462869762192, 
+            51.3322653311057
+        ]
+    }
+}, {
+    "type" : "Feature",
+    "properties" : {
+        "Standortnu" : 39930,
+        "Strasse_Na" : "Karl-Heine-Straße",
+        "Ortsteil" : "Lindenau",
+        "Baumart_wi" : "Platanus x acerifolia",
+        "Baumart_de" : "Platane",
+        "Pflanzjahr" : 2000
+    },
+    "geometry" : {
+        "type" : "Point",
+        "coordinates" : [ 
+            12.3457516533368, 
+            51.3322756468158
+        ]
+    }
+}, {
+    "type" : "Feature",
+    "properties" : {
+        "Standortnu" : 39933,
+        "Strasse_Na" : "Karl-Heine-Straße",
+        "Ortsteil" : "Lindenau",
+        "Baumart_wi" : "Platanus x acerifolia",
+        "Baumart_de" : "Platane",
+        "Pflanzjahr" : 2000
+    },
+    "geometry" : {
+        "type" : "Point",
+        "coordinates" : [ 
+            12.3454967082758, 
+            51.3322840062114
+        ]
+    }
+}, {
+    "type" : "Feature",
+    "properties" : {
+        "Standortnu" : 39934,
+        "Strasse_Na" : "Karl-Heine-Straße",
+        "Ortsteil" : "Lindenau",
+        "Baumart_wi" : "Platanus x acerifolia",
+        "Baumart_de" : "Platane",
+        "Pflanzjahr" : 2000
+    },
+    "geometry" : {
+        "type" : "Point",
+        "coordinates" : [ 
+            12.3453359511834, 
+            51.3322877996221
+        ]
+    }
+}, {
+    "type" : "Feature",
+    "properties" : {
+        "Standortnu" : 39936,
+        "Strasse_Na" : "Karl-Heine-Straße",
+        "Ortsteil" : "Lindenau",
+        "Baumart_wi" : "Platanus x acerifolia",
+        "Baumart_de" : "Platane",
+        "Pflanzjahr" : 2000
+    },
+    "geometry" : {
+        "type" : "Point",
+        "coordinates" : [ 
+            12.3451339097931, 
+            51.3322927566071
+        ]
+    }
+}, {
+    "type" : "Feature",
+    "properties" : {
+        "Standortnu" : 39927,
+        "Strasse_Na" : "Karl-Heine-Straße",
+        "Ortsteil" : "Lindenau",
+        "Baumart_wi" : "Platanus x acerifolia",
+        "Baumart_de" : "Platane",
+        "Pflanzjahr" : 2007
+    },
+    "geometry" : {
+        "type" : "Point",
+        "coordinates" : [ 
+            12.3460761731623, 
+            51.3322646901314
+        ]
+    }
+}, {
+    "type" : "Feature",
+    "properties" : {
+        "Standortnu" : 39929,
+        "Strasse_Na" : "Karl-Heine-Straße",
+        "Ortsteil" : "Lindenau",
+        "Baumart_wi" : "Platanus x acerifolia",
+        "Baumart_de" : "Platane",
+        "Pflanzjahr" : 2007
+    },
+    "geometry" : {
+        "type" : "Point",
+        "coordinates" : [ 
+            12.3458680264048, 
+            51.3322699101989
+        ]
+    }
+}, {
+    "type" : "Feature",
+    "properties" : {
+        "Standortnu" : 39939,
+        "Strasse_Na" : "Karl-Heine-Straße",
+        "Ortsteil" : "Lindenau",
+        "Baumart_wi" : "Platanus x acerifolia",
+        "Baumart_de" : "Platane",
+        "Pflanzjahr" : 2013
+    },
+    "geometry" : {
+        "type" : "Point",
+        "coordinates" : [ 
+            12.3447637459561, 
+            51.3322943512919
+        ]
+    }
+}, {
+    "type" : "Feature",
+    "properties" : {
+        "Standortnu" : 39941,
+        "Strasse_Na" : "Karl-Heine-Straße",
+        "Ortsteil" : "Lindenau",
+        "Baumart_wi" : "Acer platanoides",
+        "Baumart_de" : "Spitz-Ahorn",
+        "Pflanzjahr" : 1960
+    },
+    "geometry" : {
+        "type" : "Point",
+        "coordinates" : [ 
+            12.3445662381351, 
+            51.3322996871515
+        ]
+    }
+}, {
+    "type" : "Feature",
+    "properties" : {
+        "Standortnu" : 40274,
+        "Strasse_Na" : "Erich-Zeigner-Allee",
+        "Ortsteil" : "Lindenau",
+        "Baumart_wi" : "Aesculus hippocastanum 'Baumannii'",
+        "Baumart_de" : "Gefülltblühende Rosskastanie",
+        "Pflanzjahr" : 2007
+    },
+    "geometry" : {
+        "type" : "Point",
+        "coordinates" : [ 
+            12.3402445460667, 
+            51.3338011614309
+        ]
+    }
+}, {
+    "type" : "Feature",
+    "properties" : {
+        "Standortnu" : 44334,
+        "Strasse_Na" : "Bowmanstraße",
+        "Ortsteil" : "Lindenau",
+        "Baumart_wi" : "Platanus x acerifolia",
+        "Baumart_de" : "Platane",
+        "Pflanzjahr" : 2015
+    },
+    "geometry" : {
+        "type" : "Point",
+        "coordinates" : [ 
+            12.3410068725579, 
+            51.335541596593
+        ]
+    }
+}, {
+    "type" : "Feature",
+    "properties" : {
+        "Standortnu" : 44337,
+        "Strasse_Na" : "Bowmanstraße",
+        "Ortsteil" : "Lindenau",
+        "Baumart_wi" : "Platanus x acerifolia",
+        "Baumart_de" : "Platane",
+        "Pflanzjahr" : 2008
+    },
+    "geometry" : {
+        "type" : "Point",
+        "coordinates" : [ 
+            12.3404915745895, 
+            51.3354299723419
+        ]
+    }
+}, {
+    "type" : "Feature",
+    "properties" : {
+        "Standortnu" : 40283,
+        "Strasse_Na" : "Erich-Zeigner-Allee",
+        "Ortsteil" : "Lindenau",
+        "Baumart_wi" : "Platanus x acerifolia",
+        "Baumart_de" : "Platane",
+        "Pflanzjahr" : 2014
+    },
+    "geometry" : {
+        "type" : "Point",
+        "coordinates" : [ 
+            12.3406092364478, 
+            51.3332535243359
+        ]
+    }
+}, {
+    "type" : "Feature",
+    "properties" : {
+        "Standortnu" : 44338,
+        "Strasse_Na" : "Bowmanstraße",
+        "Ortsteil" : "Lindenau",
+        "Baumart_wi" : "Platanus x acerifolia",
+        "Baumart_de" : "Platane",
+        "Pflanzjahr" : 2005
+    },
+    "geometry" : {
+        "type" : "Point",
+        "coordinates" : [ 
+            12.3402488648936, 
+            51.3353860251918
+        ]
+    }
+}, {
+    "type" : "Feature",
+    "properties" : {
+        "Standortnu" : 40284,
+        "Strasse_Na" : "Erich-Zeigner-Allee",
+        "Ortsteil" : "Lindenau",
+        "Baumart_wi" : "Platanus x acerifolia",
+        "Baumart_de" : "Platane",
+        "Pflanzjahr" : 2015
+    },
+    "geometry" : {
+        "type" : "Point",
+        "coordinates" : [ 
+            12.3406539939052, 
+            51.3331765127998
+        ]
+    }
+}, {
+    "type" : "Feature",
+    "properties" : {
+        "Standortnu" : 44339,
+        "Strasse_Na" : "Bowmanstraße",
+        "Ortsteil" : "Lindenau",
+        "Baumart_wi" : "Platanus x acerifolia",
+        "Baumart_de" : "Platane",
+        "Pflanzjahr" : 2005
+    },
+    "geometry" : {
+        "type" : "Point",
+        "coordinates" : [ 
+            12.3400942508109, 
+            51.3353641478822
+        ]
+    }
+}, {
+    "type" : "Feature",
+    "properties" : {
+        "Standortnu" : 40285,
+        "Strasse_Na" : "Erich-Zeigner-Allee",
+        "Ortsteil" : "Lindenau",
+        "Baumart_wi" : "Platanus x acerifolia",
+        "Baumart_de" : "Platane",
+        "Pflanzjahr" : 2014
+    },
+    "geometry" : {
+        "type" : "Point",
+        "coordinates" : [ 
+            12.3406953536164, 
+            51.3331096548517
+        ]
+    }
+}, {
+    "type" : "Feature",
+    "properties" : {
+        "Standortnu" : 44336,
+        "Strasse_Na" : "Bowmanstraße",
+        "Ortsteil" : "Lindenau",
+        "Baumart_wi" : "Platanus x acerifolia",
+        "Baumart_de" : "Platane",
+        "Pflanzjahr" : 2008
+    },
+    "geometry" : {
+        "type" : "Point",
+        "coordinates" : [ 
+            12.3406260505281, 
+            51.3354586120884
+        ]
+    }
+}, {
+    "type" : "Feature",
+    "properties" : {
+        "Standortnu" : 40288,
+        "Strasse_Na" : "Erich-Zeigner-Allee",
+        "Ortsteil" : "Lindenau",
+        "Baumart_wi" : "Robinia pseudoacacia",
+        "Baumart_de" : "Robinie",
+        "Pflanzjahr" : 2005
+    },
+    "geometry" : {
+        "type" : "Point",
+        "coordinates" : [ 
+            12.339570988117, 
+            51.3341046619744
+        ]
+    }
+}, {
+    "type" : "Feature",
+    "properties" : {
+        "Standortnu" : 40289,
+        "Strasse_Na" : "Erich-Zeigner-Allee",
+        "Ortsteil" : "Lindenau",
+        "Baumart_wi" : "Robinia pseudoacacia",
+        "Baumart_de" : "Robinie",
+        "Pflanzjahr" : 1920
+    },
+    "geometry" : {
+        "type" : "Point",
+        "coordinates" : [ 
+            12.3396901012808, 
+            51.334134164288
+        ]
+    }
+}, {
+    "type" : "Feature",
+    "properties" : {
+        "Standortnu" : 40287,
+        "Strasse_Na" : "Erich-Zeigner-Allee",
+        "Ortsteil" : "Lindenau",
+        "Baumart_wi" : "Robinia pseudoacacia",
+        "Baumart_de" : "Robinie",
+        "Pflanzjahr" : 1920
+    },
+    "geometry" : {
+        "type" : "Point",
+        "coordinates" : [ 
+            12.3395604484141, 
+            51.3342142251739
+        ]
+    }
+}, {
+    "type" : "Feature",
+    "properties" : {
+        "Standortnu" : 39861,
+        "Strasse_Na" : "Karl-Heine-Straße",
+        "Ortsteil" : "Lindenau",
+        "Baumart_wi" : "Platanus x acerifolia",
+        "Baumart_de" : "Platane",
+        "Pflanzjahr" : 2000
+    },
+    "geometry" : {
+        "type" : "Point",
+        "coordinates" : [ 
+            12.3440785679674, 
+            51.3323128795193
+        ]
+    }
+}, {
+    "type" : "Feature",
+    "properties" : {
+        "Standortnu" : 39863,
+        "Strasse_Na" : "Karl-Heine-Straße",
+        "Ortsteil" : "Lindenau",
+        "Baumart_wi" : "Platanus x acerifolia",
+        "Baumart_de" : "Platane",
+        "Pflanzjahr" : 2000
+    },
+    "geometry" : {
+        "type" : "Point",
+        "coordinates" : [ 
+            12.3438568929096, 
+            51.3323210098515
+        ]
+    }
+}, {
+    "type" : "Feature",
+    "properties" : {
+        "Standortnu" : 39915,
+        "Strasse_Na" : "Karl-Heine-Straße",
+        "Ortsteil" : "Lindenau",
+        "Baumart_wi" : "Platanus x acerifolia",
+        "Baumart_de" : "Platane",
+        "Pflanzjahr" : 2000
+    },
+    "geometry" : {
+        "type" : "Point",
+        "coordinates" : [ 
+            12.3473837489372, 
+            51.332237507209
+        ]
+    }
+}, {
+    "type" : "Feature",
+    "properties" : {
+        "Standortnu" : 36294,
+        "Strasse_Na" : "Käthe-Kollwitz-Straße",
+        "Ortsteil" : "Lindenau",
+        "Baumart_wi" : "Tilia cordata 'Greenspire'",
+        "Baumart_de" : "Stadt-Linde",
+        "Pflanzjahr" : 1996
+    },
+    "geometry" : {
+        "type" : "Point",
+        "coordinates" : [ 
+            12.3500881021541, 
+            51.3324981418534
+        ]
+    }
+}, {
+    "type" : "Feature",
+    "properties" : {
+        "Standortnu" : 36296,
+        "Strasse_Na" : "Käthe-Kollwitz-Straße",
+        "Ortsteil" : "Lindenau",
+        "Baumart_wi" : "Tilia cordata 'Greenspire'",
+        "Baumart_de" : "Stadt-Linde",
+        "Pflanzjahr" : 1996
+    },
+    "geometry" : {
+        "type" : "Point",
+        "coordinates" : [ 
+            12.3499383675149, 
+            51.3324119327135
+        ]
+    }
+}, {
+    "type" : "Feature",
+    "properties" : {
+        "Standortnu" : 36301,
+        "Strasse_Na" : "Käthe-Kollwitz-Straße",
+        "Ortsteil" : "Lindenau",
+        "Baumart_wi" : "Tilia cordata 'Greenspire'",
+        "Baumart_de" : "Stadt-Linde",
+        "Pflanzjahr" : 2003
+    },
+    "geometry" : {
+        "type" : "Point",
+        "coordinates" : [ 
+            12.3507973456679, 
+            51.33287818977
+        ]
+    }
+}, {
+    "type" : "Feature",
+    "properties" : {
+        "Standortnu" : 36300,
+        "Strasse_Na" : "Käthe-Kollwitz-Straße",
+        "Ortsteil" : "Lindenau",
+        "Baumart_wi" : "Tilia cordata 'Greenspire'",
+        "Baumart_de" : "Stadt-Linde",
+        "Pflanzjahr" : 1996
+    },
+    "geometry" : {
+        "type" : "Point",
+        "coordinates" : [ 
+            12.3509248784743, 
+            51.3329463163958
+        ]
+    }
+}, {
+    "type" : "Feature",
+    "properties" : {
+        "Standortnu" : 36302,
+        "Strasse_Na" : "Käthe-Kollwitz-Straße",
+        "Ortsteil" : "Lindenau",
+        "Baumart_wi" : "Tilia cordata 'Greenspire'",
+        "Baumart_de" : "Stadt-Linde",
+        "Pflanzjahr" : 2003
+    },
+    "geometry" : {
+        "type" : "Point",
+        "coordinates" : [ 
+            12.3507051239437, 
+            51.3328251753754
+        ]
+    }
+}, {
+    "type" : "Feature",
+    "properties" : {
+        "Standortnu" : 44349,
+        "Strasse_Na" : "Bowmanstraße",
+        "Ortsteil" : "Lindenau",
+        "Baumart_wi" : "Platanus x acerifolia",
+        "Baumart_de" : "Platane",
+        "Pflanzjahr" : 2005
+    },
+    "geometry" : {
+        "type" : "Point",
+        "coordinates" : [ 
+            12.3424784798388, 
+            51.337220077556
+        ]
+    }
+}, {
+    "type" : "Feature",
+    "properties" : {
+        "Standortnu" : 44351,
+        "Strasse_Na" : "Bowmanstraße",
+        "Ortsteil" : "Lindenau",
+        "Baumart_wi" : "Platanus x acerifolia",
+        "Baumart_de" : "Platane",
+        "Pflanzjahr" : 2005
+    },
+    "geometry" : {
+        "type" : "Point",
+        "coordinates" : [ 
+            12.3423947126441, 
+            51.3369806669109
+        ]
+    }
+}, {
+    "type" : "Feature",
+    "properties" : {
+        "Standortnu" : 44352,
+        "Strasse_Na" : "Bowmanstraße",
+        "Ortsteil" : "Lindenau",
+        "Baumart_wi" : "Platanus x acerifolia",
+        "Baumart_de" : "Platane",
+        "Pflanzjahr" : 2005
+    },
+    "geometry" : {
+        "type" : "Point",
+        "coordinates" : [ 
+            12.3423595778261, 
+            51.3368914617641
+        ]
+    }
+}, {
+    "type" : "Feature",
+    "properties" : {
+        "Standortnu" : 44353,
+        "Strasse_Na" : "Bowmanstraße",
+        "Ortsteil" : "Lindenau",
+        "Baumart_wi" : "Platanus x acerifolia",
+        "Baumart_de" : "Platane",
+        "Pflanzjahr" : 2005
+    },
+    "geometry" : {
+        "type" : "Point",
+        "coordinates" : [ 
+            12.3423243929295, 
+            51.3367933225295
+        ]
+    }
+}, {
+    "type" : "Feature",
+    "properties" : {
+        "Standortnu" : 44358,
+        "Strasse_Na" : "Bowmanstraße",
+        "Ortsteil" : "Lindenau",
+        "Baumart_wi" : "Platanus x acerifolia",
+        "Baumart_de" : "Platane",
+        "Pflanzjahr" : 2005
+    },
+    "geometry" : {
+        "type" : "Point",
+        "coordinates" : [ 
+            12.3421232139111, 
+            51.3362669685721
+        ]
+    }
+}, {
+    "type" : "Feature",
+    "properties" : {
+        "Standortnu" : 44359,
+        "Strasse_Na" : "Bowmanstraße",
+        "Ortsteil" : "Lindenau",
+        "Baumart_wi" : "Platanus x acerifolia",
+        "Baumart_de" : "Platane",
+        "Pflanzjahr" : 2005
+    },
+    "geometry" : {
+        "type" : "Point",
+        "coordinates" : [ 
+            12.342076117535, 
+            51.3361651419349
+        ]
+    }
+}, {
+    "type" : "Feature",
+    "properties" : {
+        "Standortnu" : 44360,
+        "Strasse_Na" : "Bowmanstraße",
+        "Ortsteil" : "Lindenau",
+        "Baumart_wi" : "Platanus x acerifolia",
+        "Baumart_de" : "Platane",
+        "Pflanzjahr" : 2008
+    },
+    "geometry" : {
+        "type" : "Point",
+        "coordinates" : [ 
+            12.3419824198469, 
+            51.3360292155117
+        ]
+    }
+}, {
+    "type" : "Feature",
+    "properties" : {
+        "Standortnu" : 44361,
+        "Strasse_Na" : "Bowmanstraße",
+        "Ortsteil" : "Lindenau",
+        "Baumart_wi" : "Platanus x acerifolia",
+        "Baumart_de" : "Platane",
+        "Pflanzjahr" : 2008
+    },
+    "geometry" : {
+        "type" : "Point",
+        "coordinates" : [ 
+            12.341908135987, 
+            51.335946820212
+        ]
+    }
+}, {
+    "type" : "Feature",
+    "properties" : {
+        "Standortnu" : 44362,
+        "Strasse_Na" : "Bowmanstraße",
+        "Ortsteil" : "Lindenau",
+        "Baumart_wi" : "Platanus x acerifolia",
+        "Baumart_de" : "Platane",
+        "Pflanzjahr" : 2008
+    },
+    "geometry" : {
+        "type" : "Point",
+        "coordinates" : [ 
+            12.3418196364682, 
+            51.3358689336862
+        ]
+    }
+}, {
+    "type" : "Feature",
+    "properties" : {
+        "Standortnu" : 44340,
+        "Strasse_Na" : "Bowmanstraße",
+        "Ortsteil" : "Lindenau",
+        "Baumart_wi" : "Platanus x acerifolia",
+        "Baumart_de" : "Platane",
+        "Pflanzjahr" : 2005
+    },
+    "geometry" : {
+        "type" : "Point",
+        "coordinates" : [ 
+            12.3425358555314, 
+            51.3382172379384
+        ]
+    }
+}, {
+    "type" : "Feature",
+    "properties" : {
+        "Standortnu" : 44341,
+        "Strasse_Na" : "Bowmanstraße",
+        "Ortsteil" : "Lindenau",
+        "Baumart_wi" : "Platanus x acerifolia",
+        "Baumart_de" : "Platane",
+        "Pflanzjahr" : 2005
+    },
+    "geometry" : {
+        "type" : "Point",
+        "coordinates" : [ 
+            12.3425529210755, 
+            51.3381159686777
+        ]
+    }
+}, {
+    "type" : "Feature",
+    "properties" : {
+        "Standortnu" : 44342,
+        "Strasse_Na" : "Bowmanstraße",
+        "Ortsteil" : "Lindenau",
+        "Baumart_wi" : "Platanus x acerifolia",
+        "Baumart_de" : "Platane",
+        "Pflanzjahr" : 2005
+    },
+    "geometry" : {
+        "type" : "Point",
+        "coordinates" : [ 
+            12.3425696484941, 
+            51.3379715290703
+        ]
+    }
+}, {
+    "type" : "Feature",
+    "properties" : {
+        "Standortnu" : 44343,
+        "Strasse_Na" : "Bowmanstraße",
+        "Ortsteil" : "Lindenau",
+        "Baumart_wi" : "Platanus x acerifolia",
+        "Baumart_de" : "Platane",
+        "Pflanzjahr" : 2005
+    },
+    "geometry" : {
+        "type" : "Point",
+        "coordinates" : [ 
+            12.3425760792906, 
+            51.3378777335192
+        ]
+    }
+}, {
+    "type" : "Feature",
+    "properties" : {
+        "Standortnu" : 44344,
+        "Strasse_Na" : "Bowmanstraße",
+        "Ortsteil" : "Lindenau",
+        "Baumart_wi" : "Platanus x acerifolia",
+        "Baumart_de" : "Platane",
+        "Pflanzjahr" : 2005
+    },
+    "geometry" : {
+        "type" : "Point",
+        "coordinates" : [ 
+            12.3425765475204, 
+            51.3377809712689
+        ]
+    }
+}, {
+    "type" : "Feature",
+    "properties" : {
+        "Standortnu" : 44345,
+        "Strasse_Na" : "Bowmanstraße",
+        "Ortsteil" : "Lindenau",
+        "Baumart_wi" : "Platanus x acerifolia",
+        "Baumart_de" : "Platane",
+        "Pflanzjahr" : 2005
+    },
+    "geometry" : {
+        "type" : "Point",
+        "coordinates" : [ 
+            12.3425707615342, 
+            51.3376425565858
+        ]
+    }
+}, {
+    "type" : "Feature",
+    "properties" : {
+        "Standortnu" : 44347,
+        "Strasse_Na" : "Bowmanstraße",
+        "Ortsteil" : "Lindenau",
+        "Baumart_wi" : "Platanus x acerifolia",
+        "Baumart_de" : "Platane",
+        "Pflanzjahr" : 2005
+    },
+    "geometry" : {
+        "type" : "Point",
+        "coordinates" : [ 
+            12.3425443401636, 
+            51.3374461481057
+        ]
+    }
+}, {
+    "type" : "Feature",
+    "properties" : {
+        "Standortnu" : 44348,
+        "Strasse_Na" : "Bowmanstraße",
+        "Ortsteil" : "Lindenau",
+        "Baumart_wi" : "Platanus x acerifolia",
+        "Baumart_de" : "Platane",
+        "Pflanzjahr" : 2005
+    },
+    "geometry" : {
+        "type" : "Point",
+        "coordinates" : [ 
+            12.3425100688756, 
+            51.3373130228564
+        ]
+    }
+}, {
+    "type" : "Feature",
+    "properties" : {
+        "Standortnu" : 71738,
+        "Strasse_Na" : "GutsMuthsstraße",
+        "Ortsteil" : "Lindenau",
+        "Baumart_wi" : "Quercus robur 'Fastigiata Koster'",
+        "Baumart_de" : "Säulen-Eiche 'Fastigiata Koster'",
+        "Pflanzjahr" : 2010
+    },
+    "geometry" : {
+        "type" : "Point",
+        "coordinates" : [ 
+            12.3302487191763, 
+            51.3337099066043
+        ]
+    }
+}, {
+    "type" : "Feature",
+    "properties" : {
+        "Standortnu" : 71739,
+        "Strasse_Na" : "GutsMuthsstraße",
+        "Ortsteil" : "Lindenau",
+        "Baumart_wi" : "Quercus robur 'Fastigiata Koster'",
+        "Baumart_de" : "Säulen-Eiche 'Fastigiata Koster'",
+        "Pflanzjahr" : 2010
+    },
+    "geometry" : {
+        "type" : "Point",
+        "coordinates" : [ 
+            12.3303230283629, 
+            51.3335984112543
+        ]
+    }
+}, {
+    "type" : "Feature",
+    "properties" : {
+        "Standortnu" : 71740,
+        "Strasse_Na" : "Weg 7004",
+        "Ortsteil" : "Lindenau",
+        "Baumart_wi" : "Acer pseudoplatanus",
+        "Baumart_de" : "Berg-Ahorn",
+        "Pflanzjahr" : 1950
+    },
+    "geometry" : {
+        "type" : "Point",
+        "coordinates" : [ 
+            12.3299254741308, 
+            51.3335728026151
+        ]
+    }
+}, {
+    "type" : "Feature",
+    "properties" : {
+        "Standortnu" : 71742,
+        "Strasse_Na" : "Weg 7004",
+        "Ortsteil" : "Lindenau",
+        "Baumart_wi" : "Acer pseudoplatanus",
+        "Baumart_de" : "Berg-Ahorn",
+        "Pflanzjahr" : 1970
+    },
+    "geometry" : {
+        "type" : "Point",
+        "coordinates" : [ 
+            12.3295032829523, 
+            51.3334621541676
+        ]
+    }
+}, {
+    "type" : "Feature",
+    "properties" : {
+        "Standortnu" : 71743,
+        "Strasse_Na" : "Weg 7004",
+        "Ortsteil" : "Lindenau",
+        "Baumart_wi" : "Acer pseudoplatanus",
+        "Baumart_de" : "Berg-Ahorn",
+        "Pflanzjahr" : 1960
+    },
+    "geometry" : {
+        "type" : "Point",
+        "coordinates" : [ 
+            12.3294648615968, 
+            51.3334522025593
+        ]
+    }
+}, {
+    "type" : "Feature",
+    "properties" : {
+        "Standortnu" : 72126,
+        "Strasse_Na" : "Lützner Straße",
+        "Ortsteil" : "Lindenau",
+        "Baumart_wi" : "Tilia cordata 'Roelvo'",
+        "Baumart_de" : "Winter-Linde 'Roelvo'",
+        "Pflanzjahr" : 2012
+    },
+    "geometry" : {
+        "type" : "Point",
+        "coordinates" : [ 
+            12.3244983283006, 
+            51.3336207960687
+        ]
+    }
+}, {
+    "type" : "Feature",
+    "properties" : {
+        "Standortnu" : 72125,
+        "Strasse_Na" : "Lützner Straße",
+        "Ortsteil" : "Lindenau",
+        "Baumart_wi" : "Tilia cordata 'Roelvo'",
+        "Baumart_de" : "Winter-Linde 'Roelvo'",
+        "Pflanzjahr" : 2012
+    },
+    "geometry" : {
+        "type" : "Point",
+        "coordinates" : [ 
+            12.3246667483542, 
+            51.3337046823991
+        ]
+    }
+}, {
+    "type" : "Feature",
+    "properties" : {
+        "Standortnu" : 72124,
+        "Strasse_Na" : "Lützner Straße",
+        "Ortsteil" : "Lindenau",
+        "Baumart_wi" : "Tilia cordata 'Roelvo'",
+        "Baumart_de" : "Winter-Linde 'Roelvo'",
+        "Pflanzjahr" : 2012
+    },
+    "geometry" : {
+        "type" : "Point",
+        "coordinates" : [ 
+            12.3248361763014, 
+            51.3337891959204
+        ]
+    }
+}, {
+    "type" : "Feature",
+    "properties" : {
+        "Standortnu" : 72123,
+        "Strasse_Na" : "Lützner Straße",
+        "Ortsteil" : "Lindenau",
+        "Baumart_wi" : "Tilia cordata 'Roelvo'",
+        "Baumart_de" : "Winter-Linde 'Roelvo'",
+        "Pflanzjahr" : 2012
+    },
+    "geometry" : {
+        "type" : "Point",
+        "coordinates" : [ 
+            12.3250025920982, 
+            51.3338737177058
+        ]
+    }
+}, {
+    "type" : "Feature",
+    "properties" : {
+        "Standortnu" : 72122,
+        "Strasse_Na" : "Lützner Straße",
+        "Ortsteil" : "Lindenau",
+        "Baumart_wi" : "Tilia cordata 'Roelvo'",
+        "Baumart_de" : "Winter-Linde 'Roelvo'",
+        "Pflanzjahr" : 2012
+    },
+    "geometry" : {
+        "type" : "Point",
+        "coordinates" : [ 
+            12.3253334391576, 
+            51.334046544903
+        ]
+    }
+}, {
+    "type" : "Feature",
+    "properties" : {
+        "Standortnu" : 72121,
+        "Strasse_Na" : "Lützner Straße",
+        "Ortsteil" : "Lindenau",
+        "Baumart_wi" : "Tilia cordata 'Roelvo'",
+        "Baumart_de" : "Winter-Linde 'Roelvo'",
+        "Pflanzjahr" : 2012
+    },
+    "geometry" : {
+        "type" : "Point",
+        "coordinates" : [ 
+            12.3254877159034, 
+            51.3341197690054
+        ]
+    }
+}, {
+    "type" : "Feature",
+    "properties" : {
+        "Standortnu" : 72120,
+        "Strasse_Na" : "Lützner Straße",
+        "Ortsteil" : "Lindenau",
+        "Baumart_wi" : "Tilia cordata 'Roelvo'",
+        "Baumart_de" : "Winter-Linde 'Roelvo'",
+        "Pflanzjahr" : 2012
+    },
+    "geometry" : {
+        "type" : "Point",
+        "coordinates" : [ 
+            12.3256450995546, 
+            51.3341969745285
+        ]
+    }
+}, {
+    "type" : "Feature",
+    "properties" : {
+        "Standortnu" : 72119,
+        "Strasse_Na" : "Lützner Straße",
+        "Ortsteil" : "Lindenau",
+        "Baumart_wi" : "Tilia cordata 'Roelvo'",
+        "Baumart_de" : "Winter-Linde 'Roelvo'",
+        "Pflanzjahr" : 2012
+    },
+    "geometry" : {
+        "type" : "Point",
+        "coordinates" : [ 
+            12.3258427168775, 
+            51.3342969331172
+        ]
+    }
+}, {
+    "type" : "Feature",
+    "properties" : {
+        "Standortnu" : 72118,
+        "Strasse_Na" : "Lützner Straße",
+        "Ortsteil" : "Lindenau",
+        "Baumart_wi" : "Tilia cordata 'Roelvo'",
+        "Baumart_de" : "Winter-Linde 'Roelvo'",
+        "Pflanzjahr" : 2012
+    },
+    "geometry" : {
+        "type" : "Point",
+        "coordinates" : [ 
+            12.3260283092059, 
+            51.334383737984
+        ]
+    }
+}, {
+    "type" : "Feature",
+    "properties" : {
+        "Standortnu" : 72117,
+        "Strasse_Na" : "Lützner Straße",
+        "Ortsteil" : "Lindenau",
+        "Baumart_wi" : "Tilia cordata 'Roelvo'",
+        "Baumart_de" : "Winter-Linde 'Roelvo'",
+        "Pflanzjahr" : 2012
+    },
+    "geometry" : {
+        "type" : "Point",
+        "coordinates" : [ 
+            12.3261915314244, 
+            51.3344629127262
+        ]
+    }
+}, {
+    "type" : "Feature",
+    "properties" : {
+        "Standortnu" : 72116,
+        "Strasse_Na" : "Lützner Straße",
+        "Ortsteil" : "Lindenau",
+        "Baumart_wi" : "Tilia cordata 'Roelvo'",
+        "Baumart_de" : "Winter-Linde 'Roelvo'",
+        "Pflanzjahr" : 2012
+    },
+    "geometry" : {
+        "type" : "Point",
+        "coordinates" : [ 
+            12.3264000114299, 
+            51.3345563602868
+        ]
+    }
+}, {
+    "type" : "Feature",
+    "properties" : {
+        "Standortnu" : 72115,
+        "Strasse_Na" : "Lützner Straße",
+        "Ortsteil" : "Lindenau",
+        "Baumart_wi" : "Tilia cordata 'Roelvo'",
+        "Baumart_de" : "Winter-Linde 'Roelvo'",
+        "Pflanzjahr" : 2012
+    },
+    "geometry" : {
+        "type" : "Point",
+        "coordinates" : [ 
+            12.3265713205788, 
+            51.3346262483774
+        ]
+    }
+}, {
+    "type" : "Feature",
+    "properties" : {
+        "Standortnu" : 72114,
+        "Strasse_Na" : "Lützner Straße",
+        "Ortsteil" : "Lindenau",
+        "Baumart_wi" : "Tilia cordata 'Roelvo'",
+        "Baumart_de" : "Winter-Linde 'Roelvo'",
+        "Pflanzjahr" : 2012
+    },
+    "geometry" : {
+        "type" : "Point",
+        "coordinates" : [ 
+            12.3267440713463, 
+            51.3346994007239
+        ]
+    }
+}, {
+    "type" : "Feature",
+    "properties" : {
+        "Standortnu" : 72113,
+        "Strasse_Na" : "Lützner Straße",
+        "Ortsteil" : "Lindenau",
+        "Baumart_wi" : "Tilia cordata 'Roelvo'",
+        "Baumart_de" : "Winter-Linde 'Roelvo'",
+        "Pflanzjahr" : 2012
+    },
+    "geometry" : {
+        "type" : "Point",
+        "coordinates" : [ 
+            12.3269277629253, 
+            51.3347733782729
+        ]
+    }
+}, {
+    "type" : "Feature",
+    "properties" : {
+        "Standortnu" : 72112,
+        "Strasse_Na" : "Lützner Straße",
+        "Ortsteil" : "Lindenau",
+        "Baumart_wi" : "Tilia cordata 'Roelvo'",
+        "Baumart_de" : "Winter-Linde 'Roelvo'",
+        "Pflanzjahr" : 2012
+    },
+    "geometry" : {
+        "type" : "Point",
+        "coordinates" : [ 
+            12.3271100879795, 
+            51.3348473594018
+        ]
+    }
+}, {
+    "type" : "Feature",
+    "properties" : {
+        "Standortnu" : 72111,
+        "Strasse_Na" : "Lützner Straße",
+        "Ortsteil" : "Lindenau",
+        "Baumart_wi" : "Tilia cordata 'Roelvo'",
+        "Baumart_de" : "Winter-Linde 'Roelvo'",
+        "Pflanzjahr" : 2012
+    },
+    "geometry" : {
+        "type" : "Point",
+        "coordinates" : [ 
+            12.3272910280565, 
+            51.3349187740744
+        ]
+    }
+}, {
+    "type" : "Feature",
+    "properties" : {
+        "Standortnu" : 72110,
+        "Strasse_Na" : "Lützner Straße",
+        "Ortsteil" : "Lindenau",
+        "Baumart_wi" : "Tilia cordata 'Roelvo'",
+        "Baumart_de" : "Winter-Linde 'Roelvo'",
+        "Pflanzjahr" : 2012
+    },
+    "geometry" : {
+        "type" : "Point",
+        "coordinates" : [ 
+            12.327454907478, 
+            51.3349816637673
+        ]
+    }
+}, {
+    "type" : "Feature",
+    "properties" : {
+        "Standortnu" : 72092,
+        "Strasse_Na" : "Lützner Straße",
+        "Ortsteil" : "Lindenau",
+        "Baumart_wi" : "Tilia cordata 'Roelvo'",
+        "Baumart_de" : "Winter-Linde 'Roelvo'",
+        "Pflanzjahr" : 2012
+    },
+    "geometry" : {
+        "type" : "Point",
+        "coordinates" : [ 
+            12.3276404681729, 
+            51.3350489480492
+        ]
+    }
+}, {
+    "type" : "Feature",
+    "properties" : {
+        "Standortnu" : 72091,
+        "Strasse_Na" : "Lützner Straße",
+        "Ortsteil" : "Lindenau",
+        "Baumart_wi" : "Tilia cordata 'Roelvo'",
+        "Baumart_de" : "Winter-Linde 'Roelvo'",
+        "Pflanzjahr" : 2012
+    },
+    "geometry" : {
+        "type" : "Point",
+        "coordinates" : [ 
+            12.3278584182923, 
+            51.3351278156181
+        ]
+    }
+}, {
+    "type" : "Feature",
+    "properties" : {
+        "Standortnu" : 72090,
+        "Strasse_Na" : "Lützner Straße",
+        "Ortsteil" : "Lindenau",
+        "Baumart_wi" : "Tilia cordata 'Roelvo'",
+        "Baumart_de" : "Winter-Linde 'Roelvo'",
+        "Pflanzjahr" : 2012
+    },
+    "geometry" : {
+        "type" : "Point",
+        "coordinates" : [ 
+            12.328058434224, 
+            51.3351906146467
+        ]
+    }
+}, {
+    "type" : "Feature",
+    "properties" : {
+        "Standortnu" : 72089,
+        "Strasse_Na" : "Lützner Straße",
+        "Ortsteil" : "Lindenau",
+        "Baumart_wi" : "Tilia cordata 'Roelvo'",
+        "Baumart_de" : "Winter-Linde 'Roelvo'",
+        "Pflanzjahr" : 2012
+    },
+    "geometry" : {
+        "type" : "Point",
+        "coordinates" : [ 
+            12.3282584444762, 
+            51.3352525578576
+        ]
+    }
+}, {
+    "type" : "Feature",
+    "properties" : {
+        "Standortnu" : 72088,
+        "Strasse_Na" : "Lützner Straße",
+        "Ortsteil" : "Lindenau",
+        "Baumart_wi" : "Tilia cordata 'Roelvo'",
+        "Baumart_de" : "Winter-Linde 'Roelvo'",
+        "Pflanzjahr" : 2012
+    },
+    "geometry" : {
+        "type" : "Point",
+        "coordinates" : [ 
+            12.3284584471444, 
+            51.3353093577093
+        ]
+    }
+}, {
+    "type" : "Feature",
+    "properties" : {
+        "Standortnu" : 72087,
+        "Strasse_Na" : "Lützner Straße",
+        "Ortsteil" : "Lindenau",
+        "Baumart_wi" : "Tilia cordata 'Roelvo'",
+        "Baumart_de" : "Winter-Linde 'Roelvo'",
+        "Pflanzjahr" : 2012
+    },
+    "geometry" : {
+        "type" : "Point",
+        "coordinates" : [ 
+            12.3286424756661, 
+            51.33536377979
+        ]
+    }
+}, {
+    "type" : "Feature",
+    "properties" : {
+        "Standortnu" : 72086,
+        "Strasse_Na" : "Lützner Straße",
+        "Ortsteil" : "Lindenau",
+        "Baumart_wi" : "Tilia cordata 'Roelvo'",
+        "Baumart_de" : "Winter-Linde 'Roelvo'",
+        "Pflanzjahr" : 2012
+    },
+    "geometry" : {
+        "type" : "Point",
+        "coordinates" : [ 
+            12.3288155483074, 
+            51.3354140939947
+        ]
+    }
+}, {
+    "type" : "Feature",
+    "properties" : {
+        "Standortnu" : 72085,
+        "Strasse_Na" : "Lützner Straße",
+        "Ortsteil" : "Lindenau",
+        "Baumart_wi" : "Tilia cordata 'Roelvo'",
+        "Baumart_de" : "Winter-Linde 'Roelvo'",
+        "Pflanzjahr" : 2012
+    },
+    "geometry" : {
+        "type" : "Point",
+        "coordinates" : [ 
+            12.3289996331915, 
+            51.3354609932097
+        ]
+    }
+}, {
+    "type" : "Feature",
+    "properties" : {
+        "Standortnu" : 72077,
+        "Strasse_Na" : "Lützner Straße",
+        "Ortsteil" : "Lindenau",
+        "Baumart_wi" : "Tilia cordata 'Roelvo'",
+        "Baumart_de" : "Winter-Linde 'Roelvo'",
+        "Pflanzjahr" : 2012
+    },
+    "geometry" : {
+        "type" : "Point",
+        "coordinates" : [ 
+            12.3293044574821, 
+            51.3355265457701
+        ]
+    }
+}, {
+    "type" : "Feature",
+    "properties" : {
+        "Standortnu" : 72076,
+        "Strasse_Na" : "Lützner Straße",
+        "Ortsteil" : "Lindenau",
+        "Baumart_wi" : "Tilia cordata 'Roelvo'",
+        "Baumart_de" : "Winter-Linde 'Roelvo'",
+        "Pflanzjahr" : 2012
+    },
+    "geometry" : {
+        "type" : "Point",
+        "coordinates" : [ 
+            12.3294894120215, 
+            51.3355580094502
+        ]
+    }
+}, {
+    "type" : "Feature",
+    "properties" : {
+        "Standortnu" : 72370,
+        "Strasse_Na" : "Weg 5102",
+        "Ortsteil" : "Lindenau",
+        "Baumart_wi" : "Fraxinus excelsior",
+        "Baumart_de" : "Gemeine Esche",
+        "Pflanzjahr" : 1995
+    },
+    "geometry" : {
+        "type" : "Point",
+        "coordinates" : [ 
+            12.3269860122791, 
+            51.3323892070213
+        ]
+    }
+}, {
+    "type" : "Feature",
+    "properties" : {
+        "Standortnu" : 72369,
+        "Strasse_Na" : "Weg 5102",
+        "Ortsteil" : "Lindenau",
+        "Baumart_wi" : "Acer pseudoplatanus",
+        "Baumart_de" : "Berg-Ahorn",
+        "Pflanzjahr" : 1995
+    },
+    "geometry" : {
+        "type" : "Point",
+        "coordinates" : [ 
+            12.3269985977824, 
+            51.332423655013
+        ]
+    }
+}, {
+    "type" : "Feature",
+    "properties" : {
+        "Standortnu" : 72371,
+        "Strasse_Na" : "Weg 5102",
+        "Ortsteil" : "Lindenau",
+        "Baumart_wi" : "Fraxinus excelsior",
+        "Baumart_de" : "Gemeine Esche",
+        "Pflanzjahr" : 1995
+    },
+    "geometry" : {
+        "type" : "Point",
+        "coordinates" : [ 
+            12.326841156554, 
+            51.3323057820965
+        ]
+    }
+}, {
+    "type" : "Feature",
+    "properties" : {
+        "Standortnu" : 72374,
+        "Strasse_Na" : "Weg 5102",
+        "Ortsteil" : "Lindenau",
+        "Baumart_wi" : "Robinia x margaretta 'Casque Rouge'",
+        "Baumart_de" : "Robinie 'Casque Rouge'",
+        "Pflanzjahr" : 2009
+    },
+    "geometry" : {
+        "type" : "Point",
+        "coordinates" : [ 
+            12.3263757224211, 
+            51.3319848403601
+        ]
+    }
+}, {
+    "type" : "Feature",
+    "properties" : {
+        "Standortnu" : 72375,
+        "Strasse_Na" : "Weg 5102",
+        "Ortsteil" : "Lindenau",
+        "Baumart_wi" : "Robinia x margaretta 'Casque Rouge'",
+        "Baumart_de" : "Robinie 'Casque Rouge'",
+        "Pflanzjahr" : 2009
+    },
+    "geometry" : {
+        "type" : "Point",
+        "coordinates" : [ 
+            12.3263299514272, 
+            51.3319546467348
+        ]
+    }
+}, {
+    "type" : "Feature",
+    "properties" : {
+        "Standortnu" : 72376,
+        "Strasse_Na" : "Weg 5102",
+        "Ortsteil" : "Lindenau",
+        "Baumart_wi" : "Robinia x margaretta 'Casque Rouge'",
+        "Baumart_de" : "Robinie 'Casque Rouge'",
+        "Pflanzjahr" : 2009
+    },
+    "geometry" : {
+        "type" : "Point",
+        "coordinates" : [ 
+            12.3262851213472, 
+            51.3319232612747
+        ]
+    }
+}, {
+    "type" : "Feature",
+    "properties" : {
+        "Standortnu" : 72377,
+        "Strasse_Na" : "Weg 5102",
+        "Ortsteil" : "Lindenau",
+        "Baumart_wi" : "Robinia pseudoacacia",
+        "Baumart_de" : "Robinie",
+        "Pflanzjahr" : 2000
+    },
+    "geometry" : {
+        "type" : "Point",
+        "coordinates" : [ 
+            12.3262107618547, 
+            51.3318764994813
+        ]
+    }
+}, {
+    "type" : "Feature",
+    "properties" : {
+        "Standortnu" : 72379,
+        "Strasse_Na" : "Weg 5102",
+        "Ortsteil" : "Lindenau",
+        "Baumart_wi" : "Betula pendula",
+        "Baumart_de" : "Sand-Birke",
+        "Pflanzjahr" : 2000
+    },
+    "geometry" : {
+        "type" : "Point",
+        "coordinates" : [ 
+            12.3253531189028, 
+            51.3312792335579
+        ]
+    }
+}, {
+    "type" : "Feature",
+    "properties" : {
+        "Standortnu" : 72380,
+        "Strasse_Na" : "Weg 5102",
+        "Ortsteil" : "Lindenau",
+        "Baumart_wi" : "Acer pseudoplatanus",
+        "Baumart_de" : "Berg-Ahorn",
+        "Pflanzjahr" : 1990
+    },
+    "geometry" : {
+        "type" : "Point",
+        "coordinates" : [ 
+            12.3249658592458, 
+            51.3311126513952
+        ]
+    }
+}, {
+    "type" : "Feature",
+    "properties" : {
+        "Standortnu" : 72381,
+        "Strasse_Na" : "Weg 5102",
+        "Ortsteil" : "Lindenau",
+        "Baumart_wi" : "Robinia pseudoacacia",
+        "Baumart_de" : "Robinie",
+        "Pflanzjahr" : 1990
+    },
+    "geometry" : {
+        "type" : "Point",
+        "coordinates" : [ 
+            12.3237482253377, 
+            51.3303276023191
+        ]
+    }
+}, {
+    "type" : "Feature",
+    "properties" : {
+        "Standortnu" : 72383,
+        "Strasse_Na" : "Weg 5102",
+        "Ortsteil" : "Lindenau",
+        "Baumart_wi" : "Fraxinus excelsior",
+        "Baumart_de" : "Gemeine Esche",
+        "Pflanzjahr" : 2005
+    },
+    "geometry" : {
+        "type" : "Point",
+        "coordinates" : [ 
+            12.3233611066376, 
+            51.3302648399449
+        ]
+    }
+}, {
+    "type" : "Feature",
+    "properties" : {
+        "Standortnu" : 74434,
+        "Strasse_Na" : "Lützner Straße",
+        "Ortsteil" : "Lindenau",
+        "Baumart_wi" : "Tilia cordata 'Greenspire'",
+        "Baumart_de" : "Stadt-Linde",
+        "Pflanzjahr" : 2014
+    },
+    "geometry" : {
+        "type" : "Point",
+        "coordinates" : [ 
+            12.3229155966997, 
+            51.3329291631277
+        ]
+    }
+}, {
+    "type" : "Feature",
+    "properties" : {
+        "Standortnu" : 74433,
+        "Strasse_Na" : "Lützner Straße",
+        "Ortsteil" : "Lindenau",
+        "Baumart_wi" : "Tilia cordata 'Greenspire'",
+        "Baumart_de" : "Stadt-Linde",
+        "Pflanzjahr" : 2014
+    },
+    "geometry" : {
+        "type" : "Point",
+        "coordinates" : [ 
+            12.3231159477733, 
+            51.3330057196644
+        ]
+    }
+}, {
+    "type" : "Feature",
+    "properties" : {
+        "Standortnu" : 74432,
+        "Strasse_Na" : "Lützner Straße",
+        "Ortsteil" : "Lindenau",
+        "Baumart_wi" : "Tilia cordata 'Greenspire'",
+        "Baumart_de" : "Stadt-Linde",
+        "Pflanzjahr" : 2014
+    },
+    "geometry" : {
+        "type" : "Point",
+        "coordinates" : [ 
+            12.323357083535, 
+            51.3330967689087
+        ]
+    }
+}, {
+    "type" : "Feature",
+    "properties" : {
+        "Standortnu" : 74431,
+        "Strasse_Na" : "Lützner Straße",
+        "Ortsteil" : "Lindenau",
+        "Baumart_wi" : "Tilia cordata 'Greenspire'",
+        "Baumart_de" : "Stadt-Linde",
+        "Pflanzjahr" : 2014
+    },
+    "geometry" : {
+        "type" : "Point",
+        "coordinates" : [ 
+            12.3235917521631, 
+            51.3331845398225
+        ]
+    }
+}, {
+    "type" : "Feature",
+    "properties" : {
+        "Standortnu" : 74430,
+        "Strasse_Na" : "Lützner Straße",
+        "Ortsteil" : "Lindenau",
+        "Baumart_wi" : "Tilia cordata 'Greenspire'",
+        "Baumart_de" : "Stadt-Linde",
+        "Pflanzjahr" : 2014
+    },
+    "geometry" : {
+        "type" : "Point",
+        "coordinates" : [ 
+            12.3238293812205, 
+            51.3332786369555
+        ]
+    }
+}, {
+    "type" : "Feature",
+    "properties" : {
+        "Standortnu" : 74973,
+        "Strasse_Na" : "Birkenstraße",
+        "Ortsteil" : "Lindenau",
+        "Baumart_wi" : "Malus tschonoskii",
+        "Baumart_de" : "Woll-Apfel",
+        "Pflanzjahr" : 2017
+    },
+    "geometry" : {
+        "type" : "Point",
+        "coordinates" : [ 
+            12.3370043223844, 
+            51.3334388603615
+        ]
+    }
+}, {
+    "type" : "Feature",
+    "properties" : {
+        "Standortnu" : 75277,
+        "Strasse_Na" : "Birkenstraße",
+        "Ortsteil" : "Lindenau",
+        "Baumart_wi" : "Malus tschonoskii",
+        "Baumart_de" : "Woll-Apfel",
+        "Pflanzjahr" : 2018
+    },
+    "geometry" : {
+        "type" : "Point",
+        "coordinates" : [ 
+            12.3364014472094, 
+            51.3350243001676
+        ]
+    }
+}, {
+    "type" : "Feature",
+    "properties" : {
+        "Standortnu" : 75278,
+        "Strasse_Na" : "Birkenstraße",
+        "Ortsteil" : "Lindenau",
+        "Baumart_wi" : "Malus tschonoskii",
+        "Baumart_de" : "Woll-Apfel",
+        "Pflanzjahr" : 2018
+    },
+    "geometry" : {
+        "type" : "Point",
+        "coordinates" : [ 
+            12.3365301763957, 
+            51.3346714645416
+        ]
+    }
+}, {
+    "type" : "Feature",
+    "properties" : {
+        "Standortnu" : 75279,
+        "Strasse_Na" : "Birkenstraße",
+        "Ortsteil" : "Lindenau",
+        "Baumart_wi" : "Malus tschonoskii",
+        "Baumart_de" : "Woll-Apfel",
+        "Pflanzjahr" : 2018
+    },
+    "geometry" : {
+        "type" : "Point",
+        "coordinates" : [ 
+            12.3366488363276, 
+            51.3343612341236
+        ]
+    }
+}, {
+    "type" : "Feature",
+    "properties" : {
+        "Standortnu" : 75280,
+        "Strasse_Na" : "Birkenstraße",
+        "Ortsteil" : "Lindenau",
+        "Baumart_wi" : "Malus tschonoskii",
+        "Baumart_de" : "Woll-Apfel",
+        "Pflanzjahr" : 2018
+    },
+    "geometry" : {
+        "type" : "Point",
+        "coordinates" : [ 
+            12.3367738732393, 
+            51.3340392503619
+        ]
+    }
+}, {
+    "type" : "Feature",
+    "properties" : {
+        "Standortnu" : 75281,
+        "Strasse_Na" : "Birkenstraße",
+        "Ortsteil" : "Lindenau",
+        "Baumart_wi" : "Malus tschonoskii",
+        "Baumart_de" : "Woll-Apfel",
+        "Pflanzjahr" : 2017
+    },
+    "geometry" : {
+        "type" : "Point",
+        "coordinates" : [ 
+            12.3368944267771, 
+            51.3337290627773
+        ]
+    }
+}, {
+    "type" : "Feature",
+    "properties" : {
+        "Standortnu" : 75085,
+        "Strasse_Na" : "Siemeringstraße",
+        "Ortsteil" : "Lindenau",
+        "Baumart_wi" : "Liquidambar styraciflua",
+        "Baumart_de" : "Amberbaum",
+        "Pflanzjahr" : 2017
+    },
+    "geometry" : {
+        "type" : "Point",
+        "coordinates" : [ 
+            12.3359074383339, 
+            51.3336185554771
+        ]
+    }
+}, {
+    "type" : "Feature",
+    "properties" : {
+        "Standortnu" : 75084,
+        "Strasse_Na" : "Siemeringstraße",
+        "Ortsteil" : "Lindenau",
+        "Baumart_wi" : "Liquidambar styraciflua",
+        "Baumart_de" : "Amberbaum",
+        "Pflanzjahr" : 2017
+    },
+    "geometry" : {
+        "type" : "Point",
+        "coordinates" : [ 
+            12.3358565368671, 
+            51.333710205452
+        ]
+    }
+}, {
+    "type" : "Feature",
+    "properties" : {
+        "Standortnu" : 75083,
+        "Strasse_Na" : "Siemeringstraße",
+        "Ortsteil" : "Lindenau",
+        "Baumart_wi" : "Liquidambar styraciflua",
+        "Baumart_de" : "Amberbaum",
+        "Pflanzjahr" : 2017
+    },
+    "geometry" : {
+        "type" : "Point",
+        "coordinates" : [ 
+            12.3357670115765, 
+            51.3338783158034
+        ]
+    }
+}, {
+    "type" : "Feature",
+    "properties" : {
+        "Standortnu" : 75082,
+        "Strasse_Na" : "Siemeringstraße",
+        "Ortsteil" : "Lindenau",
+        "Baumart_wi" : "Liquidambar styraciflua",
+        "Baumart_de" : "Amberbaum",
+        "Pflanzjahr" : 2017
+    },
+    "geometry" : {
+        "type" : "Point",
+        "coordinates" : [ 
+            12.3356882789325, 
+            51.3340240650355
+        ]
+    }
+}, {
+    "type" : "Feature",
+    "properties" : {
+        "Standortnu" : 75081,
+        "Strasse_Na" : "Siemeringstraße",
+        "Ortsteil" : "Lindenau",
+        "Baumart_wi" : "Liquidambar styraciflua",
+        "Baumart_de" : "Amberbaum",
+        "Pflanzjahr" : 2017
+    },
+    "geometry" : {
+        "type" : "Point",
+        "coordinates" : [ 
+            12.3355687832436, 
+            51.3342831125103
+        ]
+    }
+}, {
+    "type" : "Feature",
+    "properties" : {
+        "Standortnu" : 75080,
+        "Strasse_Na" : "Siemeringstraße",
+        "Ortsteil" : "Lindenau",
+        "Baumart_wi" : "Liquidambar styraciflua",
+        "Baumart_de" : "Amberbaum",
+        "Pflanzjahr" : 2017
+    },
+    "geometry" : {
+        "type" : "Point",
+        "coordinates" : [ 
+            12.3353341927485, 
+            51.3345288306615
+        ]
+    }
+}, {
+    "type" : "Feature",
+    "properties" : {
+        "Standortnu" : 75079,
+        "Strasse_Na" : "Siemeringstraße",
+        "Ortsteil" : "Lindenau",
+        "Baumart_wi" : "Liquidambar styraciflua",
+        "Baumart_de" : "Amberbaum",
+        "Pflanzjahr" : 2017
+    },
+    "geometry" : {
+        "type" : "Point",
+        "coordinates" : [ 
+            12.3352656680948, 
+            51.3346950388447
+        ]
+    }
+}, {
+    "type" : "Feature",
+    "properties" : {
+        "Standortnu" : 75078,
+        "Strasse_Na" : "Siemeringstraße",
+        "Ortsteil" : "Lindenau",
+        "Baumart_wi" : "Liquidambar styraciflua",
+        "Baumart_de" : "Amberbaum",
+        "Pflanzjahr" : 2017
+    },
+    "geometry" : {
+        "type" : "Point",
+        "coordinates" : [ 
+            12.3351950732613, 
+            51.3348968965913
+        ]
+    }
+}, {
+    "type" : "Feature",
+    "properties" : {
+        "Standortnu" : 75076,
+        "Strasse_Na" : "Siemeringstraße",
+        "Ortsteil" : "Lindenau",
+        "Baumart_wi" : "Liquidambar styraciflua",
+        "Baumart_de" : "Amberbaum",
+        "Pflanzjahr" : 2017
+    },
+    "geometry" : {
+        "type" : "Point",
+        "coordinates" : [ 
+            12.3351007593284, 
+            51.3352284346659
+        ]
+    }
+}, {
+    "type" : "Feature",
+    "properties" : {
+        "Standortnu" : 75075,
+        "Strasse_Na" : "Siemeringstraße",
+        "Ortsteil" : "Lindenau",
+        "Baumart_wi" : "Liquidambar styraciflua",
+        "Baumart_de" : "Amberbaum",
+        "Pflanzjahr" : 2017
+    },
+    "geometry" : {
+        "type" : "Point",
+        "coordinates" : [ 
+            12.3350340189205, 
+            51.3354580936163
+        ]
+    }
+},
+{
+    "type" : "Feature",
+    "properties" : {
+        "Standortnu" : 75077,
+        "Strasse_Na" : "Siemeringstraße",
+        "Ortsteil" : "Lindenau",
+        "Baumart_wi" : "Liquidambar styraciflua",
+        "Baumart_de" : "Amberbaum",
+        "Pflanzjahr" : 2017
+    },
+    "geometry" : {
+        "type" : "Point",
+        "coordinates" : [ 
+            12.3351428947241, 
+            51.3350432499583
+        ]
+    }
+}, 
+{
+    "type" : "Feature",
+    "properties" : {
+        "Standortnu" : 76435,
+        "Strasse_Na" : "Lionstraße",
+        "Ortsteil" : "Lindenau",
+        "Baumart_wi" : "Ulmus 'Columella'",
+        "Baumart_de" : "Säulen-Ulme",
+        "Pflanzjahr" : 2019
+    },
+    "geometry" : {
+        "type" : "Point",
+        "coordinates" : [ 
+            12.3398207070682, 
+            51.3351854132992
+        ]
+    }
+}
+]}
