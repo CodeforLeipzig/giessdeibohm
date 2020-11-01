@@ -30,7 +30,7 @@ define(["jquery", "leaflet", "leaflet.ajax", "district", "street", "tree_type", 
         htmlInner += "<b>Straßenname:</b> "
         htmlInner += street.streetSelectionBox(state);
         if (props) {
-          state.setLastSelectedStreet(state.getStreets().indexOf(props["strasse_Na"]));
+          state.setLastSelectedStreet(state.getStreets().indexOf(props["strasse"]));
         } else if (!state.getStreetExplicitySet()) {
           state.setLastSelectedStreet(0);
         }
