@@ -9,6 +9,12 @@ define(["jquery", "leaflet", "leaflet.ajax"], ($, leaflet, leafletAjax) => ({
   },
   createCircleMarker: (state) => (feature, latlng) => {
     const selectedTree = state.getSelectedTree();
+    const selectedStreet = state.getLastSelectedStreet();
+    const street = feature.properties["Strasse_Na"];
+    state.addStreet(street);
+    const selectedTreeType = state.getLastSelectedTreeType();
+    const treeType = feature.properties["Baumart_de"];
+    state.addTreeType(treeType);
     var options = {
       radius: 8,
       fillColor: selectedTree && selectedTree === feature.properties["Standortnu"] ? "red" : "lightgreen",
@@ -17,7 +23,12 @@ define(["jquery", "leaflet", "leaflet.ajax"], ($, leaflet, leafletAjax) => ({
       opacity: 1,
       fillOpacity: 0.8
     }
-    return L.circleMarker(latlng, options);
+    const matchesStreet = !selectedStreet || selectedStreet == 0 || state.getStreets()[selectedStreet] == street;
+    const matchesTreeType = !selectedTreeType || selectedTreeType == 0 || state.getTreeTypes()[selectedTreeType] == treeType;
+    const showMarker = matchesStreet && matchesTreeType
+    if (showMarker) {
+      return L.circleMarker(latlng, options);
+    }
   },
   districtCenter: (arr) => {
     var arrToUse;

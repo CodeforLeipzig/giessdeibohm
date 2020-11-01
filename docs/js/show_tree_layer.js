@@ -7,6 +7,7 @@ define(["jquery", "leaflet", "leaflet.ajax", "map", "icon", "info"], ($, leaflet
     registerLayerMouseOver(state, icon, info, geoJsonLayer);
     registerLayerMouseOut(state, icon, info, geoJsonLayer);
     geoJsonLayer.on('click', registerLayerMouseClick(state, icon, info));
+    state.getInfo().update();
   }
 });
 

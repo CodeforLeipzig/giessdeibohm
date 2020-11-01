@@ -3,6 +3,9 @@ define(["jquery", "leaflet", "leaflet.ajax", "show_district_border_layer", "show
     loadData: (state, district) => {
       $.getJSON(`geojsons/districts/${district}.geojson`, data => showDistrictBorderLayer(state, data));
       $.getJSON(`geojsons/trees/${district}.geojson`, data => showTreeLayer(state, data));
+    },
+    loadTreeData: (state, district) => {
+      $.getJSON(`geojsons/trees/${district}.geojson`, data => showTreeLayer(state, data));
     }
   }
 });

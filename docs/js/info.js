@@ -1,6 +1,6 @@
-define(["jquery", "leaflet", "leaflet.ajax", "district"], ($, leaflet, leafletAjax, district) => {
+define(["jquery", "leaflet", "leaflet.ajax", "district", "street", "tree_type"], ($, leaflet, leafletAjax, district, street, treeType) => {
   return {
-    configureInfo: (state) => {
+    configureInfo: (state, data) => {
       // control that shows state info on hover
       var info = leaflet.control();
       info.onAdd = function (map) {
@@ -11,43 +11,70 @@ define(["jquery", "leaflet", "leaflet.ajax", "district"], ($, leaflet, leafletAj
       info.update = function (id, props) {
         var htmlInner = '<div style="width: 300px;">';
         if (!props) {
-            htmlInner += '<h4>Hovere &uuml;ber einen Baum</h4>'
+          htmlInner += '<h4>Hovere &uuml;ber einen Baum</h4>'
         } else {
-            htmlInner += '<h4>Infos</h4>'
+          htmlInner += '<h4>Infos</h4>'
         }
+        htmlInner += "<br />"
+        htmlInner += "<b>Ortsteil:</b> "
         htmlInner += district.districtSelectionBox(state);
-        htmlInner += "<ul>"
-        htmlInner += "<li><b>Standortnummer:</b> "
-          if (props) {
-          htmlInner += props["Standortnu"] + "</li>"
-          }
-        htmlInner += "<li><b>Ortsteil:</b> "
-          if (props) {
-          htmlInner += props["Ortsteil"] + "</li>"
-          }
-        htmlInner += "<li><b>Straßenname:</b> "
-          if (props) {
-          htmlInner += props["Strasse_Na"] + "</li>"
-          }
-        htmlInner += "<li><b>Baumart:</b> "
-          if (props) {
-          htmlInner += props["Baumart_de"] + "</li>"
-          }
-        htmlInner += "<li><b>Baumart (wissenschaftlich):</b> "
-          if (props) {
-          htmlInner += props["Baumart_wi"] + "</li>"
-          }
-        htmlInner += "<li><b>Pflanzjahr:</b> "
-          if (props) {
-          htmlInner += props["Pflanzjahr"] + "</li>"
-          }
+        htmlInner += "<br /><br />"
+        htmlInner += "<b>Standortnummer:</b> "
         if (props) {
-          htmlInner += "<li><a href=\"https://docs.google.com/spreadsheets/d/1Y3eo3r1Ie03VkmS1PpvNZsEW1zMKwDzfNg7lYSXG3Z8/edit#gid=1991371235&range=G7\">Google Doc</a></li>"
+          htmlInner += props["Standortnu"]
         }
-        htmlInner += "</ul>"
+        htmlInner += "<br /><br />"
+        htmlInner += "<b>Straßenname:</b> "
+        htmlInner += street.streetSelectionBox(state);
+        if (props) {
+          state.setLastSelectedStreet(state.getStreets().indexOf(props["Strasse_Na"]));
+        } else if (!state.getStreetExplicitySet()) {
+          state.setLastSelectedStreet(0);
+        }
+        htmlInner += "<br /><br />"
+        htmlInner += "<b>Baumart:</b> "
+        htmlInner += treeType.treeTypeSelectionBox(state);
+        if (props) {
+          state.setLastSelectedTreeType(state.getTreeTypes().indexOf(props["Baumart_de"]));
+        } else if (!state.getTreeTypeExplicitySet()) {
+          state.setLastSelectedTreeType(0);
+        }
+        htmlInner += "<br /><br />"
+        htmlInner += "<b>Baumart (wissenschaftlich):</b> "
+        if (props) {
+          htmlInner += props["Baumart_wi"]
+        }
+        htmlInner += "<br /><br />"
+        htmlInner += "<b>Pflanzjahr:</b> "
+        if (props) {
+          htmlInner += props["Pflanzjahr"]
+        }
+        if (props) {
+          htmlInner += "<br /><br />"
+          htmlInner += "<a href=\"https://docs.google.com/spreadsheets/d/1Y3eo3r1Ie03VkmS1PpvNZsEW1zMKwDzfNg7lYSXG3Z8/edit#gid=1991371235&range=G7\">Google Doc</a>"
+        }
         htmlInner += '</div>';
         this._div.innerHTML = htmlInner;
         district.setDistrictInSelectionBox(state);
+        street.setStreetInSelectionBox(state);
+        treeType.setTreeTypeInSelectionBox(state);
+        $("#districtSelection").off('change');
+        $("#districtSelection").on('change', function(e) {
+          district.handleDistrictChange(document, data, state);
+          state.getInfo().update();
+        });
+        $("#streetSelection").off('change');
+        $("#streetSelection").on('change', function(e) {
+          state.setStreetExplicitySet(true);
+          street.handleStreetChange(document, data, state);
+          state.setStreetExplicitySet(state.getLastSelectedStreet() != 0);
+        });
+        $("#treeTypeSelection").off('change');
+        $("#treeTypeSelection").on('change', function(e) {
+          state.setTreeTypeExplicitySet(true);
+          treeType.handleTreeTypeChange(document, data, state);
+          state.setTreeTypeExplicitySet(state.getLastSelectedTreeType() != 0);
+        });
       }
       state.setInfo(info);
       return info;
