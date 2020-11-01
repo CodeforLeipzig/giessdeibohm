@@ -1,5 +1,6 @@
 define(["jquery", "leaflet", "leaflet.ajax", "map", "icon", "info"], ($, leaflet, leafletAjax, map, icon, info) => {
   return (state, data) => {
+    state.setMatchCount(0);
     var geoJsonLayer = L.geoJson(data, { pointToLayer: map.createCircleMarker(state) });
     state.setLastTreeLayer(geoJsonLayer);
     state.getTreeMap().addLayer(geoJsonLayer);
@@ -14,7 +15,7 @@ define(["jquery", "leaflet", "leaflet.ajax", "map", "icon", "info"], ($, leaflet
 function registerLayerMouseOver(state, icon, info, geoJsonLayer) {
   geoJsonLayer.on('mouseover', function (e) {
     if (!state.getLastCoordinates()) {
-      state.setSelectedTree(e.layer.feature.properties["Standortnu"]);
+      state.setSelectedTree(e.layer.feature.properties["standortnr"]);
       icon.changeIcon(state, e);
       info.highlightFeature(state, e);
     }

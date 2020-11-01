@@ -21,6 +21,7 @@ define({
     var yearTos = [ " " ];
     var lastHoveredCoords;
     var info;
+    var matchCount = 0;
 
     return {
       getTreeMap: () => { return treeMap },
@@ -44,6 +45,7 @@ define({
       getTreeTypeExplicitySet: () => { return treeTypeExplicitySet },
       getYearFromExplicitySet: () => { return yearFromExplicitySet },
       getYearToExplicitySet: () => { return yearToExplicitySet },
+      getMatchCount: () => { return matchCount },
 
       setTreeMap: (newTreeMap) => { treeMap = newTreeMap },
       setLastSelectedDistrict: (newLastSelectedDistrict) => { lastSelectedDistrict = newLastSelectedDistrict },
@@ -70,6 +72,7 @@ define({
       setTreeTypeExplicitySet: (newTreeTypeExplicitySet) => { treeTypeExplicitySet = newTreeTypeExplicitySet },
       setYearFromExplicitySet: (newYearFromExplicitySet) => { yearFromExplicitySet = newYearFromExplicitySet },
       setYearToExplicitySet: (newYearToExplicitySet) => { tearToExplicitySet = newYearToExplicitySet },
+      setMatchCount: (newMatchCount) => { matchCount = newMatchCount},
     }
   }
 });

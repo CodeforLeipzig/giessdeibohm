@@ -16,18 +16,21 @@ define(["jquery", "leaflet", "leaflet.ajax", "district", "street", "tree_type", 
           htmlInner += '<h4>Infos</h4>'
         }
         htmlInner += "<br />"
+        htmlInner += "<b>Suchtreffer:</b> "
+        htmlInner += state.getMatchCount();
+        htmlInner += "<br /><br />"
         htmlInner += "<b>Ortsteil:</b> "
         htmlInner += district.districtSelectionBox(state);
         htmlInner += "<br /><br />"
         htmlInner += "<b>Standortnummer:</b> "
         if (props) {
-          htmlInner += props["Standortnu"]
+          htmlInner += props["standortnr"]
         }
         htmlInner += "<br /><br />"
         htmlInner += "<b>Straßenname:</b> "
         htmlInner += street.streetSelectionBox(state);
         if (props) {
-          state.setLastSelectedStreet(state.getStreets().indexOf(props["Strasse_Na"]));
+          state.setLastSelectedStreet(state.getStreets().indexOf(props["strasse_Na"]));
         } else if (!state.getStreetExplicitySet()) {
           state.setLastSelectedStreet(0);
         }
@@ -35,27 +38,27 @@ define(["jquery", "leaflet", "leaflet.ajax", "district", "street", "tree_type", 
         htmlInner += "<b>Baumart:</b> "
         htmlInner += treeType.treeTypeSelectionBox(state);
         if (props) {
-          state.setLastSelectedTreeType(state.getTreeTypes().indexOf(props["Baumart_de"]));
+          state.setLastSelectedTreeType(state.getTreeTypes().indexOf(props["baumart_de"]));
         } else if (!state.getTreeTypeExplicitySet()) {
           state.setLastSelectedTreeType(0);
         }
         htmlInner += "<br /><br />"
         htmlInner += "<b>Baumart (wissenschaftlich):</b> "
         if (props) {
-          htmlInner += props["Baumart_wi"]
+          htmlInner += props["baumart_wi"]
         }
         htmlInner += "<br /><br />"
         htmlInner += "<b>Pflanzjahr:</b> zwischen "
         htmlInner += yearFrom.yearFromSelectionBox(state);
         if (props) {
-          state.setLastSelectedYearFrom(state.getYearFroms().indexOf(props["Pflanzjahr"]));
+          state.setLastSelectedYearFrom(state.getYearFroms().indexOf(props["pflanzjahr"]));
         } else {
           state.setLastSelectedYearFrom(state.getYearFromExplicitySet());
         }
         htmlInner += " und "
         htmlInner += yearTo.yearToSelectionBox(state);
         if (props) {
-          state.setLastSelectedYearTo(state.getYearTos().indexOf(props["Pflanzjahr"]));
+          state.setLastSelectedYearTo(state.getYearTos().indexOf(props["pflanzjahr"]));
         } else {
           state.setLastSelectedYearTo(state.getYearToExplicitySet());
         }
