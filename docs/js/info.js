@@ -35,6 +35,11 @@ define(["jquery", "leaflet", "leaflet.ajax", "district", "street", "tree_type", 
           state.setLastSelectedStreet(0);
         }
         htmlInner += "<br /><br />"
+        htmlInner += "<b>Gattung:</b> "
+        if (props) {
+          htmlInner += props["gattung"]
+        }
+        htmlInner += "<br /><br />"
         htmlInner += "<b>Baumart:</b> "
         htmlInner += treeType.treeTypeSelectionBox(state);
         if (props) {
