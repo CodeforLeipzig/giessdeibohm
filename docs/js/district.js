@@ -60,11 +60,17 @@ define(["jquery"], ($) => ({
         state.resetTreeTypes();
         state.setStreetExplicitySet(false);
         state.setTreeTypeExplicitySet(false);
+        state.setYearFromExplicitySet(false);
+        state.setYearToExplicitySet(false);
         state.setLastSelectedStreet(0);
         state.setLastSelectedTreeType(0);
+        state.setLastSelectedYearFrom(0);
+        state.setLastSelectedYearTo(0);
         data.loadData(state, selectedDistrict);
         $('#streetSelection option:eq(0)').prop('selected', true);
         $('#treeTypeSelection option:eq(0)').prop('selected', true);
+        $('#yearFromSelection option:eq(0)').prop('selected', true);
+        $('#yearToSelection option:eq(0)').prop('selected', true);
       }
     }
   }

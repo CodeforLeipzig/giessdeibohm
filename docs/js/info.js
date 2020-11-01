@@ -1,4 +1,4 @@
-define(["jquery", "leaflet", "leaflet.ajax", "district", "street", "tree_type"], ($, leaflet, leafletAjax, district, street, treeType) => {
+define(["jquery", "leaflet", "leaflet.ajax", "district", "street", "tree_type", "year_from", "year_to"], ($, leaflet, leafletAjax, district, street, treeType, yearFrom, yearTo) => {
   return {
     configureInfo: (state, data) => {
       // control that shows state info on hover
@@ -45,9 +45,19 @@ define(["jquery", "leaflet", "leaflet.ajax", "district", "street", "tree_type"],
           htmlInner += props["Baumart_wi"]
         }
         htmlInner += "<br /><br />"
-        htmlInner += "<b>Pflanzjahr:</b> "
+        htmlInner += "<b>Pflanzjahr:</b> zwischen "
+        htmlInner += yearFrom.yearFromSelectionBox(state);
         if (props) {
-          htmlInner += props["Pflanzjahr"]
+          state.setLastSelectedYearFrom(state.getYearFroms().indexOf(props["Pflanzjahr"]));
+        } else {
+          state.setLastSelectedYearFrom(state.getYearFromExplicitySet());
+        }
+        htmlInner += " und "
+        htmlInner += yearTo.yearToSelectionBox(state);
+        if (props) {
+          state.setLastSelectedYearTo(state.getYearTos().indexOf(props["Pflanzjahr"]));
+        } else {
+          state.setLastSelectedYearTo(state.getYearToExplicitySet());
         }
         if (props) {
           htmlInner += "<br /><br />"
@@ -58,6 +68,8 @@ define(["jquery", "leaflet", "leaflet.ajax", "district", "street", "tree_type"],
         district.setDistrictInSelectionBox(state);
         street.setStreetInSelectionBox(state);
         treeType.setTreeTypeInSelectionBox(state);
+        yearFrom.setYearFromInSelectionBox(state);
+        yearTo.setYearToInSelectionBox(state);
         $("#districtSelection").off('change');
         $("#districtSelection").on('change', function(e) {
           district.handleDistrictChange(document, data, state);
@@ -74,6 +86,18 @@ define(["jquery", "leaflet", "leaflet.ajax", "district", "street", "tree_type"],
           state.setTreeTypeExplicitySet(true);
           treeType.handleTreeTypeChange(document, data, state);
           state.setTreeTypeExplicitySet(state.getLastSelectedTreeType() != 0);
+        });
+        $("#yearFromSelection").off('change');
+        $("#yearFromSelection").on('change', function(e) {
+          state.setYearFromExplicitySet(true);
+          yearFrom.handleYearFromChange(document, data, state);
+          state.setYearFromExplicitySet(state.getLastSelectedYearFrom());
+        });
+        $("#yearToSelection").off('change');
+        $("#yearToSelection").on('change', function(e) {
+          state.setYearToExplicitySet(true);
+          yearTo.handleYearToChange(document, data, state);
+          state.setYearToExplicitySet(state.getLastSelectedYearTo());
         });
       }
       state.setInfo(info);
