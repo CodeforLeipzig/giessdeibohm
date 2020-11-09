@@ -71,7 +71,7 @@ define({
       setStreetExplicitySet: (newStreetExplicitySet) => { streetExplicitySet = newStreetExplicitySet },
       setTreeTypeExplicitySet: (newTreeTypeExplicitySet) => { treeTypeExplicitySet = newTreeTypeExplicitySet },
       setYearFromExplicitySet: (newYearFromExplicitySet) => { yearFromExplicitySet = newYearFromExplicitySet },
-      setYearToExplicitySet: (newYearToExplicitySet) => { tearToExplicitySet = newYearToExplicitySet },
+      setYearToExplicitySet: (newYearToExplicitySet) => { yearToExplicitySet = newYearToExplicitySet },
       setMatchCount: (newMatchCount) => { matchCount = newMatchCount},
     }
   }

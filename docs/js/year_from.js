@@ -36,6 +36,7 @@ define(["jquery"], ($) => ({
     }
   },
   handleYearFromChange: (document, data, state) => {
+    var yearToSelectionBox = document.getElementById("yearToSelection");
     var yearFromSelectionBox = document.getElementById("yearFromSelection");
     var districtSelectionBox = document.getElementById("districtSelection");
     if (yearFromSelectionBox && yearFromSelectionBox.selectedIndex != -1 &&
@@ -44,6 +45,16 @@ define(["jquery"], ($) => ({
       var selectedDistrict = districtSelectionBox.options[districtSelectionBox.selectedIndex].attributes["id"].value;
       state.setLastSelectedYearFrom(selectedYearFrom);
       if (selectedYearFrom != "" && selectedDistrict != "") {
+        if (yearToSelectionBox && yearToSelectionBox.selectedIndex != -1) {
+          var selectedYearTo = yearToSelectionBox.options[yearToSelectionBox.selectedIndex].attributes["id"].value;
+          if (selectedYearTo != "") {
+            if (Number(selectedYearFrom) > Number(selectedYearTo)) {
+              $('#yearToSelection option:contains(' + selectedYearFrom + ')').prop({selected: true});
+              state.setLastSelectedYearTo(selectedYearFrom);
+              state.setYearToExplicitySet(selectedYearFrom);
+            }
+          }
+        }
         state.setLastCoordinates(undefined);
         state.setSelectedTree(undefined);
         state.setOldLayer(undefined);
