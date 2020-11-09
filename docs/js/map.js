@@ -15,6 +15,9 @@ define(["jquery", "leaflet", "leaflet.ajax"], ($, leaflet, leafletAjax) => ({
     const selectedTreeType = state.getLastSelectedTreeType();
     const treeType = feature.properties["baumart_de"];
     state.addTreeType(treeType);
+    const selectedTreeSpecies = state.getLastSelectedTreeSpecies();
+    const treeSpecies = feature.properties["gattung"];
+    state.addTreeSpecies(treeSpecies);
     const selectedYearFrom = state.getLastSelectedYearFrom();
     const yearFrom = feature.properties["pflanzjahr"];
     state.addYearFrom(yearFrom);
@@ -31,9 +34,10 @@ define(["jquery", "leaflet", "leaflet.ajax"], ($, leaflet, leafletAjax) => ({
     }
     const matchesStreet = !selectedStreet || selectedStreet == 0 || state.getStreets()[selectedStreet] == street;
     const matchesTreeType = !selectedTreeType || selectedTreeType == 0 || state.getTreeTypes()[selectedTreeType] == treeType;
+    const matchesTreeSpecies = !selectedTreeSpecies || selectedTreeSpecies == 0 || state.getTreeSpecieses()[selectedTreeSpecies] == treeSpecies;
     const matchesYearFrom = !selectedYearFrom || selectedYearFrom == 0 || parseInt(state.getYearFroms()[selectedYearFrom]) <= parseInt(yearFrom);
     const matchesYearTo = !selectedYearTo || selectedYearTo == 0 || parseInt(state.getYearTos()[selectedYearTo]) >= parseInt(yearTo);
-    const showMarker = matchesStreet && matchesTreeType && matchesYearFrom && matchesYearTo;
+    const showMarker = matchesStreet && matchesTreeType && matchesTreeSpecies && matchesYearFrom && matchesYearTo;
     if (showMarker) {
       state.setMatchCount(state.getMatchCount() + 1);
       return L.circleMarker(latlng, options);

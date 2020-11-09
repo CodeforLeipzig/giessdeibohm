@@ -1,4 +1,4 @@
-define(["jquery", "leaflet", "leaflet.ajax", "district", "street", "tree_type", "year_from", "year_to"], ($, leaflet, leafletAjax, district, street, treeType, yearFrom, yearTo) => {
+define(["jquery", "leaflet", "leaflet.ajax", "district", "street", "tree_type", "tree_species", "year_from", "year_to"], ($, leaflet, leafletAjax, district, street, treeType, treeSpecies, yearFrom, yearTo) => {
   return {
     configureInfo: (state, data) => {
       // control that shows state info on hover
@@ -36,8 +36,11 @@ define(["jquery", "leaflet", "leaflet.ajax", "district", "street", "tree_type", 
         }
         htmlInner += "<br /><br />"
         htmlInner += "<b>Gattung:</b> "
+        htmlInner += treeSpecies.treeSpeciesSelectionBox(state);
         if (props) {
-          htmlInner += props["gattung"]
+          state.setLastSelectedTreeSpecies(state.getTreeSpecieses().indexOf(props["gattung"]));
+        } else if (!state.getTreeSpeciesExplicitySet()) {
+          state.setLastSelectedTreeSpecies(0);
         }
         htmlInner += "<br /><br />"
         htmlInner += "<b>Baumart:</b> "
@@ -76,6 +79,7 @@ define(["jquery", "leaflet", "leaflet.ajax", "district", "street", "tree_type", 
         district.setDistrictInSelectionBox(state);
         street.setStreetInSelectionBox(state);
         treeType.setTreeTypeInSelectionBox(state);
+        treeSpecies.setTreeSpeciesInSelectionBox(state);
         yearFrom.setYearFromInSelectionBox(state);
         yearTo.setYearToInSelectionBox(state);
         $("#districtSelection").off('change');
@@ -94,6 +98,12 @@ define(["jquery", "leaflet", "leaflet.ajax", "district", "street", "tree_type", 
           state.setTreeTypeExplicitySet(true);
           treeType.handleTreeTypeChange(document, data, state);
           state.setTreeTypeExplicitySet(state.getLastSelectedTreeType() != 0);
+        });
+        $("#treeSpeciesSelection").off('change');
+        $("#treeSpeciesSelection").on('change', function(e) {
+          state.setTreeSpeciesExplicitySet(true);
+          treeSpecies.handleTreeSpeciesChange(document, data, state);
+          state.setTreeSpeciesExplicitySet(state.getLastSelectedTreeSpecies() != 0);
         });
         $("#yearFromSelection").off('change');
         $("#yearFromSelection").on('change', function(e) {
