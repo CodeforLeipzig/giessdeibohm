@@ -2,7 +2,7 @@ define(["jquery", "leaflet", "leaflet.ajax"], ($, leaflet, leafletAjax) => ({
 	create: () => {
     var treeMap = leaflet.map('TreeMap');
     var baseMap = leaflet.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
-      attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
+      attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors, <a href="https://opendata.leipzig.de/dataset/strassenbaumkataster">Baumdaten aus dem OpenDataPortal Leipzig</a>'
     })
     baseMap.addTo(treeMap);
     return treeMap;

@@ -1,6 +1,5 @@
 //var siteUrl = window.location.protocol + "//" + window.location.host + "/";
-//var siteUrl = "https://codeforleipzig.github.io/giessdeibohm/";
-var siteUrl = "file://D:/git/giessdeibohm/docs/";
+var siteUrl = "https://codeforleipzig.github.io/giessdeibohm/";
 requirejs.config({
   baseUrl: siteUrl + "js/",
   paths: {
