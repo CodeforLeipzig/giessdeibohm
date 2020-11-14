@@ -1,10 +1,12 @@
-define(["jquery", "leaflet", "leaflet.ajax", "map", "icon", "info"], ($, leaflet, leafletAjax, map, icon, info) => {
+define(["jquery", "leaflet", "leaflet.ajax", "leaflet.markercluster", "progress", "map", "icon", "info"], ($, leaflet, leafletAjax, leafletClusterMap, updateProgressBar, map, icon, info) => {
   return (state, data) => {
     state.setMatchCount(0);
-    var geoJsonLayer = L.geoJson(data, { pointToLayer: map.createCircleMarker(state) });
+    var clusterLayer = leaflet.markerClusterGroup({ chunkedLoading: true, chunkProgress: updateProgressBar, maxClusterRadius: () => 25 });
+    state.setLastClusterLayer(clusterLayer);
+    var geoJsonLayer = leaflet.geoJson(data, { pointToLayer: map.createCircleMarker(state) });
     state.setLastTreeLayer(geoJsonLayer);
-    state.getTreeMap().addLayer(geoJsonLayer);
-
+    clusterLayer.addLayer(geoJsonLayer);
+    state.getTreeMap().addLayer(clusterLayer);
     registerLayerMouseOver(state, icon, info, geoJsonLayer);
     registerLayerMouseOut(state, icon, info, geoJsonLayer);
     geoJsonLayer.on('click', registerLayerMouseClick(state, icon, info));

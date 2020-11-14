@@ -58,7 +58,8 @@ define(["jquery"], ($) => ({
         state.setLastCoordinates(undefined);
         state.setSelectedTree(undefined);
         state.setOldLayer(undefined);
-        state.getTreeMap().removeLayer(state.getLastTreeLayer());
+        state.getLastTreeLayer().clearLayers()
+        state.getTreeMap().removeLayer(state.getLastClusterLayer());
         data.loadTreeData(state, selectedDistrict);
       }
     }

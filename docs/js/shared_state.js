@@ -15,6 +15,7 @@ define({
     var oldLayer;
     var lastCoordinates;
     var lastTreeLayer;
+    var lastClusterLayer;
     var lastDistrictLayer;
     var selectedTree;
     var streets = [ " " ];
@@ -37,6 +38,7 @@ define({
       getOldLayer: () => { return oldLayer },
       getLastCoordinates: () => { return lastCoordinates },
       getLastTreeLayer: () => { return lastTreeLayer },
+      getLastClusterLayer: () => { return lastClusterLayer },
       getLastDistrictLayer: () => { return lastDistrictLayer },
       getSelectedTree: () => { return selectedTree },
       getLastHoveredCoords: () => { return lastHoveredCoords },
@@ -63,6 +65,7 @@ define({
       setOldLayer: (newOldLayer) => { oldLayer = newOldLayer },
       setLastCoordinates: (newLastCoordinates) => { lastCoordinates = newLastCoordinates },
       setLastTreeLayer: (newLastTreeLayer) => { lastTreeLayer = newLastTreeLayer },
+      setLastClusterLayer: (newLastClusterLayer) => { lastClusterLayer = newLastClusterLayer },
       setLastDistrictLayer: (newLastDistrictLayer) => { lastDistrictLayer = newLastDistrictLayer },
       setSelectedTree: (newSelectedTree) => { selectedTree = newSelectedTree },
       setLastHoveredCoords: (newLastHoveredCoords) => { lastHoveredCoords = newLastHoveredCoords },
