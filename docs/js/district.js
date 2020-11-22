@@ -118,6 +118,8 @@ define(["jquery"], ($) => ({
         state.resetStreets();
         state.resetTreeTypes();
         state.resetTreeSpecieses();
+        state.resetYearFroms();
+        state.resetYearTos();
         state.setStreetExplicitySet(false);
         state.setTreeTypeExplicitySet(false);
         state.setTreeSpeciesExplicitySet(false);
