@@ -1,4 +1,4 @@
-var siteUrl = window.location.protocol == "file" ? "file://D:/git/giessdeibohm/docs/" : "https://https://www.leipziggiesst.de/";
+var siteUrl = window.location.protocol == "file" ? "file://D:/git/giessdeibohm/docs/" : "https://www.leipziggiesst.de/";
 requirejs.config({
   baseUrl: siteUrl + "js/",
   paths: {
