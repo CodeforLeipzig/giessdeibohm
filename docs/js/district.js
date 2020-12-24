@@ -62,6 +62,7 @@ const districtDict = {
   "zentrum-sued": "Zentrum-Süd",
   "zentrum-suedost": "Zentrum-Südost",
   "zentrum-west": "Zentrum-West",
+  "alle": "Alle",
 };
 const districts = Object.keys(districtDict);
 

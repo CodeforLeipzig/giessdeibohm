@@ -10,8 +10,12 @@ define(["jquery", "leaflet", "leaflet.ajax", "map"], ($, leaflet, leafletAjax, m
     const treeMap = state.getTreeMap();
     treeMap.addLayer(geoJsonLayer);
     geoJsonLayer.eachLayer(function (layer) {
-      var coords = layer.feature.geometry.coordinates[0];
-      var centroid = map.districtCenter(coords);
+      var centroid = (data.name == "alle") ?
+        [51.3406321, 12.3747329]
+      : (() => {
+        var coords = layer.feature.geometry.coordinates[0];
+        return map.districtCenter(coords);
+      })();
       var zoomLevel = 15;
       state.getTreeMap().setView(centroid, zoomLevel);
     });
