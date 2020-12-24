@@ -1,4 +1,4 @@
-define(["jquery", "leaflet", "leaflet.ajax", "district", "street", "tree_type", "tree_species", "year_from", "year_to"], ($, leaflet, leafletAjax, district, street, treeType, treeSpecies, yearFrom, yearTo) => {
+define(["jquery", "leaflet", "leaflet.ajax", "district", "street", "tree_type", "tree_species", "year_from", "year_to", "location"], ($, leaflet, leafletAjax, district, street, treeType, treeSpecies, yearFrom, yearTo, location) => {
   return {
     configureInfo: (state, data) => {
       // control that shows state info on hover
@@ -9,7 +9,9 @@ define(["jquery", "leaflet", "leaflet.ajax", "district", "street", "tree_type", 
         return this._div;
       };
       info.update = function (id, props) {
-        var htmlInner = '<div style="width: 300px;">';
+        var htmlInner = '<div style="width: 350px;">';
+        htmlInner += '<input id="shareLocation" type="button" value="Teile Standort" />'
+        htmlInner += "<br /><br />"
         if (!props) {
           htmlInner += '<h4>Hovere &uuml;ber einen Baum</h4>'
         } else {
@@ -117,6 +119,17 @@ define(["jquery", "leaflet", "leaflet.ajax", "district", "street", "tree_type", 
           yearTo.handleYearToChange(document, data, state);
           state.setYearToExplicitySet(state.getLastSelectedYearTo());
         });
+        $("#shareLocation").on('click', function(e) {
+          if (navigator.geolocation) {
+            navigator.geolocation.getCurrentPosition(position => {
+              state.setShareLocation(true);
+              location.fillTreeLocations(state).then(() => {
+                state.setCurrentPosition(position);
+                location.setNearestDistrict(state, data);
+              });
+            });
+          }
+        })
       }
       state.setInfo(info);
       return info;

@@ -9,7 +9,7 @@ requirejs.config({
   }
 });
 
-require(["jquery", "map", "data", "shared_state", "info", "district", "leaflet"], function ($, map, data, state, info, district, leaflet) {
+require(["jquery", "map", "data", "shared_state", "info", "district", "leaflet", "leaflet.ajax"], function ($, map, data, state, info, district, leaflet, leafletAjax) {
   $.ajaxSetup({
     scriptCharset: "utf-8",
     contentType: "application/json; charset=utf-8"

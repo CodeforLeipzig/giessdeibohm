@@ -1,5 +1,6 @@
 define({
   state: () => {
+    var zoomLevel = 15;
     var treeMap;
     var lastSelectedDistrict;
     var lastSelectedStreet;
@@ -26,8 +27,12 @@ define({
     var lastHoveredCoords;
     var info;
     var matchCount = 0;
+    var treeLocs = new Map();
+    var currentPosition;
+    var shareLocation = false;
 
     return {
+      getZoomLevel: () => { return zoomLevel },
       getTreeMap: () => { return treeMap },
       getLastSelectedDistrict: () => { return lastSelectedDistrict },
       getLastSelectedStreet: () => { return lastSelectedStreet },
@@ -54,6 +59,13 @@ define({
       getYearFromExplicitySet: () => { return yearFromExplicitySet },
       getYearToExplicitySet: () => { return yearToExplicitySet },
       getMatchCount: () => { return matchCount },
+      hasTreeLocs: () => treeLocs.size > 0,
+      getNearestTreeLoc: (userLoc) => [...treeLocs].map(([, value]) => value).reduce((currMin, treeLoc) => {
+          const dist = Math.hypot(userLoc.lng - treeLoc.x, userLoc.lat - treeLoc.y)
+          return (currMin.dist > dist) ? { dist, ...treeLoc } : currMin;
+        }, { dist: Number.MAX_VALUE }),
+      getCurrentPosition: () => { return currentPosition; },
+      isShareLocation: () => { return shareLocation; },
 
       setTreeMap: (newTreeMap) => { treeMap = newTreeMap },
       setLastSelectedDistrict: (newLastSelectedDistrict) => { lastSelectedDistrict = newLastSelectedDistrict },
@@ -86,6 +98,18 @@ define({
       setYearFromExplicitySet: (newYearFromExplicitySet) => { yearFromExplicitySet = newYearFromExplicitySet },
       setYearToExplicitySet: (newYearToExplicitySet) => { yearToExplicitySet = newYearToExplicitySet },
       setMatchCount: (newMatchCount) => { matchCount = newMatchCount},
+      setTreeLoc: (treeLoc) => { treeLocs.set(treeLoc.id, treeLoc) },
+      setCurrentPosition: position => {
+        if (position) {
+          currentPosition = {
+            lat: position.coords.latitude,
+            lng: position.coords.longitude
+          }
+        } else {
+          currentPosition = undefined;
+        }
+      },
+      setShareLocation: (newShareLocation) => { shareLocation = newShareLocation; }
     }
   }
 });

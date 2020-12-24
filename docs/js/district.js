@@ -68,6 +68,7 @@ const districts = Object.keys(districtDict);
 
 define(["jquery"], ($) => ({
   allDistricts: districts,
+  resolveDistrictKeyByName: name => districts.find(district => districtDict[district] == name),
   districtSelectionBox: (state) => {
     var htmlCode = '<select id="districtSelection">';
     for (var index in districts) {
@@ -110,6 +111,11 @@ define(["jquery"], ($) => ({
       var selectedDistrict = selectionBox.options[selectionBox.selectedIndex].attributes["id"].value;
       state.setLastSelectedDistrict(selectedDistrict);
       if (selectedDistrict != "") {
+        if (!state.isShareLocation()) {
+          state.setCurrentPosition(undefined);
+        } else {
+          state.setShareLocation(false)
+        }
         state.setLastCoordinates(undefined);
         state.setSelectedTree(undefined);
         state.setOldLayer(undefined);
