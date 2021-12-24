@@ -12,7 +12,7 @@ sealed class Config(
         val idProp: String
 )
 
-data class TreeConfig(val id: String = "tree"): Config(path = "D:/20211217.geojson", idProp = "ortsteil")
+data class TreeConfig(val id: String = "tree"): Config(path = "D:/20211224.geojson", idProp = "ortsteil")
 data class DistrictConfig(val id: String = "district"): Config(path = "D:\\git\\opendata-leipzig-playground\\docs\\ortsteile.json", idProp = "Name")
 
 fun main() {
@@ -28,7 +28,7 @@ fun execute(config: Config) {
         try {
             storeGeojsonFile(config, districtName, featuresNode)
         } catch (e: Exception) {
-            println("""$districtName: $e""")
+            println("$districtName: $e")
         }
     }
 }
@@ -44,9 +44,9 @@ fun storeGeojsonFile(config: Config, districtName: String, featuresNode: ArrayNo
     val content = featureCollection(filterByDistrictName(config, districtName, featuresNode).map { it.toString() })
     val root = objectMapper.readTree(content)
     val normalizedDistrictName = normalizeName(districtName)
-    val file = File("""$outputPath/$normalizedDistrictName.geojson""")
+    val file = File("$outputPath/$normalizedDistrictName.geojson")
     objectMapper.writeValue(file, root)
-    println(""""${file.absolutePath} written""")
+    println("${file.absolutePath} written")
 }
 
 fun filterByDistrictName(config: Config, districtName: String, featuresNode: ArrayNode): List<JsonNode> =
