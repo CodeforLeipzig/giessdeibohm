@@ -4,6 +4,7 @@ import com.fasterxml.jackson.databind.JsonNode
 import com.fasterxml.jackson.databind.ObjectMapper
 import com.fasterxml.jackson.databind.node.ArrayNode
 import java.io.File
+import java.util.*
 
 const val outputPath = "D:/"
 
@@ -12,7 +13,7 @@ sealed class Config(
         val idProp: String
 )
 
-data class TreeConfig(val id: String = "tree"): Config(path = "D:/20220114.geojson", idProp = "ortsteil")
+data class TreeConfig(val id: String = "tree"): Config(path = "D:/20220121.geojson", idProp = "ortsteil")
 data class DistrictConfig(val id: String = "district"): Config(path = "D:\\git\\opendata-leipzig-playground\\docs\\ortsteile.json", idProp = "Name")
 
 fun main() {
@@ -52,7 +53,7 @@ fun storeGeojsonFile(config: Config, districtName: String, featuresNode: ArrayNo
 fun filterByDistrictName(config: Config, districtName: String, featuresNode: ArrayNode): List<JsonNode> =
         featuresNode.filter { node -> node.get("properties").get(config.idProp).asText() == districtName }
 
-fun normalizeName(name: String): String = name.toLowerCase()
+fun normalizeName(name: String): String = name.lowercase(Locale.getDefault())
         .replace("ä", "ae")
         .replace("ö", "oe")
         .replace("ü", "ue")
