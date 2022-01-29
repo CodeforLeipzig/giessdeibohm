@@ -20,7 +20,9 @@ dependencies {
     implementation("com.fasterxml.jackson.core:jackson-core:2.13.1")
     implementation("com.fasterxml.jackson.core:jackson-annotations:2.13.1")
     implementation("com.fasterxml.jackson.core:jackson-databind:2.13.1")
-	testImplementation("org.junit.jupiter:junit-jupiter-api:5.8.2")
+    implementation("com.fasterxml.jackson.module:jackson-module-kotlin:2.13.1")
+    implementation("org.eclipse.jgit:org.eclipse.jgit:6.0.0.202111291000-r")
+    testImplementation("org.junit.jupiter:junit-jupiter-api:5.8.2")
     testRuntimeOnly("org.junit.jupiter:junit-jupiter-engine:5.8.2")
     implementation(kotlin("stdlib"))
 }
