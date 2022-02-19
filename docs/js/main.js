@@ -14,11 +14,17 @@ require(["jquery", "map", "data", "shared_state", "info", "district", "leaflet",
     scriptCharset: "utf-8",
     contentType: "application/json; charset=utf-8"
   });
+  const getQueryStringValue = (uri, key) => {
+    var regex = new RegExp("[\\?&]" + key + "=([^&#]*)");
+    var matches = uri.match(regex);
+    return matches == null ? null : matches[1];
+  };
 
   const treeMap = map.create();
   const globalState = state.state();
+  globalState.setTreeId(getQueryStringValue(window.location.href, 'treeId'));
   globalState.setTreeMap(treeMap);
   const infoBox = info.configureInfo(globalState, data);
-  data.loadData(globalState, district.allDistricts[0]);
+  data.loadData(globalState, globalState.getTreeId() ? "alle" : district.allDistricts[0]);
   infoBox.addTo(treeMap);
 });

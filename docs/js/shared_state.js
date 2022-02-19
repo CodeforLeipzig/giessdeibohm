@@ -1,6 +1,7 @@
 define({
   state: () => {
     var zoomLevel = 15;
+    var treeId;
     var treeMap;
     var lastSelectedDistrict;
     var lastSelectedStreet;
@@ -33,6 +34,7 @@ define({
 
     return {
       getZoomLevel: () => { return zoomLevel },
+      getTreeId: () => { return treeId },
       getTreeMap: () => { return treeMap },
       getLastSelectedDistrict: () => { return lastSelectedDistrict },
       getLastSelectedStreet: () => { return lastSelectedStreet },
@@ -67,6 +69,7 @@ define({
       getCurrentPosition: () => { return currentPosition; },
       isShareLocation: () => { return shareLocation; },
 
+      setTreeId: (newTreeId) => { treeId = newTreeId },
       setTreeMap: (newTreeMap) => { treeMap = newTreeMap },
       setLastSelectedDistrict: (newLastSelectedDistrict) => { lastSelectedDistrict = newLastSelectedDistrict },
       setLastSelectedStreet: (newLastSelectedStreet) => { lastSelectedStreet = newLastSelectedStreet },
