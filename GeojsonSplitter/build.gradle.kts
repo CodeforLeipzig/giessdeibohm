@@ -23,13 +23,13 @@ dependencies {
     implementation("com.fasterxml.jackson.core:jackson-databind:2.13.3")
     implementation("com.fasterxml.jackson.module:jackson-module-kotlin:2.13.3")
     implementation("org.eclipse.jgit:org.eclipse.jgit:6.2.0.202206071550-r")
-    testImplementation("org.junit.jupiter:junit-jupiter-api:5.8.2")
-    testRuntimeOnly("org.junit.jupiter:junit-jupiter-engine:5.8.2")
+    testImplementation("org.junit.jupiter:junit-jupiter-api:5.9.0")
+    testRuntimeOnly("org.junit.jupiter:junit-jupiter-engine:5.9.0")
     implementation(kotlin("stdlib"))
 }
 
 application {
-    mainClass.set("de.l.oklab.trees.SplitterMain")
+    mainClass.set("de.l.oklab.trees.SplitterMainKt")
 }
 
 
