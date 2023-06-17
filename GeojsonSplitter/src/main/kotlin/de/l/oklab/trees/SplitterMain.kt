@@ -13,7 +13,7 @@ sealed class Config(
         val idProp: String
 )
 
-data class TreeConfig(val id: String = "tree"): Config(path = "D:/20230609.geojson", idProp = "ortsteil")
+data class TreeConfig(val id: String = "tree"): Config(path = "D:/20230616.geojson", idProp = "ortsteil")
 data class DistrictConfig(val id: String = "district"): Config(path = "D:\\git\\opendata-leipzig-playground\\docs\\ortsteile.json", idProp = "Name")
 
 fun main() {
@@ -54,6 +54,7 @@ fun filterByDistrictName(config: Config, districtName: String, featuresNode: Arr
         featuresNode.filter { node -> node.get("properties").get(config.idProp).asText() == districtName }
 
 fun normalizeName(name: String): String = name.lowercase(Locale.getDefault())
+        .replace("/", "_")
         .replace("ä", "ae")
         .replace("ö", "oe")
         .replace("ü", "ue")
