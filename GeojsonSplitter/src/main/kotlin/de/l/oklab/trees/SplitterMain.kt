@@ -13,7 +13,7 @@ sealed class Config(
         val idProp: String
 )
 
-data class TreeConfig(val id: String = "tree"): Config(path = "D:/20230630.geojson", idProp = "ortsteil")
+data class TreeConfig(val id: String = "tree"): Config(path = "D:/20230707.geojson", idProp = "ortsteil")
 data class DistrictConfig(val id: String = "district"): Config(path = "D:\\git\\opendata-leipzig-playground\\docs\\ortsteile.json", idProp = "Name")
 
 fun main() {
