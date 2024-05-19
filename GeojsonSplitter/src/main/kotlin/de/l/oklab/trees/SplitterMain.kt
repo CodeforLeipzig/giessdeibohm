@@ -1,70 +1,36 @@
 package de.l.oklab.trees
 
-import com.fasterxml.jackson.databind.JsonNode
-import com.fasterxml.jackson.databind.ObjectMapper
-import com.fasterxml.jackson.databind.node.ArrayNode
-import java.io.File
-import java.util.*
+import de.l.oklab.pumps.data.GeojsonFeature
+import de.l.oklab.trees.DistrictUtils.filterByDistrictName
+import de.l.oklab.trees.DistrictUtils.getDistrictNames
+import de.l.oklab.trees.GeojsonUtils.readGeojsonFile
+import de.l.oklab.trees.GeojsonUtils.storeGeojsonFile
 
 const val outputPath = "/home/joerg/documents/"
 
 sealed class Config(
-        val path: String,
-        val idProp: String
+    val path: String,
 )
 
-data class TreeConfig(val id: String = "tree"): Config(path = "/home/joerg/documents/20240518.geojson", idProp = "ortsteil")
-data class DistrictConfig(val id: String = "district"): Config(path = "/home/joerg/git/opendata-leipzig-playground/docs/ortsteile.json", idProp = "Name")
+data class TreeConfig(val id: String = "tree") : Config(path = "/home/joerg/documents/20240518.geojson")
 
 fun main() {
     execute(TreeConfig())
 }
 
 fun execute(config: Config) {
-    val objectMapper = ObjectMapper()
-    val rootNode = objectMapper.readValue(File(config.path), JsonNode::class.java)
-    val featuresNode = rootNode.get("features") as ArrayNode
-    val districtNames = getDistrictNames(config, featuresNode)
+    val rootNode = readGeojsonFile(config.path, TreeIn::class.java)
+    val districtNames = getDistrictNames(rootNode.features)
     for (districtName in districtNames) {
         try {
-            storeGeojsonFile(config, districtName, featuresNode)
+            storeDistrictGeojsonFile(districtName, rootNode.features)
         } catch (e: Exception) {
-            println("$districtName: $e")
+            println("""$districtName: $e""")
         }
     }
 }
 
-fun getDistrictNames(config: Config, featuresNode: ArrayNode): List<String> {
-    val names = mutableSetOf<String>()
-    names.addAll(featuresNode.map { it.get("properties").get(config.idProp).asText() })
-    return names.toList().sorted()
-}
-
-fun storeGeojsonFile(config: Config, districtName: String, featuresNode: ArrayNode) {
-    val objectMapper = ObjectMapper()
-    val content = featureCollection(filterByDistrictName(config, districtName, featuresNode).map { it.toString() })
-    val root = objectMapper.readTree(content)
-    val normalizedDistrictName = normalizeName(districtName)
-    val file = File("$outputPath/$normalizedDistrictName.geojson")
-    objectMapper.writeValue(file, root)
-    println("${file.absolutePath} written")
-}
-
-fun filterByDistrictName(config: Config, districtName: String, featuresNode: ArrayNode): List<JsonNode> =
-        featuresNode.filter { node -> node.get("properties").get(config.idProp).asText() == districtName }
-
-fun normalizeName(name: String): String = name.lowercase(Locale.getDefault())
-        .replace("/", "_")
-        .replace("ä", "ae")
-        .replace("ö", "oe")
-        .replace("ü", "ue")
-        .replace("ß", "ss")
-
-fun featureCollection(features: List<String>): String {
-    return """{
-      "type": "FeatureCollection",
-      "features": [
-         ${features.joinToString(",")}
-      ]
-    }"""
+fun storeDistrictGeojsonFile(districtName: String, features: List<GeojsonFeature<TreeIn>>) {
+    val content = filterByDistrictName(districtName, features)
+    storeGeojsonFile(districtName, content)
 }
