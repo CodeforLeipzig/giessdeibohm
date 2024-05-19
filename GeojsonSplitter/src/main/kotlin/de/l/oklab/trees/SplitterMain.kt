@@ -6,15 +6,15 @@ import com.fasterxml.jackson.databind.node.ArrayNode
 import java.io.File
 import java.util.*
 
-const val outputPath = "D:/"
+const val outputPath = "/home/joerg/documents/"
 
 sealed class Config(
         val path: String,
         val idProp: String
 )
 
-data class TreeConfig(val id: String = "tree"): Config(path = "D:/20240503.geojson", idProp = "ortsteil")
-data class DistrictConfig(val id: String = "district"): Config(path = "D:\\git\\opendata-leipzig-playground\\docs\\ortsteile.json", idProp = "Name")
+data class TreeConfig(val id: String = "tree"): Config(path = "/home/joerg/documents/20240518.geojson", idProp = "ortsteil")
+data class DistrictConfig(val id: String = "district"): Config(path = "/home/joerg/git/opendata-leipzig-playground/docs/ortsteile.json", idProp = "Name")
 
 fun main() {
     execute(TreeConfig())
