@@ -8,9 +8,9 @@ data class TreeIn(
     val strasse: String?,
     @JsonProperty("ot")
     val ortsteil: String?,
-    @JsonProperty("ga_lang_wi")
+    @JsonProperty("ga_lang_wiss")
     val baumartWi: String?,
-    @JsonProperty("ga_lang_de")
+    @JsonProperty("ga_lang_deutsch")
     val baumartDe: String?,
     val gattung: String?,
     val pflanzjahr: Int?,
@@ -29,17 +29,17 @@ data class TreeIn(
     val ycoord: Double?,
     @JsonProperty("objectid")
     val objectId: String,
-    @JsonProperty("objektkuer")
+    @JsonProperty("objektkuerzel")
     val objektKuerzel: String?,
-    @JsonProperty("nachpflanz")
+    @JsonProperty("nachpflanzung_geplant")
     val nachpflanzungGeplant: String?,
-    @JsonProperty("status_pat")
+    @JsonProperty("status_patenbaum")
     val statusPatenschaft: String?,
-    @JsonProperty("patenschaf")
+    @JsonProperty("patenschaftsnummer")
     val patenschaftsId: String?,
-    @JsonProperty("standzeitr")
+    @JsonProperty("standzeitraum")
     val standzeitraum: String?,
-    @JsonProperty("letzte_bew")
+    @JsonProperty("letzte_bewaesserung")
     val letzteBewaesserung: String?,
 ) {
 

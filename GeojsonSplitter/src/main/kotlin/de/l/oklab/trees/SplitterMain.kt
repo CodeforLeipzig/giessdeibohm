@@ -6,13 +6,13 @@ import de.l.oklab.trees.DistrictUtils.getDistrictNames
 import de.l.oklab.trees.GeojsonUtils.readGeojsonFile
 import de.l.oklab.trees.GeojsonUtils.storeGeojsonFile
 
-const val outputPath = "/home/joerg/documents/"
+const val outputPath = "D:/"
 
 sealed class Config(
     val path: String,
 )
 
-data class TreeConfig(val id: String = "tree") : Config(path = "/home/joerg/documents/20240518.geojson")
+data class TreeConfig(val id: String = "tree") : Config(path = "D:/20240607-full.geojson")
 
 fun main() {
     execute(TreeConfig())
